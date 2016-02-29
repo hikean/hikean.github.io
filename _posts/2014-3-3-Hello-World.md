@@ -1,7 +1,15 @@
 ---
 layout: post
-title: You're up and running!
+title: Test for Categories
+categories: jekyll
 ---
+
+* Contents
+{:toc #hello-world}
+
+# Blog
+
+## Blog 
 
 Yeah,what's going on? Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
