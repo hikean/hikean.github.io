@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Test for Categories
-categories: jekyll
+categories: [jekyll, cate]
+tags: [github, jekyll]
 ---
 
 * Contents

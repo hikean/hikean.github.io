@@ -2,17 +2,50 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="row">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <div class="col-sm-8 blog-main">
+        	<div calss="posts">
+        	{% for post in site.posts %}
+        		<div class="blog-post">
+        			<h1 class="blog-post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        			<div class="entry">
+        			{{ post.excerpt }}
+      				</div>
+      				<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        		</div>
+        	{% endfor %}
+        	</div>
+          <nav>
+            <ul class="pager">
+              <li><a href="#">Previous</a></li>
+              <li><a href="#">Next</a></li>
+            </ul>
+          </nav>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module">
+          	<h2> Category</h2>
+			{% for category in site.categories %}
+			<h4>{{ category | first }}({{ category | last | size }})</h4>
+			<ul class="arc-list">
+ 			   {% for post in category.last %}
+    	    <li><a href="{{ post.url }}">{{ post.title }}</a>{{ post.date | date:"%Y/%m/%d"}}</li>
+   				 {% endfor %}
+				</ul>
+			{% endfor %}
+		  </div>
+
+          <div class="sidebar-module">
+            <h2>Archives</h2>
+            <ol class="list-unstyled">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
