@@ -54,7 +54,7 @@ baseurl: "/hikean.github.io"
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: redcarpet
+markdown: kramdown#redcarpet
 highlighter: pygments
 permalink: /:title/
 
