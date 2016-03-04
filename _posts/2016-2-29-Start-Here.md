@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Start Here
-categories: [jekyll]
+categories: [Jekyll]
 tags: [github, jekyll]
 ---
 
