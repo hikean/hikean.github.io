@@ -56,7 +56,7 @@ baseurl: ""
 
 markdown: kramdown #redcarpet #
 highlighter: pygments
-permalink: /:title/
+permalink: /404.html#/:title/
 kramdown:
   input: GFM
   extensions:
