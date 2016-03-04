@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Start Here
-categories: [jekyll, cate]
+categories: [jekyll]
 tags: [github, jekyll]
 ---
+
 
 * Contents
 {:toc #hello-world}
