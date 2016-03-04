@@ -7,7 +7,8 @@ tags: [github, jekyll]
 
 Coming........
 
-{% highlight  ruby linenos %}
+```ruby
+
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
@@ -15,14 +16,18 @@ def show
     format.json { render json: @widget }
   end
 end
-{% endhighlight  %}
 
-{% highlight c linenos %}
+```
+
+```c
+
 #include <stdio.h>
 
 int main()
 {
 	return 0;
 }
-{% endhighlight %}
+
+```
+
 ![_config.yml]({{ site.baseurl }}/images/config.png)
