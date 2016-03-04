@@ -58,6 +58,10 @@ markdown: kramdown #redcarpet
 highlighter: pygments
 permalink: /:title/
 
+pygments: true
+safe: true
+auto: true
+
 # The release of Jekyll Now that you're using
 version: v1.1.0
 
