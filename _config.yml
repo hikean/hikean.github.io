@@ -50,13 +50,16 @@ url: http://www.hikean.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# pagenator
+paginate: 10
+paginate_path: "/page:num"
 #
 # !! You don't need to change any of the configuration flags below !!
 # 
 
 markdown: kramdown #redcarpet #
 highlighter: pygments
-permalink: /404.html#/:title/
+permalink: /:title/
 kramdown:
   input: GFM
   extensions:
@@ -82,6 +85,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
