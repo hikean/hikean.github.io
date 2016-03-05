@@ -58,7 +58,7 @@ paginate_path: "/page:num"
 # 
 
 markdown: kramdown #redcarpet #
-highlighter: pygments
+highlighter: rouge#pygments
 permalink: /:title/
 kramdown:
   input: GFM
