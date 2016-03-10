@@ -50,6 +50,9 @@ url: http://www.hikean.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+#  use duoshuo comments
+duoshuo: hikean 
+
 # pagenator
 paginate: 10
 paginate_path: "/page:num"
