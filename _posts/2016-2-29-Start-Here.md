@@ -41,6 +41,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula.
 ## Task lists
  - ✘ task one not finish
  - ✓ task two finished 
+ - [x] task three not finish
 
 ## Tables
 
