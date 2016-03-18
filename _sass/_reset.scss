@@ -10,8 +10,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+fieldset, form, label, legend, caption,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
@@ -42,10 +41,49 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+ table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+ td, th {
+  padding: 0;
+}
+ hr:before {
+  display: table;
+  content: "";
+}
+ hr:after {
+  display: table;
+  clear: both;
+  content: "";
+} table, pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+ table th {
+  font-weight: bold;
+}
+ table th, table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+ table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+ table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
 // Apply a natural box layout model to all elements
 // from: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 *, *:before, *:after {
