@@ -80,10 +80,13 @@ layout: default
                   </a>
 		            <ul class="dropdown-menu">
  			          {% for post in category.last %}
-                  <li>
+                  <li style="overflow: hidden;text-overflow: ellipsis;display: inline;">
                     <a href="{{ post.url }}">
-                      <span style="color:#4183C4">
-                        {{ post.title }}&nbsp&nbsp{{ post.date | date:"%Y/%m/%d"}}
+                      <span style="color:#4183C4;">
+                        {{ post.title }}&nbsp&nbsp
+                      <span align="right" >
+                      {{ post.date | date:"%Y/%m/%d"}}
+                      </span>
                       </span>
                     </a>
                   </li>
@@ -104,14 +107,53 @@ layout: default
                   </span>
                 </a>
                 <ul class="dropdown-menu">
-                  <span style="color:#4183C4">
-                    <li><a href="/Start-Here/">Start Here</a></li>
-                    <li><a href="/About-Jekyll-Now/">About Jekyll Now</a></li>
-                  </span>
+                  
+                    <li><a href="/Start-Here/"><span style="color:#4183C4">Start Here</span></a></li>
+                    <li><a href="/About-Jekyll-Now/"><span style="color:#4183C4">About Jekyll Now</span></a></li>
+                  
                 </ul>
               </li>
               <li><a href="#">April 2016</a></li>
             </ol>
           </div>
+          <!-- Archives over-->
+          <div class="sidebar-module">
+          <div>
+            <h3>Hot</h3>
+            <!-- 多说热评文章 start -->
+                <div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
+                <!-- 多说热评文章 end -->
+                <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+                <script type="text/javascript">
+                  var duoshuoQuery = {short_name:"hikean"};
+                  (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);})();
+                </script>
+            </div>
+              <!-- 多说公共JS代码 end -->
+            <div>
+              <h3>Newly</h3>
+              <!-- 多说最新评论 start -->
+              <div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>
+              <!-- 多说最新评论 end -->
+              <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+              <script type="text/javascript">
+                var duoshuoQuery = {short_name:"hikean"};
+               (function() {
+                var ds = document.createElement('script');
+               ds.type = 'text/javascript';ds.async = true;
+               ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+               ds.charset = 'UTF-8';
+               (document.getElementsByTagName('head')[0] 
+              || document.getElementsByTagName('body')[0]).appendChild(ds); })();
+              </script>
+              <!-- 多说公共JS代码 end -->
+              </div>
+          </div>
+
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->
