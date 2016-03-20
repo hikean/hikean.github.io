@@ -35,7 +35,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: keanhi
+disqus: hikean
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -54,28 +54,70 @@ baseurl: ""
 duoshuo: hikean 
 
 # pagenator
-paginate: 10
+paginate: 6
 paginate_path: "/page:num"
 #
 # !! You don't need to change any of the configuration flags below !!
 # 
+permalink: /:title/
+
+
 
 markdown: kramdown #redcarpet #
-highlighter: rouge #pygments
-permalink: /:title/
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge  #pygments
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
 kramdown:
   input: GFM
+  # https://github.com/jekyll/jekyll/pull/4090
   extensions:
     - autolink
     - footnotes
     - smart
-  enable_coderay: true
+
   syntax_highlighter: rouge
-  coderay:
-    coderay_line_numbers: :inline #table #:inline
-    coderay_wrap: :div
+  
+  default_lang: c
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+
+# kramdown:
+#  input: GFM
+#  extensions:
+#    - autolink
+#    - footnotes
+#    - smart
+#  enable_coderay: true
+#  syntax_highlighter: rouge
+#  syntax_highlighter_opts:
+#    # Rouge Options › https://github.com/jneen/rouge#full-options
+#    css_class: 'highlight'
+#    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+#    span:
+#      line_numbers: false
+#    block:
+#      line_numbers: true
+#      start_line: 1
 #redcarpet:
 #    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+
+
 
 # The release of Jekyll Now that you're using
 version: v1.1.0
@@ -88,7 +130,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-paginate
+  - jekyll-paginate # Create Pagintors using official Jekyll paginate gem
 
 # Exclude these files from your production _site
 exclude:

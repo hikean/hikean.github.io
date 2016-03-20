@@ -2,25 +2,19 @@
 layout: post
 title: Start Here
 categories: [Jekyll]
-tags: [github, jekyll]
+tags: [Github, Jekyll]
 ---
 
-<!-- more --> I started Here!<!-- more -->
-
-
-**Index**
+<!-- more --> I started Here!There are some basic and useful kramdown syntax.<!-- more -->
 
 
 * Contents
-{:toc #hello-world}
-
-There are some basic and useful kramdown syntax.
+{:toc #toc_of_keans_blog}
 
 ## Code and Highlight
 
 
 ```ruby
-
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
@@ -28,7 +22,21 @@ def show
     format.json { render json: @widget }
   end
 end
+```
 
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int a, b, c;
+int *e, *p = NULL;
+
+int main()
+{
+	puts("Hello,Kean!");
+	return 0;
+}
 ```
 
 ## MathJax
@@ -56,9 +64,13 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula.
 | First body part | Second cell | Third cell | fourth cell
 | Second line |foo | **strong** | baz
 | Third line |quux | baz | bar
-|---
 | Second body
+|---
 | 2 line
+| ok 
+| sdf
+| sdfd
+| dfd
 |===
 | Footer row
 

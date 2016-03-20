@@ -9,7 +9,7 @@ tags: [github, jekyll]
 
 
 * Contents
-{:toc #hello-world}
+{:toc #toc_of_keans_blog}
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 

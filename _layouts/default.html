@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+  {% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-    <!-- 旧的样式表 -->
-     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> <!---->
-    <!--highlighter-->
-    <!--link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hilight.css"-->
-    <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <!--icon-->
-    <link rel="icon" type="image/png" href="http://jekyll.bootcss.com/favicon.png">
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <!--icon-->
+  <link rel="icon" type="image/png" href="http://jekyll.bootcss.com/favicon.png">
 
-    <!-- MathJax -->
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async=true> </script>
-    <!-- flowchart -->
-    <!--script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="http://flowchart.js.org/flowchart-latest.js"></script-->
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <!-- 旧的样式表 -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+  <!-- Duoshuo -->
+  {% include duoshuo_common.html %}
 
-          <nav>
-            <h3><a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            </h3>
-          </nav>
-        </header>
-      </div>
+  <!-- MathJax -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async=true> </script>
+  <!-- flowchart -->
+  <!--script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://flowchart.js.org/flowchart-latest.js"></script-->
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  {% include scroll_to_top.html%}
+
+</head>
+
+<body>
+  <div class="wrapper-masthead sticky-bar">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+        <div class="site-info">
+          <a class="site-name" href="{{ site.baseurl }}/">{{ site.name }}</a>
+          <p class="site-description">
+            <span class="span_info"><b>&lt</b></span>
+            {{ site.description }}
+            <span class="span_info"><b>/&gt</b></span>
+          </p>
+        </div>
+
+        <nav>
+          <a href="{{ site.baseurl }}/">Blog</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+      </header>
     </div>
+  </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+        <br/>
+        <span class="text-center">©  2016 All Rights Reserved.</span>
+        <br/>
+        <span class="text-center"> Powered by&nbsp;<a href="https:github.com/hikean">Kean</a></span>
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-          <br/>
-          <br/>
-          <p class="text-center">©All Rights Reserved</p>
-          <h5 class="text-center"> Powered by&nbsp;<a href="https:github.com/hikean">Kean</a></h5>
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
+  {% include analytics.html %}
+</body>
 </html>

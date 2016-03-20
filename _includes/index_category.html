@@ -1,0 +1,29 @@
+<div class="side-content">
+<h3 class="side-header"> Category</h3>
+<ol class="list-unstyled">
+	{% for category in site.categories %}
+  <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        {{ category | first }}
+        <span class="badge" style="background-color: #4183c4">{{ category | last | size }}</span>
+      </a>
+    <ul class="dropdown-menu">
+      {% for post in category.last %}
+        <li style="overflow: hidden;text-overflow: ellipsis;display: inline;">
+        {% assign post_title = post.tile %}
+        {% if post.title_more%}
+          {% assign post_title = post.title_more%}
+        {% endif %}
+          <a href="{{ post.url }}" title="{{ post_title }}">
+          <span>
+          <span style="color:#4183C4;">{{ post.title }}&nbsp</span>
+          <span align="right" style="float: right;" class="date">{{ post.date | date:"%Y/%m/%d"}}</span>
+          </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </li>
+	{% endfor %}
+</ol>
+</div>

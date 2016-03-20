@@ -1,36 +1,48 @@
 ---
 layout: default
 ---
+<script type="text/javascript">
+$(document).ready(function(){
+  var toc = $("ul#toc_of_keans_blog");
+  var newtoc = $("#toc_insert")
+  newtoc.html(toc.html());
+  toc.remove();
+  $(".container").css("max-width","92%");
+});
+</script>
 
-<article class="post">
+
+<div >
   <h1>{{ page.title }}</h1>
+  <p class="tags"> &nbsp
+    {% for tg in page.tags %}
+    <span class="label label-info">{{tg}}</span>
+    {% endfor %}
+  </p>
   <div class="date" align="right">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-  <div class="entry">
-    {{ content }}
-  </div>
+</div>
 
-  
-  
+<div class="container" role="main">
+  <article class="post">
+    <div id="toc_node">
+      <ul id="toc_insert">
+      </ul>
+    </div>
+    <div class="entry">
+      {{ content }}
+    </div>
 
-{% if site.duoshuo %}
+  </article>
+</div>
 
-    <div class="ds-thread" data-thread-key="{{ page.id }}" data-url="{{ site.url }}{{ page.url }}" data-title="{{ page.title }}" ></div>
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:"{{ site.duoshuo }}"};/*site.duoshuo*/
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        //ds.src = 'http://static.duoshuo.com/embed.js';
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-        || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-    </script>
-{% else %}
-	{% include disqus.html %}
-{% endif %}
+<div>
+  {% if site.duoshuo %}
+  {%  include duoshuo.html %}
+  {% endif %}
 
-</article>
+  {% if site.disqus %}
+  {% include disqus.html %}
+  {% endif %}
+</div>
