@@ -343,7 +343,7 @@ img {
 
 .site-info {
   float: left;
-  font-weight: bold;
+  //font-weight: bold;
   @include mobile {
     float: none;
     display: block;
@@ -370,8 +370,8 @@ a.site-name {
   margin: 0;
   color: #fff;//$black;//$darkGray;
   cursor: pointer;
-  font-family:  "Old English Text MT" ,"Chiller", "Calibri Light","Vladimir Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: $helveticaNeue;// "Calibri Light","Vladimir Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 320;
   font-size: 36px;
   letter-spacing: 1px;
   &:hover, &:active {
@@ -384,7 +384,7 @@ a.site-name {
   margin: -5px 0 0 0;
   color: $lightGray;
   font-size: 18px;
-
+  font-family: $helveticaNeue;
   @include mobile {
     margin: 3px 0;
   }
@@ -393,8 +393,9 @@ a.site-name {
 nav {
   float: right;
   margin-top: 40px; // @TODO: Vertically middle align
-  //font-family: $helveticaNeue;
+  font-family: $helveticaNeue;
   font-size: 28px;
+  font-weight: 450;
   font-weight: bold;
 
   @include mobile {
