@@ -6,8 +6,10 @@
 			<h3 class="blog-post-title">{{ post.title }}</h3>
 		</a>
 		<div class="entry">
-			{{ post.excerpt }}
-			{% if post.content contains "<!-- more -->" %}
+			{% if post.excerpt %}
+				<p> {{ post.excerpt }} </p>
+			{% else %}
+			 <!-- if post.content contains "<! - - more - - > " and !post.excerpt -->
 				{{ post.content | split:"<!-- more -->" | first % }}
 			{% endif %}
 		</div>
