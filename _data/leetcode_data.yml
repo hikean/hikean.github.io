@@ -1674,7 +1674,7 @@ algorithm:
 
   - id: 256
     title: Paint House
-    acceptance: paint-house
+    acceptance: 43.0%
     difficulty: Medium
     editorial: locked
     url: paint-house
