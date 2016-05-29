@@ -3,7 +3,7 @@ algorithm:
     title: Two Sum
     acceptance: 23.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: two-sum
 
   - id: 2
