@@ -24,7 +24,7 @@ tags: [Algorithm, Leetcode]
 </thead>
 <tbody>
 	{% for item in site.data.leetcode_data.algorithm %}
-		{% if item.editorial != locked %}
+		{% if item.editorial != 'locked' %}
 		<tr>
 			<td>{{item.id}}</td>
 			<td>
@@ -35,7 +35,7 @@ tags: [Algorithm, Leetcode]
 			<td>
 				{% if item.editorial == true %}
 				<a href="/leetcode/{{item.id}}-{{item.url}}/">查看题解</a>
-				{% else %}
+				{% elsif item.editorial == false %}
 					不日更新
 				{% endif %}
 			</td>
