@@ -88,7 +88,7 @@ h4 {
   background-color: $side_bkgrd_color;//rgba(255,255,255,0.7);
   border-radius: 10px;
   a{
-    font-weight: 400;
+   // font-weight: 400;
     letter-spacing: 1px;
     color: $blue;
     &:hover, &:active {
@@ -356,7 +356,7 @@ img {
   margin: -5px 0 0 0;
   padding: 0;
   letter-spacing: 2px;
-  font-weight: 300;//1000
+  //font-weight: 300;//1000
   font-size: 18px;
 }
 
@@ -371,7 +371,7 @@ a.site-name {
   color: #fff;//$black;//$darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;// "Calibri Light","Vladimir Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 240;
+  //font-weight: 240;
   font-size: 36px;
   letter-spacing: 1px;
   &:hover, &:active {
@@ -395,8 +395,8 @@ nav {
   margin-top: 40px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 28px;
-  font-weight: 450;
-  font-weight: bold;
+  //font-weight: 450;
+  //font-weight: bold;
 
   @include mobile {
     float: none;
