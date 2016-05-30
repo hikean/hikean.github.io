@@ -148,7 +148,7 @@ div.body_post_hover::before {
 p {
   text-indent: 1em;
   margin: 15px 0px 15px 0.5em;
-  font-size: 14px;
+  font-size: 16px;
   border: 20px;
 }
 p:first-letter{
@@ -356,7 +356,7 @@ img {
   margin: -5px 0 0 0;
   padding: 0;
   letter-spacing: 2px;
-  font-weight: 1000;
+  font-weight: 300;//1000
   font-size: 18px;
 }
 
@@ -371,7 +371,7 @@ a.site-name {
   color: #fff;//$black;//$darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;// "Calibri Light","Vladimir Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 320;
+  font-weight: 240;
   font-size: 36px;
   letter-spacing: 1px;
   &:hover, &:active {
