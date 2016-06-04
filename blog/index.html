@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-sm-8 blog-main">
+        {% include index_posts.html %} 
+        {% include paginator.html %}
+    </div>
+    <!-- /.blog-main -->
+    <div class="col-sm-4 blog-sidebar">
+        <div class="sidebar-module">
+            {% include index_category.html %}
+        </div>
+        <div class="sidebar-module">
+            {% include index_archives.html %}
+        </div>
+        <div class="sidebar-module">
+            {% include duoshuo_hot_articles.html %}
+        </div>
+        <div class="sidebar-module">
+            {% include duoshuo_newly_comments.html %}
+        </div>
+    </div>
+</div>
+<!-- /.row -->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("div.blog-post").mouseenter(function() {
+            $(this).addClass("body_post_hover").mouseleave(function() {
+                $(this).removeClass("body_post_hover");
+            });
+        })
+    });
+</script>

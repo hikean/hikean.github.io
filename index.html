@@ -1,35 +1,28 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <title>Particleground demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/home_page_style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- remember, jQuery is completely optional -->
+  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+  <script type='text/javascript' src='js/jquery.particleground.min.js'></script>
+  <script type='text/javascript' src='js/particle_setting.js'></script>
+</head>
 
-<div class="row">
-    <div class="col-sm-8 blog-main">
-        {% include index_posts.html %} {% include paginator.html %}
-    </div>
-    <!-- /.blog-main -->
-    <div class="col-sm-4 blog-sidebar">
-        <div class="sidebar-module">
-            {% include index_category.html %}
-        </div>
-        <div class="sidebar-module">
-            {% include index_archives.html %}
-        </div>
-        <div class="sidebar-module">
-            {% include duoshuo_hot_articles.html %}
-        </div>
-        <div class="sidebar-module">
-            {% include duoshuo_newly_comments.html %}
-        </div>
-    </div>
+<body>
+
+<div id="particles">
+  <div id="intro">
+    <h1>Kean's Blog</h1>
+    <p>Talk is cheap, let's code!</p>
+    <a href="/blog/" class="btn">Get In</a>
+  </div>
 </div>
-<!-- /.row -->
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("div.blog-post").mouseenter(function() {
-            $(this).addClass("body_post_hover").mouseleave(function() {
-                $(this).removeClass("body_post_hover");
-            });
-        })
-    });
-</script>
+<a href="https://github.com/hikean"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+
+</body>
+</html>

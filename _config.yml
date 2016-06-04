@@ -55,7 +55,7 @@ duoshuo: hikean
 
 # pagenator
 paginate: 6
-paginate_path: "/page:num"
+paginate_path: "/blog/page:num"
 #
 # !! You don't need to change any of the configuration flags below !!
 # 
