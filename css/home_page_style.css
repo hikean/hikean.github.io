@@ -81,27 +81,31 @@ body {
 #intro {
   position: absolute;
   left: 20%;
-  top: 50%;
-  padding: 20px 10px 20px 10px;
+  top: 45%;
+  padding: 10px 10px 20px 10px;
   width: 60%;
   text-align: center;
   background: rgba(45,45,45,0.78);
   border-radius: 20px;
+  /*margin-bottom: 20px;*/
 }
 h1 {
   text-transform: uppercase;
-  font-size: 85px;
+  font-size: 80px;
   font-weight: 700;
   letter-spacing: 0.015em;
 }
 h1::after {
   content: '';
-  width: 80px;
   display: block;
-  background: #fff;
-  height: 10px;
-  margin: 30px auto;
+  background-image: url(/images/kean-logo.png);
+  background-size: contain;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  margin: 0px auto 5px auto;
   line-height: 1.1;
+  /*border: 0.5px solid #fff;*/
 }
 div span, p {
   margin: 0px 0px 0px 0;
@@ -110,6 +114,7 @@ div span, p {
 .btn {
   display: inline-block;
   padding: 15px 30px;
+  margin-bottom: 10px;
   border: 2px solid #fff;
   text-transform: uppercase;
   letter-spacing: 0.015em;
@@ -123,7 +128,7 @@ div span, p {
        -o-transition: all 0.4s;
           transition: all 0.4s;
 }
-.btn:hover {
+a.btn:hover {
   color: #ff6060;
   border-color: #ff6060;
 }
@@ -132,14 +137,22 @@ div span, p {
   h1 {
     font-size: 70px;
   }
+  div span{
+  	font-size: 24px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 48px;
   }
+  div span{
+  	font-size: 20px;
+  }
   h1::after {
-    height: 8px;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
   }
 }
 
@@ -151,13 +164,15 @@ div span, p {
     font-size: 30px;
   }
   h1::after {
-    height: 6px;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
   }
-  p {
-    font-size: 18px;
+  div span, p {
+    font-size: 16px;
   }
   .btn {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -165,8 +180,13 @@ div span, p {
   h1 {
     font-size: 28px;
   }
+  div span, p{
+  	font-size: 12px;
+  }
   h1::after {
-    height: 4px;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
   }
 }
 
@@ -174,10 +194,10 @@ div span, p {
 
 .type-wrap{
   margin: 0 0 20px auto;
-  //padding:25px;
-  //background:#f0f0f0;
-  //border-radius:5px;
-  //border-bottom:#CCC 1px solid;
+  /*padding:25px;
+  background:#f0f0f0;
+  border-radius:5px;
+  border-bottom:#CCC 1px solid;*/
 }
 
 .typed-cursor{
