@@ -50,8 +50,8 @@ table {
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -61,8 +61,8 @@ html, body {
 }
 
 body {
-  background: rgba(112,123,168,0.5);
-  background-image: url(../images/bk.jpg);
+  background-color: #555 ;//rgba(112,123,168,0.5);
+  background-image: url(/images/bk.jpg);
   background-position: center;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
@@ -80,10 +80,10 @@ body {
 
 #intro {
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 45%;
   padding: 10px 10px 20px 10px;
-  width: 60%;
+  width: 70%;
   text-align: center;
   background: rgba(45,45,45,0.78);
   border-radius: 20px;
@@ -95,7 +95,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.015em;
 }
-h1::after {
+/*h1::after {
   content: '';
   display: block;
   background-image: url(/images/kean-logo.png);
@@ -105,16 +105,29 @@ h1::after {
   border-radius: 35px;
   margin: 0px auto 5px auto;
   line-height: 1.1;
-  /*border: 0.5px solid #fff;*/
+  border: 0.5px solid #fff;
+}*/
+img.img-logo{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  transition: all 1s;
 }
+img.img-logo:hover{
+  transform: rotate(360deg);
+  border: 1px #ff5050 solid;
+  //box-shadow: 0px 0px 4px #ff5050 ;
+  transition: all 1s;
+}
+
 div span, p {
   margin: 0px 0px 0px 0;
   font-size: 28px;
 }
-.btn {
+a.btn {
   display: inline-block;
-  padding: 15px 30px;
-  margin-bottom: 10px;
+  padding: 12px 20px;
+  margin-bottom: 0.4em;
   border: 2px solid #fff;
   text-transform: uppercase;
   letter-spacing: 0.015em;
@@ -124,13 +137,34 @@ div span, p {
   color: #fff;
   text-decoration: none;
   -webkit-transition: all 0.4s;
-     -moz-transition: all 0.4s;
-       -o-transition: all 0.4s;
-          transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 a.btn:hover {
   color: #ff6060;
   border-color: #ff6060;
+  //box-shadow: 0px 0px 4px #ff5050 ;
+  transition: all 0.4s;
+}
+
+@media only screen and (max-width: 1376px)
+{
+  #intro {
+    left: 20%;
+    width: 60%;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  div span{
+    font-size: 32px;
+  }
+  div img.img-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -138,7 +172,12 @@ a.btn:hover {
     font-size: 70px;
   }
   div span{
-  	font-size: 24px;
+    font-size: 24px;
+  }
+  div img.img-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
   }
 }
 
@@ -147,12 +186,12 @@ a.btn:hover {
     font-size: 48px;
   }
   div span{
-  	font-size: 20px;
+    font-size: 18px;
   }
-  h1::after {
-    height: 48px;
-    width: 48px;
-    border-radius: 24px;
+  div img.img-logo {
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
   }
 }
 
@@ -163,13 +202,13 @@ a.btn:hover {
   h1 {
     font-size: 30px;
   }
-  h1::after {
-    height: 18px;
-    width: 18px;
-    border-radius: 9px;
+  div img.img-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
   }
   div span, p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .btn {
     font-size: 12px;
@@ -181,19 +220,19 @@ a.btn:hover {
     font-size: 28px;
   }
   div span, p{
-  	font-size: 12px;
+    font-size: 10px;
   }
-  h1::after {
-    height: 14px;
-    width: 14px;
-    border-radius: 7px;
+  div img.img-logo {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
   }
 }
 
 /** typed.js **/
 
 .type-wrap{
-  margin: 0 0 20px auto;
+  margin: 0 0 0.5em auto;
   /*padding:25px;
   background:#f0f0f0;
   border-radius:5px;
@@ -201,36 +240,36 @@ a.btn:hover {
 }
 
 .typed-cursor{
-            opacity: 1;
-            font-weight: 100;
-            -webkit-animation: blink 0.7s infinite;
-            -moz-animation: blink 0.7s infinite;
-            -ms-animation: blink 0.7s infinite;
-            -o-animation: blink 0.7s infinite;
-            animation: blink 0.7s infinite;
-        }
-        @-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-webkit-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-moz-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-ms-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-o-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-ms-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
