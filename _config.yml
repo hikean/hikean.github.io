@@ -36,7 +36,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: hikean # keansblog 
+disqus: hikean # keansblog
 
 #  use duoshuo comments
 duoshuo: hikean # imkean #
@@ -63,7 +63,7 @@ baseurl: ""
 
 # pagenator
 paginate: 6
-paginate_path: "/page:num"
+paginate_path: "/blog/page:num"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
