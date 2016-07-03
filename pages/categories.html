@@ -1,0 +1,35 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+navbar_focus: categories
+---
+
+
+<div class="cate-wrap">
+  {% for cate in site.categories %}
+    <a href="#{{cate[0] | slugify }}" class="cate-label">
+    <span class="glyphicon glyphicon-th-list span-blank-before"></span>
+    {{cate[0]}}
+    </a>
+  {% endfor %}
+</div>
+<hr/>
+<div class="cate-section">
+  {%for cate in site.categories %}
+  <h3 id="{{cate[0] | slugify }}">{{cate[0]}} </h3>
+  <ul class="cate-ul">
+    {% for post in cate[1] %}
+      <li><a class="cate-title"href="{{site.baseurl}}{{post.url}}">
+        <span class="glyphicon glyphicon-record" style="font-size: 0.8em;margin-right: 4px;"></span>
+          {{post.title}}
+      </a>
+      <span class="cate-post-date">
+        {{ post.date |  date_to_string }}<!-- date: "%m/%d/%Y"-->
+      </span>
+    </li>
+
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>

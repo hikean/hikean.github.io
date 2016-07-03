@@ -3,14 +3,15 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kean
+name: Kean's Blog
 
 # Short bio or description (displayed in the header)
-description: Talk is cheap, let's code 
+description: Talk is cheap, let's code!
 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/hikean/hikean.github.io/master/images/kean-logo.png
+avatar: /images/kean-logo.png
+#https://raw.githubusercontent.com/hikean/hikean.github.io/master/images/kean-logo.png
 
 #
 # Flags below are optional
@@ -27,7 +28,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: Keans' Blog
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -35,30 +36,37 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: hikean
+disqus: hikean # keansblog 
+
+#  use duoshuo comments
+duoshuo: hikean # imkean #
+
+#Enter your site domain name for disqus
+domain_name: imkean.com # www.hikean.com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
+baidu_analytics: 1070d0b62f1c18782df0d93224c4de10
+# 1639850239d3ee39b2df592972254ebd imkean
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.hikean.com
-
+url: http://www.hikean.com # http:imkean.com #
+lsi: true
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-#  use duoshuo comments
-duoshuo: hikean 
+
 
 # pagenator
 paginate: 6
-paginate_path: "/blog/page:num"
+paginate_path: "/page:num"
 #
 # !! You don't need to change any of the configuration flags below !!
-# 
+#
 permalink: /:title/
 
 
@@ -71,6 +79,7 @@ highlighter: rouge  #pygments
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
 kramdown:
+  toc_levels: 2..2 # there're bugs while setting toc_levels equal 2..3
   input: GFM
   # https://github.com/jekyll/jekyll/pull/4090
   extensions:
@@ -79,7 +88,7 @@ kramdown:
     - smart
 
   syntax_highlighter: rouge
-  
+
   default_lang: c
 
   # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
@@ -90,9 +99,9 @@ kramdown:
     #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
     span:
       line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+    #block:
+    #  line_numbers: true
+    #  start_line: 1
 
 
 #host: 192.168.1.103
@@ -121,8 +130,8 @@ kramdown:
 
 
 
-# The release of Jekyll Now that you're using
-version: v1.1.0
+# The release of Dark Pink Bootstrap that you're using
+version: "v 0.0.1"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -139,6 +148,14 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - LICENSE
-    - README.md
+#    - README.md
     - CNAME
 
+collections:
+  leetcode:
+    output: true
+    permalink: /leetcode/:path/
+
+  wiki:
+    output: true
+    permalink: /wiki/:path/

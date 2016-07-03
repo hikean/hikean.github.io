@@ -1,0 +1,71 @@
+---
+layout: page
+title: Archives
+permalink: /archives/
+navbar_focus: archives
+---
+
+
+<div class="archive-wrap" >
+  <div id="archive-test">
+    <!--span id="div-line" > </span-->
+    <span id="div-test-clock" class="glyphicon glyphicon-time"></span>
+    <span id="archive-clock-text">There're {{site.posts | size}} blogs in total.</span>
+  </div>
+  <div class="archive-body">
+    {% assign count = 1 %}
+    {% assign is_first = true %}
+    {% for post in site.posts  %}
+      {% capture this_date_str %}{{ post.date | date: "%Y-%m" }}{% endcapture %}
+      {% capture next_date_str %}{{ post.previous.date | date: "%Y-%m" }}{% endcapture %}
+      {% if this_date_str != next_date_str%}
+        {% assign is_first = false %}
+        <div class="head-wrap">
+          <a  href="#" id="{{this_date_str}}" class="archive-head" onclick="archive_click(this)">
+            <span class="archive-head-before glyphicon glyphicon-circle-arrow-down"></span>
+            <span class="span-head">{{ post.date | date: "%b %Y"}}&nbsp;&nbsp;</span>
+            <span class="badge">{{ count }}</span>
+          </a>
+        </div>
+          <div>
+            <div class="archive-month-wrap" id="panel-{{this_date_str}}" value="hide">
+              {%for text in site.posts %}
+                {% capture text_date %}{{ text.date | date: "%Y-%m" }}{% endcapture %}
+                {% if text_date ==  this_date_str%}
+                    <a class="archive-post-title"  href="{{site.baseurl}}{{text.url}}">
+                      <span class="archive-post-title-before glyphicon glyphicon-certificate">
+                      </span>{{text.title}} </a>
+                {% endif %}
+              {% endfor%}
+            </div>
+          </div>
+          {% assign count = 1 %}
+      {% else %}
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <script>
+  $(document).ready(function(){
+    $(".archive-month-wrap").hide();
+  })
+  function archive_click(a)
+  {
+    var vid = "#panel-" + a.id;
+    //alert(vid);
+    if($(vid).attr("value")=="show"){
+      $(vid).hide(100);
+      $(vid).attr("value","hide");
+    }
+    else {
+      $(vid).show(100);
+      $(vid).attr("value","show");
+    }
+  }
+  </script>
+</div>
+
+
+
+<br/>
+<br/>

@@ -5,8 +5,7 @@ categories: [Jekyll]
 tags: [github, jekyll]
 ---
 
-<!-- more -->**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.<!-- more -->
-
+**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
 
 * Contents
 {:toc #toc_of_keans_blog}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  {% for js in page.html_head_js %}
+    <script src="/js/{{js}}"></script>
+  {% endfor %}
+  {% for css in page.html_head_css %}
+    <link rel="stylesheet" href="/css/{{css}}">
+  {% endfor %}
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <!--icon-->
+  <link rel="icon" type="image/png" href="http://jekyll.bootcss.com/favicon.png">
+
+  <!-- 旧的样式表 -->
+  <!--link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /-->
+
+
+  <!-- Duoshuo -->
+  {% include duoshuo_common.html %}
+
+  <!-- MathJax -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async=true> </script>
+  <!-- flowchart -->
+  <!--script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://flowchart.js.org/flowchart-latest.js"></script-->
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  {% include scroll_to_top.html%}
+
+</head>
+
+<body>
+<div>
+    {{ content }}
+</div>
+<div class="footer-wrap">
+  <footer class="footer">
+    <div class="container">
+      <!--span class="text-center"> {% include svg-icons.html %}</span>
+      <br/-->
+      <span class="text-center"> Copyright © 2016 Kean's Blog</span>
+    </div>
+  </footer>
+</div>
+  <!--{% include analytics.html %}!-->
+</body>
+</html>

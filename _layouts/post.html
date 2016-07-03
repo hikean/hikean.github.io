@@ -1,48 +1,124 @@
 ---
 layout: default
+navbar_focus: blog
 ---
-<script type="text/javascript">
-$(document).ready(function(){
-  var toc = $("ul#toc_of_keans_blog");
-  var newtoc = $("#toc_insert")
-  newtoc.html(toc.html());
-  toc.remove();
-  $(".container").css("max-width","92%");
-});
-</script>
 
 
-<div >
-  <h1>{{ page.title }}</h1>
-  <p class="tags"> &nbsp
-    {% for tg in page.tags %}
-    <span class="label label-info">{{tg}}</span>
-    {% endfor %}
-  </p>
-  <div class="date" align="right">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+
+<style type="text/css">
+ul.nav-tabs{
+  min-width: 160px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+ul.nav-tabs li{
+  margin: 0;
+  border-top: 1px solid #ddd;
+}
+ul.nav-tabs li:first-child{
+  border-top: none;
+}
+ul.nav-tabs li a{
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 0;
+}
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+  background: #222;
+  border: 1px solid #222;
+}
+
+#myNav li a:hover{
+  color: #ff5050;
+}
+#myNav li a{
+  color: #222;/*rgba(128, 128, 128,0.7);;*/
+}
+#myNav li.active a{
+  color: #fff;
+}
+ul.nav-tabs li:first-child a{
+  border-radius: 4px 4px 0 0;
+}
+ul.nav-tabs li:last-child a{
+  border-radius: 0 0 4px 4px;
+}
+ul.nav-tabs.affix{
+  top: 60px; /* Set the top position of pinned element */
+}
+ul.nav-tabs.affix-top{
+  top: 60px; /* Set the top position of pinned element */
+}
+</style>
+
+<div class="container" id="blog-body" >
+  <div class="row">
+    <div class="col-md-offset-1 col-md-8 blog-main col-sm-8 col-sm-offset-1 col-xs-9">
+      <div class="blog-page">
+        <div>
+          <h2 id="blog-head" class="blog-post-title">
+            <span class="glyphicon glyphicon-bookmark span-blank-before"></span>
+            {{page.title}}
+          </h2>
+          {% assign post = page %}
+          {%include post_info.html%}
+          <div class="entry">
+            {{content}}
+          </div>
+          <div class="related-wrap ">
+            <div class="related-body">
+              {%for text in site.related_posts%}
+              <span class="span-link"><a href="{{text.url}}"> {{text.title}}</a></span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {%include comment.html%}
+    </div>
+    <div class="col-md-3 blog-sidebar col-sm-3 col-xs-3">
+      <div class="row sidebar-module " >
+        <div class="col-md-offset-2 col-md-9 col-sm-offset-1 col-sm-10  col-xs-9">
+          <div id="scroll_spy" class="affix" >
+            <ul id="li-blog-head"> <li class="active"><a href="#blog-head"> {{page.title}} </a></li></ul>
+            <ul id="myNav" class="nav nav-tabs nav-stacked " >
+              <ul class="nav nav-tabs nav-stacked"   >
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-</div>
+  <script type="text/javascript">
 
-<div class="container" role="main">
-  <article class="post">
-    <div id="toc_node">
-      <ul id="toc_insert">
-      </ul>
-    </div>
-    <div class="entry">
-      {{ content }}
-    </div>
+  $(document).ready(function(){
+    var toc = $("ul#toc_of_keans_blog");
+    var newtoc = $("#myNav")
+    var old_li = $("#li-blog-head");
+    //toc.prepend(old_li.html());
+    //newtoc.html(old_li.html())
+    newtoc.html(toc.html());
+    newtoc.css("id","scroll_spy")
+    //newtoc.css("class","nav nav-sidebar")
+    toc.remove();
+    old_li.remove();
+    $("img").addClass("img-responsive");
+    $("table").addClass("table  table-hover");//table-striped
+    $("#imbody").attr("data-spy","scroll").attr("data-target","#scroll_spy");
+    //$(".container").css("max-width","100%");
+  });
+  //$('#scroll_spy').affix();
+  $('#scroll_spy').affix({
+    offset: {
+      top: 60, bottom: 100/*function () {
+        return (this.bottom =
+        $('.footer-wrap').outerHeight(true))
+      }*/
+    }
+  });
 
-  </article>
-</div>
-
-<div>
-  {% if site.duoshuo %}
-  {%  include duoshuo.html %}
-  {% endif %}
-
-  {% if site.disqus %}
-  {% include disqus.html %}
-  {% endif %}
-</div>
+  </script>

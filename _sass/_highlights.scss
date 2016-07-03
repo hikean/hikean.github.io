@@ -1,5 +1,9 @@
-.highlight {
-    background-color: transparent; //#1d1d1c;//#efefef;
+pre.highlight {
+  background-color:#333;
+  border-radius: 5px;
+    //background-color: transparent;
+    /* //#1d1d1c;//#efefef;
+
     //padding: 7px 7px 7px 10px;
     //border: 1px solid #ddd;
     // -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
@@ -7,19 +11,23 @@
     // box-shadow: 3px 3px rgba(0,0,0,0.7);//0.1;
     //margin: 30px 0 20px 0;
     //border-radius: 20px;
-    //overflow: scroll;
+    //overflow: scroll;*/
+}
+pre.highlight code{
+  color: #eee;
 }
 code {
     font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
 }
 /** newly added  code blocks' style**/
 div.highlighter-rouge {
-    margin-left: 2em;
+
+    //margin-left: 2em;
 }
 div.highlight table {
     border: 0;
-    margin: 30px 50px 20px 0;
-    border-radius: 20px;
+    //margin: 30px 50px 20px 0;
+    //border-radius: 20px;
     //overflow: auto;
     overflow-y: hidden;
     background-color: $hilight_back_color; //transparent;//#1d1d1c;//
@@ -37,16 +45,16 @@ td.code {
     //border-bottom-right-radius:20px;
     //border-bottom-left-radius:2em;
     //max-width: 1200px;
-    min-width: 32em;
+    //min-width: 32em;
 }
-td.code pre,
+/*td.code pre,
 td.gutter.gl,
 td.gutter.gl pre {
     padding: 5px;
     border: 5px;
     margin-bottom: 0;
     background-color: $hilight_back_color; //transparent;
-    color: $hilight_front_color;
+    color: #fff;//$hilight_front_color;
 }
 td.gutter.gl pre.lineno {
     color: $lineno_color;
@@ -57,8 +65,8 @@ div.highlight table tbody tr {
 }
 pre.lineno {
     width: 3em;
-}
-／＊＊＊＊＊＊＊＊＊／
+}*/
+/**********************************/
 /** newly added **/
 .highlight .c {
     color: #586E75;

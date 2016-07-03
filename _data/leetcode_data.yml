@@ -10,595 +10,595 @@ algorithm:
     title: Add Two Numbers
     acceptance: 23.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: add-two-numbers
 
   - id: 3
     title: Longest Substring Without Repeating Characters
     acceptance: 22.2%
     difficulty: Medium
-    editorial: false
-    url: longest-substring-without-repeating-characters
+    editorial: true
+    url: longest-substring-without-repeating-characters #url: longest-substring-without-repeating-characters
 
   - id: 4
     title: Median of Two Sorted Arrays
     acceptance: 18.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: median-of-two-sorted-arrays
 
   - id: 5
     title: Longest Palindromic Substring
     acceptance: 23.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: longest-palindromic-substring
 
   - id: 6
     title: 	ZigZag Conversion
     acceptance: 24.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: zigzag-conversion
 
   - id: 7
     title: Reverse Integer
     acceptance: 23.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: reverse-integer
 
   - id: 8
     title: String to Integer (atoi)
     acceptance: 13.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: string-to-integer-atoi
 
   - id: 9
     title: Palindrome Number
     acceptance: 32.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: palindrome-number
 
   - id: 10
     title: Regular Expression Matching
     acceptance: 22.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: regular-expression-matching
 
   - id: 11
     title: Container With Most Water
     acceptance: 34.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: container-with-most-water
 
   - id: 12
     title: Integer to Roman
     acceptance: 39.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: integer-to-roman
 
   - id: 13
     title: Roman to Integer
     acceptance: 39.9%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: roman-to-integer
 
   - id: 14
     title: Longest Common Prefix
     acceptance: 28.4%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: longest-common-prefix
 
   - id: 15
     title: 3Sum
     acceptance: 19.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: 3sum
 
   - id: 16
     title: 3Sum Closest
     acceptance: 29.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: 3sum-closest
 
   - id: 17
     title: Letter Combinations of a Phone Number
     acceptance: 29.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: letter-combinations-of-a-phone-number
 
   - id: 18
     title: 4Sum
     acceptance: 24.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: 4sum
 
   - id: 19
     title: Remove Nth Node From End of List
     acceptance: 29.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-nth-node-from-end-of-list
 
   - id: 20
     title: Valid Parentheses
     acceptance: 29.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: valid-parentheses
 
   - id: 21
     title: Merge Two Sorted Lists
     acceptance: 35.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: merge-two-sorted-lists
 
   - id: 22
     title: Generate Parentheses
     acceptance: 37.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: generate-parentheses
 
   - id: 23
     title: Merge k Sorted Lists
     acceptance: 23.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: merge-k-sorted-lists
 
   - id: 24
     title: Swap Nodes in Pairs
     acceptance: 35.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: swap-nodes-in-pairs
 
   - id: 25
     title: Reverse Nodes in k-Group
     acceptance: 27.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: reverse-nodes-in-k-group
 
   - id: 26
     title: Remove Duplicates from Sorted Array
     acceptance: 33.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-duplicates-from-sorted-array
 
   - id: 27
     title: Remove Element
     acceptance: 34.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-element
 
   - id: 28
     title: Implement strStr()
     acceptance: 25.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: implement-strstr
 
   - id: 29
     title: Divide Two Integers
     acceptance: 15.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: divide-two-integers
 
   - id: 30
     title: 	Substring with Concatenation of All Words
     acceptance: 20.9%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: substring-with-concatenation-of-all-words
 
   - id: 31
     title: Next Permutation
     acceptance: 26.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: next-permutation
 
   - id: 32
     title: 	Longest Valid Parentheses
     acceptance: 22.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: longest-valid-parentheses
 
   - id: 33
     title: Search in Rotated Sorted Array
     acceptance: 30.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: search-in-rotated-sorted-array
 
   - id: 34
     title: Search for a Range
     acceptance: 29.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-for-a-range
 
   - id: 35
     title: Search Insert Position
     acceptance: 37.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-insert-position
 
   - id: 36
     title: Valid Sudoku
     acceptance: 31.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: valid-sudoku
 
   - id: 37
     title: Sudoku Solver
     acceptance: 25.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: sudoku-solver
 
   - id: 38
     title: Count and Say
     acceptance: 29.4%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: count-and-say
 
   - id: 39
     title: Combination Sum
     acceptance: 31.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: combination-sum
 
   - id: 40
     title: Combination Sum II
     acceptance: 27.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: combination-sum-ii
 
   - id: 41
     title: First Missing Positive
     acceptance: 24.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: first-missing-positive
 
   - id: 42
     title: Trapping Rain Water
     acceptance: 32.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: trapping-rain-water
 
   - id: 43
     title: Multiply Strings
     acceptance: 23.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: multiply-strings
 
   - id: 44
     title: Wildcard Matching
     acceptance: 17.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: wildcard-matching
 
   - id: 45
     title: Jump Game II
     acceptance: 25.4%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: jump-game-ii
 
   - id: 46
     title: Permutations
     acceptance: 36.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: permutations
 
   - id: 47
     title: Permutations II
     acceptance: 28.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: permutations-ii
 
   - id: 48
     title: Rotate Image
     acceptance: 34.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: rotate-image
 
   - id: 49
     title: Group Anagrams
     acceptance: 27.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: anagrams
 
   - id: 50
     title: Pow(x, n)
     acceptance: 27.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: powx-n
 
   - id: 51
     title: N-Queens
     acceptance: 26.1%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: n-queens
 
   - id: 52
     title: N-Queens II
     acceptance: 39.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: n-queens-ii
 
   - id: 53
     title: Maximum Subarray
     acceptance: 36.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: maximum-subarray
 
   - id: 54
     title: Spiral Matrix
     acceptance: 22.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: spiral-matrix
 
   - id: 55
     title: Jump Game
     acceptance: 28.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: jump-game
 
   - id: 56
     title: Merge Intervals
     acceptance: 25.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: merge-intervals
 
   - id: 57
     title: Insert Interval
     acceptance: 24.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: insert-interval
 
   - id: 58
     title: Length of Last Word
     acceptance: 29.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: length-of-last-word
 
   - id: 59
     title: Spiral Matrix II
     acceptance: 35.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: spiral-matrix-ii
 
   - id: 60
     title: Permutation Sequence
     acceptance: 25.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: permutation-sequence
 
   - id: 61
     title: Rotate List
     acceptance: 23.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: rotate-list
 
   - id: 62
     title: Unique Paths
     acceptance: 36.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-paths
 
   - id: 63
     title: 	Unique Paths II
     acceptance: 29.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-paths-ii
 
   - id: 64
     title: Minimum Path Sum
     acceptance: 35.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: minimum-path-sum
 
   - id: 65
     title: Valid Number
     acceptance: 12.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: valid-number
 
   - id: 66
     title: Plus One
     acceptance: 34.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: plus-one
 
   - id: 67
     title: Add Binary
     acceptance: 27.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: add-binary
 
   - id: 68
     title: Text Justification
     acceptance: 16.3%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: text-justification
 
   - id: 69
     title: Sqrt(x)
     acceptance: 25.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: sqrtx
 
   - id: 70
     title: Climbing Stairs
     acceptance: 36.9%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: climbing-stairs
 
   - id: 71
     title: Simplify Path
     acceptance: 22.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: simplify-path
 
   - id: 72
     title: Edit Distance
     acceptance: 28.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: edit-distance
 
   - id: 73
     title: Set Matrix Zeroes
     acceptance: 33.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: set-matrix-zeroes
 
   - id: 74
     title: Search a 2D Matrix
     acceptance: 34.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-a-2d-matrix
 
   - id: 75
     title: Sort Colors
     acceptance: 34.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: sort-colors
 
   - id: 76
     title: Minimum Window Substring
     acceptance: 21.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: minimum-window-substring
 
   - id: 77
     title: Combinations
     acceptance: 34.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: combinations
 
   - id: 78
     title: Subsets
     acceptance: 31.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: subsets
 
   - id: 79
     title: Word Search
     acceptance: 23.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: word-search
 
   - id: 80
     title: Remove Duplicates from Sorted Array II
     acceptance: 32.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: remove-duplicates-from-sorted-array-ii
 
   - id: 81
     title: Search in Rotated Sorted Array II
     acceptance: 32.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-in-rotated-sorted-array-ii
 
   - id: 82
     title: Remove Duplicates from Sorted List II
     acceptance: 27.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: remove-duplicates-from-sorted-list-ii
 
   - id: 83
     title: Remove Duplicates from Sorted List
     acceptance: 37.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-duplicates-from-sorted-list
 
   - id: 84
     title: Largest Rectangle in Histogram
     acceptance: 24.3%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: largest-rectangle-in-histogram
 
   - id: 85
     title: Maximal Rectangle
     acceptance: 23.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: maximal-rectangle
 
   - id: 86
     title: Partition List
     acceptance: 29.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: partition-list
 
   - id: 87
