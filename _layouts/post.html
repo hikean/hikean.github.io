@@ -67,6 +67,7 @@ ul.nav-tabs.affix-top{
           <div class="entry">
             {{content}}
           </div>
+          {%unless page.no_related%}
           <div class="related-wrap ">
             <div class="related-body">
               {%for text in site.related_posts%}
@@ -74,6 +75,7 @@ ul.nav-tabs.affix-top{
               {% endfor %}
             </div>
           </div>
+          {%endunless%}
         </div>
       </div>
       {%include comment.html%}
