@@ -74,42 +74,43 @@ int data[10000];
 
 int check(int n, int para,int w,int h)
 {
-  int ret = 0;
-  int w_cnt = w/n;
-  int l_cnt = h/n;
-  if(!w_cnt || !l_cnt)
-  return 0x3fffffff;
-  for(int i = 0; i < para; i++)
-  ret += (data[i] + w_cnt - 1)/w_cnt;
-  ret = (ret + l_cnt - 1)/l_cnt;
-  return ret;
+    int ret = 0;
+    int w_cnt = w/n;
+    int l_cnt = h/n;
+    if(!w_cnt || !l_cnt)
+        return 0x3fffffff;
+    for(int i = 0; i < para; i++)
+        ret += (data[i] + w_cnt - 1)/w_cnt;
+    ret = (ret + l_cnt - 1)/l_cnt;
+    return ret;
 }
 
 int main()
 {
-  int T, para, page,w,h;
-  scanf("%d",&T);
-  while(T--)
-  {
-    scanf("%d%d%d%d",&para,&page,&w,&h);
-    for(int i = 0; i < para; i++)
-    scanf("%d",&data[i]);
-    int low = 1, up = min(w,h);
-    int cnt,mid = 1,ans = 0;
-    while(low <= up)
+    int T, para, page,w,h;
+    scanf("%d",&T);
+    while(T--)
     {
-      mid = (low + up) / 2;
-      cnt = check(mid,para,w,h);
-      if(cnt > page)
-      up = mid -1;
-      else
-      {
-        ans = mid;
-        low = mid + 1;
-      }
+        scanf("%d%d%d%d",&para,&page,&w,&h);
+        for(int i = 0; i < para; i++)
+            scanf("%d",&data[i]);
+        int low = 1, up = min(w,h);
+        int cnt,mid = 1,ans = 0;
+
+        while(low <= up)
+        {
+            mid = (low + up) / 2;
+            cnt = check(mid,para,w,h);
+            if(cnt > page)
+                up = mid -1;
+            else
+            {
+                ans = mid;
+                low = mid + 1;
+            }
+        }
+        printf("%d\n",ans);
     }
-    printf("%d\n",ans);
-  }
-  return 0;
+    return 0;
 }
 ```
