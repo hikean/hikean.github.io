@@ -81,10 +81,9 @@ NO
 
 > 普通青年用Tire树，也可以用map
 
-## Tire树版，二叉树版
+## 二叉树版（不算严格的Trie树)
 
 ```cpp
-
 #include <stdio.h>
 #include <string.h>
 
@@ -94,9 +93,9 @@ NO
 #define ID(i,msk)  (infos[INDEX(i)][msk][1])
 
 struct Node{
-  int left,right;
-  Node():left(0),right(0){};
-  Node(int l,int r):left(l),right(r){}
+    int left,right;
+    Node():left(0),right(0){};
+    Node(int l,int r):left(l),right(r){}
 };
 
 const int MAXN = 100000 * 40;
@@ -107,123 +106,123 @@ int cnt = 1;
 
 void add_node(unsigned int ip,int allow,int id,int msk)
 {
-  unsigned  int mask = 0x80000000;
-  int root = 0;
-  while(mask)
-  {
-    if(ip & mask)// 1
+    unsigned  int mask = 0x80000000;
+    int root = 0;
+    while(mask)
     {
-      if(data[root].right == 0)
-      data[root].right = cnt++;
-      root = data[root].right;
+        if(ip & mask)// 1
+        {
+            if(data[root].right == 0)
+                data[root].right = cnt++;
+            root = data[root].right;
+        }
+        else // 0
+        {
+            if(data[root].left == 0)
+                data[root].left = cnt++;
+            root = data[root].left;
+        }
+        mask >>= 1;
     }
-    else // 0
+    if(!INDEX(root))
+        INDEX(root) = icnt++;
+    if(!ID(root,msk))
     {
-      if(data[root].left == 0)
-      data[root].left = cnt++;
-      root = data[root].left;
+        ID(root,msk) = id;
+        ALLOW(root,msk) = allow;
     }
-    mask >>= 1;
-  }
-  if(!INDEX(root))
-  INDEX(root) = icnt++;
-  if(!ID(root,msk))
-  {
-    ID(root,msk) = id;
-    ALLOW(root,msk) = allow;
-  }
 }
 
 int find_node(unsigned int ip,int msk)
 {
-  unsigned  int mask = 0x80000000;
-  int root = 0;
-  while(mask)
-  {
-    if(ip & mask)// 1
+    unsigned  int mask = 0x80000000;
+    int root = 0;
+    while(mask)
     {
-      if(data[root].right == 0)
-      return 0;
-      root = data[root].right;
+        if(ip & mask)// 1
+        {
+            if(data[root].right == 0)
+                return 0;
+            root = data[root].right;
+        }
+        else
+        {
+            if(data[root].left == 0)
+                return 0;
+            root = data[root].left;
+        }
+        mask >>= 1;
     }
-    else
-    {
-      if(data[root].left == 0)
-      return 0;
-      root = data[root].left;
-    }
-    mask >>= 1;
-  }
 
-  return root;
+    return root;
 }
 
 int main()
 {
-  unsigned  int mask[33];
-  mask[0] = 0xffffffff;
-  for(int  i = 1; i < 33; i++)
-  mask[i] = mask[i-1] << 1;
-  memset(infos,0,sizeof(infos));
-  int m,n;
-  unsigned  int tmp,ans;
-  char str[50],ip[50];
-  scanf("%d%d",&n,&m);
-  for(int j = 0; j < n; j++)
-  {
-    scanf("%s%s",str,ip);
-    int i = 0;
-    ans = 0;
-    tmp = 0;
-    for(;ip[i]!='/' && ip[i]!='\0'; i++)
-    if(ip[i] == '.')
+    unsigned  int mask[33];
+    mask[0] = 0xffffffff;
+    for(int  i = 1; i < 33; i++)
+        mask[i] = mask[i-1] << 1;
+    memset(infos,0,sizeof(infos));
+    int m,n;
+    unsigned  int tmp,ans;
+    char str[50],ip[50];
+    scanf("%d%d",&n,&m);
+    for(int j = 0; j < n; j++)
     {
-      ans = (ans << 8) | tmp;
-      tmp = 0;
+        scanf("%s%s",str,ip);
+        int i = 0;
+        ans = 0;
+        tmp = 0;
+        for(;ip[i]!='/' && ip[i]!='\0'; i++)
+            if(ip[i] == '.')
+            {
+                ans = (ans << 8) | tmp;
+                tmp = 0;
+            }
+            else
+                tmp = tmp*10 + ip[i] - '0';
+        ans = (ans << 8) | tmp;
+        tmp = 32;
+        if(ip[i] == '/')
+        {
+            tmp = 0;
+            for(i += 1;ip[i]!='\0';i++)
+                tmp = tmp * 10 + ip[i] - '0';
+            ans = ans & mask[32-tmp];
+        }
+        add_node(ans,str[0]=='a',j+1,tmp);
     }
-    else
-    tmp = tmp*10 + ip[i] - '0';
-    ans = (ans << 8) | tmp;
-    tmp = 32;
-    if(ip[i] == '/')
+    for(int i = 0; i < m; i++)
     {
-      tmp = 0;
-      for(i += 1;ip[i]!='\0';i++)
-      tmp = tmp * 10 + ip[i] - '0';
-      ans = ans & mask[32-tmp];
+        scanf("%s",ip);
+        ans = 0;
+        tmp = 0;
+        for(int j= 0;ip[j] != '\0'; j++)
+            if(ip[j] == '.')
+            {
+                ans = (ans << 8) | tmp;
+                tmp = 0;
+            }
+            else
+                tmp = tmp*10 +ip[j] - '0';
+        ans = (ans << 8) | tmp;
+        int index = 0;
+        int id = MAXN;
+        int mk = 32;
+        for(int j = 0 ; j < 33; j++)
+        {
+            tmp = ans & mask[j];
+            int t = find_node(tmp,32-j);
+            if(t && ID(t,32-j) &&  ID(t,32-j) < id)
+                index = t,id = ID(t,32-j),mk = 32 -j;
+        }
+        if(!index || ALLOW(index,mk))
+            puts("YES");
+        else
+            puts("NO");
     }
-    add_node(ans,str[0]=='a',j+1,tmp);
-  }
-  for(int i = 0; i < m; i++)
-  {
-    scanf("%s",ip);
-    ans = 0;
-    tmp = 0;
-    for(int j= 0;ip[j] != '\0'; j++)
-    if(ip[j] == '.')
-    {
-      ans = (ans << 8) | tmp;
-      tmp = 0;
-    }
-    else
-    tmp = tmp*10 +ip[j] - '0';
-    ans = (ans << 8) | tmp;
-    int index = 0;
-    int id = MAXN;
-    int mk = 32;
-    for(int j = 0 ; j < 33; j++)
-    {
-      tmp = ans & mask[j];
-      int t = find_node(tmp,32-j);
-      if(t && ID(t,32-j) &&  ID(t,32-j) < id)
-      index = t,id = ID(t,32-j),mk = 32 -j;
-    }
-    if(!index || ALLOW(index,mk))
-    puts("YES");
-    else
-    puts("NO");
-  }
-  return 0;
+    return 0;
 }
 
 /***
@@ -257,74 +256,74 @@ map<long long,int> dat;
 
 int main()
 {
-  unsigned  int mask[33];
-  mask[0] = 0xffffffff;
-  for(int  i = 1; i < 33; i++)
-  mask[i] = mask[i-1] << 1;
-  int m,n;
-  unsigned  int tmp,ans;
-  char str[50],ip[50];
-  scanf("%d%d",&n,&m);
-  for(int j = 0; j < n; j++)
-  {
-    scanf("%s%s",str,ip);
-    int i = 0;
-    ans = 0;
-    tmp = 0;
-    for(;ip[i]!='/' && ip[i]!='\0'; i++)
-    if(ip[i] == '.')
+    unsigned  int mask[33];
+    mask[0] = 0xffffffff;
+    for(int  i = 1; i < 33; i++)
+        mask[i] = mask[i-1] << 1;
+    int m,n;
+    unsigned  int tmp,ans;
+    char str[50],ip[50];
+    scanf("%d%d",&n,&m);
+    for(int j = 0; j < n; j++)
     {
-      ans = (ans << 8) | tmp;
-      tmp = 0;
-    }
-    else
-    tmp = tmp*10 + ip[i] - '0';
-    ans = (ans << 8) | tmp;
-    tmp = 32;
-    if(ip[i] == '/')
-    {
-      tmp = 0;
-      for(i += 1;ip[i]!='\0';i++)
-      tmp = tmp * 10 + ip[i] - '0';
-      ans = ans & mask[32-tmp];
-    }
-    long long key = 0;
-    key |= ans;
-    key = (key << 8) | tmp;
+        scanf("%s%s",str,ip);
+        int i = 0;
+        ans = 0;
+        tmp = 0;
+        for(;ip[i]!='/' && ip[i]!='\0'; i++)
+            if(ip[i] == '.')
+            {
+                ans = (ans << 8) | tmp;
+                tmp = 0;
+            }
+            else
+                tmp = tmp*10 + ip[i] - '0';
+        ans = (ans << 8) | tmp;
+        tmp = 32;
+        if(ip[i] == '/')
+        {
+            tmp = 0;
+            for(i += 1;ip[i]!='\0';i++)
+                tmp = tmp * 10 + ip[i] - '0';
+            ans = ans & mask[32-tmp];
+        }
+        long long key = 0;
+        key |= ans;
+        key = (key << 8) | tmp;
 
-    if(!dat.count(key))
-    dat[key] = (j << 8) | str[0]=='a';
-  }
-  for(int i = 0; i < m; i++)
-  {
-    scanf("%s",ip);
-    ans = 0;
-    tmp = 0;
-    for(int j= 0;ip[j] != '\0'; j++)
-    if(ip[j] == '.')
-    {
-      ans = (ans << 8) | tmp;
-      tmp = 0;
+        if(!dat.count(key))
+            dat[key] = (j << 8) | str[0]=='a';
     }
-    else
-    tmp = tmp*10 +ip[j] - '0';
-    ans = (ans << 8) | tmp;
-    long long key = 0;
-    int id = 0x3fffffff;
-    for(int j = 0 ; j < 33; j++)
+    for(int i = 0; i < m; i++)
     {
-      tmp = ans & mask[j];
-      key = tmp;
-      key = (key << 8) | (32-j);
-      if(dat.count(key) && dat[key] < id)
-      id = dat[key];
+        scanf("%s",ip);
+        ans = 0;
+        tmp = 0;
+        for(int j= 0;ip[j] != '\0'; j++)
+            if(ip[j] == '.')
+            {
+                ans = (ans << 8) | tmp;
+                tmp = 0;
+            }
+            else
+                tmp = tmp*10 +ip[j] - '0';
+        ans = (ans << 8) | tmp;
+        long long key = 0;
+        int id = 0x3fffffff;
+        for(int j = 0 ; j < 33; j++)
+        {
+            tmp = ans & mask[j];
+            key = tmp;
+            key = (key << 8) | (32-j);
+            if(dat.count(key) && dat[key] < id)
+                id = dat[key];
+        }
+        if(id & 1)
+            puts("YES");
+        else
+            puts("NO");
     }
-    if(id & 1)
-    puts("YES");
-    else
-    puts("NO");
-  }
-  return 0;
+    return 0;
 }
 
 /***
@@ -340,7 +339,6 @@ deny 0.0.0.0/24
 1.1.1.1
 0.0.0.1
 0.0.0.0
-
 
 ***/
 ```

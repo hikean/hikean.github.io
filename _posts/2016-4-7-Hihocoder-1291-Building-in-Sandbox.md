@@ -110,102 +110,103 @@ const int dz[] = { 1,-1, 0, 0, 0, 0};
 bool bfs(int x,int y,int z,int lim);
 
 struct State{
-  int x,y,z;
-  State():x(0),y(0),z(0){}
-  State(int a,int b,int c):x(a),y(b),z(c){}
+    int x,y,z;
+    State():x(0),y(0),z(0){}
+    State(int a,int b,int c):x(a),y(b),z(c){}
 };
 
 bool adjacent(int x,int y,int z)
 {
-  int a,b,c;
-  if(z == 1) return true;
-  for(int i = 0; i < 6; i++)
-  {
-    a = x + dx[i];
-    b = y + dy[i];
-    c = z + dz[i];
-    if( a > 0 && b > 0 && c > 0 && cube[a][b][c])
-    return true;
-  }
-  return false;
+    int a,b,c;
+    if(z == 1)
+        return true;
+    for(int i = 0; i < 6; i++)
+    {
+        a = x + dx[i];
+        b = y + dy[i];
+        c = z + dz[i];
+        if( a > 0 && b > 0 && c > 0 && cube[a][b][c])
+            return true;
+    }
+    return false;
 }
 
 int main()
 {
-  int t,x,y,z,flag,lim;
-  scanf("%d",&t);
-  while(t--)
-  {
-    lim  = 0;
-    flag = 1;
-    scanf("%d",&cnt);
-    memset(cube,0,sizeof(cube));
-    memset(vis,0,sizeof(vis));
-    for(int i = 0; i < cnt; i++)
+    int t,x,y,z,flag,lim;
+    scanf("%d",&t);
+    while(t--)
     {
-      scanf("%d%d%d",&x,&y,&z);
-      if(!adjacent(x,y,z))
-      {
-        //printf("err: %d %d %d \n",x,y,z);
-        flag = 0;
-      }
-      cube[x][y][z] = (i + 1);
-      data[i][0] = x;
-      data[i][1] = y;
-      data[i][2] = z;
-      lim = max(max(lim,x),max(y,z));
+        lim  = 0;
+        flag = 1;
+        scanf("%d",&cnt);
+        memset(cube,0,sizeof(cube));
+        memset(vis,0,sizeof(vis));
+        for(int i = 0; i < cnt; i++)
+        {
+            scanf("%d%d%d",&x,&y,&z);
+            if(!adjacent(x,y,z))
+            {
+                //printf("err: %d %d %d \n",x,y,z);
+                flag = 0;
+            }
+            cube[x][y][z] = (i + 1);
+            data[i][0] = x;
+            data[i][1] = y;
+            data[i][2] = z;
+            lim = max(max(lim,x),max(y,z));
+        }
+        lim += 2;
+        if(flag)
+        {
+            cube[lim][lim][lim] = cnt + 1;
+            bfs(lim,lim,lim,lim);
+            while(cnt-- && flag)
+                flag = bfs(data[cnt][0],data[cnt][1],data[cnt][2],lim);
+        }
+        if(flag)
+            puts("Yes");
+        else
+            puts("No");
     }
-    lim += 2;
-    if(flag)
-    {
-      cube[lim][lim][lim] = cnt + 1;
-      bfs(lim,lim,lim,lim);
-      while(cnt-- && flag)
-      flag = bfs(data[cnt][0],data[cnt][1],data[cnt][2],lim);
-    }
-    if(flag)
-    puts("Yes");
-    else
-    puts("No");
-  }
-  return 0;
+    return 0;
 }
 
 bool bfs(int x,int y,int z,int lim)
 {
-  queue<State> * que_ptr = new queue<State>();
-  queue<State>  & que = *que_ptr;
-  que.push(State(x,y,z));
-  const int value = cube[x][y][z];
-  cube[x][y][z] = OUTER;
-  vis[x][y][z] = value;
-  bool ret = false;
-  State now;
-  int a,b,c;
-  while(!que.empty())
-  {
-    now = que.front(); que.pop();
-    x = now.x;
-    y = now.y;
-    z = now.z;
-    for(int i = 0; i < 6; i++)
+    queue<State> * que_ptr = new queue<State>();
+    queue<State>  & que = *que_ptr;
+    que.push(State(x,y,z));
+    const int value = cube[x][y][z];
+    cube[x][y][z] = OUTER;
+    vis[x][y][z] = value;
+    bool ret = false;
+    State now;
+    int a,b,c;
+    while(!que.empty())
     {
-      a = x + dx[i];
-      b = y + dy[i];
-      c = z + dz[i];
-      if( a < 0 || b < 0 || c < 1 || a > lim || b > lim || c > lim)
-      continue;
-      if(vis[a][b][c] != value && cube[a][b][c] == OUTER)
-      ret = true;
-      if(vis[a][b][c] || cube[a][b][c])
-      continue;
-      vis[a][b][c] = value;
-      cube[a][b][c] = OUTER;
-      que.push(State(a,b,c));
+        now = que.front(); que.pop();
+        x = now.x;
+        y = now.y;
+        z = now.z;
+        for(int i = 0; i < 6; i++)
+        {
+            a = x + dx[i];
+            b = y + dy[i];
+            c = z + dz[i];
+            if( a < 0 || b < 0 || c < 1 || a > lim || b > lim || c > lim)
+                continue;
+            if(vis[a][b][c] != value && cube[a][b][c] == OUTER)
+                ret = true;
+            if(vis[a][b][c] || cube[a][b][c])
+                continue;
+            vis[a][b][c] = value;
+            cube[a][b][c] = OUTER;
+            que.push(State(a,b,c));
+        }
     }
-  }
-  delete que_ptr;
-  return ret;
+    delete que_ptr;
+    return ret;
 }
 
 /**

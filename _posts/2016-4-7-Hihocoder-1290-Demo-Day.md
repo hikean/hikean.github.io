@@ -77,15 +77,15 @@ const int DOWN = 1;
 
 struct State
 {
-  int x,y;
-  int cost;
-  int dir;
-  State(int _x,int _y,int l,int d):x(_x),y(_y),cost(l),dir(d){}
-  State():x(0),y(0),cost(0),dir(RIGHT){}
-  bool operator < (const State & arg) const
-  {
-    return this->cost > arg.cost;
-  }
+    int x,y;
+    int cost;
+    int dir;
+    State(int _x,int _y,int l,int d):x(_x),y(_y),cost(l),dir(d){}
+    State():x(0),y(0),cost(0),dir(RIGHT){}
+    bool operator < (const State & arg) const
+    {
+        return this->cost > arg.cost;
+    }
 };
 
 const int  MAXN = (100+5);
@@ -98,59 +98,59 @@ int  vis[MAXN][MAXN][2];
 
 int main()
 {
-  int n,m;
-  scanf("%d%d",&n,&m);
-  for(int i = 0; i < n; i++)
-  scanf("%s",maze[i]);
-  memset(vis,0x3f,sizeof(vis));
-  priority_queue<State> que;
-  que.push(State(0,0,0,RIGHT));
-  State now,down,right;
-  int x,y;
-  while(!que.empty())
-  {
-    now = que.top();que.pop();
-    x = now.x;
-    y = now.y;
-    //printf("%d %d %d\n",x,y,now.cost);
-    if(x == n-1 && y == m -1)
+    int n,m;
+    scanf("%d%d",&n,&m);
+    for(int i = 0; i < n; i++)
+        scanf("%s",maze[i]);
+    memset(vis,0x3f,sizeof(vis));
+    priority_queue<State> que;
+    que.push(State(0,0,0,RIGHT));
+    State now,down,right;
+    int x,y;
+    while(!que.empty())
     {
-      printf("%d\n",now.cost);
-      break;
+        now = que.top();que.pop();
+        x = now.x;
+        y = now.y;
+        //printf("%d %d %d\n",x,y,now.cost);
+        if(x == n-1 && y == m -1)
+        {
+            printf("%d\n",now.cost);
+            break;
+        }
+        down = now;
+        down.dir = DOWN;
+        if(x + 1 < n)//down
+        {
+            //            if(y+1 < m && maze[x][y+1] != 'b' && now.dir == RIGHT)
+            if( y + 1 < m && maze[x][y+1] == '.' && now.dir == RIGHT)
+                down.cost  += 1;
+            down.x += 1;
+            if(maze[x+1][y] == 'b')
+                down.cost += 1;
+            if(down.cost < vis[down.x][down.y][DOWN])
+            {
+                que.push(down);
+                vis[down.x][down.y][DOWN] = down.cost;
+            }
+        }
+        right  = now;
+        right.dir = RIGHT;
+        if(y + 1 < m ) //right
+        {
+            if( x + 1 < n && maze[x+1][y] =='.'  && now.dir == DOWN)
+            right.cost += 1;
+            if(maze[x][y+1] == 'b')
+                right.cost += 1;
+            right.y += 1;
+            if(right.cost < vis[right.x][right.y][RIGHT])
+            {
+                que.push(right);
+                vis[right.x][right.y][RIGHT] = right.cost;
+            }
+        }
     }
-    down = now;
-    down.dir = DOWN;
-    if(x + 1 < n)//down
-    {
-      //            if(y+1 < m && maze[x][y+1] != 'b' && now.dir == RIGHT)
-      if( y + 1 < m && maze[x][y+1] == '.' && now.dir == RIGHT)
-      down.cost  += 1;
-      down.x += 1;
-      if(maze[x+1][y] == 'b')
-      down.cost += 1;
-      if(down.cost < vis[down.x][down.y][DOWN])
-      {
-        que.push(down);
-        vis[down.x][down.y][DOWN] = down.cost;
-      }
-    }
-    right  = now;
-    right.dir = RIGHT;
-    if(y + 1 < m ) //right
-    {
-      if( x + 1 < n && maze[x+1][y] =='.'  && now.dir == DOWN)
-      right.cost += 1;
-      if(maze[x][y+1] == 'b')
-      right.cost += 1;
-      right.y += 1;
-      if(right.cost < vis[right.x][right.y][RIGHT])
-      {
-        que.push(right);
-        vis[right.x][right.y][RIGHT] = right.cost;
-      }
-    }
-  }
-  return 0;
+    return 0;
 
 }
 /*
