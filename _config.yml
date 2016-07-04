@@ -42,12 +42,12 @@ disqus: hikean # keansblog
 duoshuo: hikean # imkean #
 
 #Enter your site domain name for disqus
-domain_name: www.hikean.com # imkean.com # 
+domain_name: www.hikean.com # imkean.com #
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
-baidu_analytics: 1070d0b62f1c18782df0d93224c4de10
-# 1639850239d3ee39b2df592972254ebd imkean
+baidu_analytics: 1070d0b62f1c18782df0d93224c4de10 # hikean
+# 1639850239d3ee39b2df592972254ebd  # imkean
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
