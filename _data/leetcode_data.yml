@@ -605,238 +605,238 @@ algorithm:
     title: Scramble String
     acceptance: 26.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: scramble-string
 
   - id: 88
     title: Merge Sorted Array
     acceptance: 30.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: merge-sorted-array
 
   - id: 89
     title: Gray Code
     acceptance: 36.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: gray-code
 
   - id: 90
     title: Subsets II
     acceptance: 30.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: subsets-ii
 
   - id: 91
     title: Decode Ways
     acceptance: 17.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: decode-ways
 
   - id: 92
     title: Reverse Linked List II
     acceptance: 28.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: reverse-linked-list-ii
 
   - id: 93
     title: Restore IP Addresses
     acceptance: 23.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: restore-ip-addresses
 
   - id: 94
     title: Binary Tree Inorder Traversal
     acceptance: 40.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: binary-tree-inorder-traversal
 
   - id: 95
     title: Unique Binary Search Trees II
     acceptance: 29.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-binary-search-trees-ii
 
   - id: 96
     title: Unique Binary Search Trees
     acceptance: 37.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-binary-search-trees
 
   - id: 97
     title: Interleaving String
     acceptance: 22.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: interleaving-string
 
   - id: 98
     title: Validate Binary Search Tree
     acceptance: 21.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: validate-binary-search-tree
 
   - id: 99
     title: Recover Binary Search Tree
     acceptance: 26.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: recover-binary-search-tree
 
   - id: 100
     title: Same Tree
     acceptance: 43.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: same-tree
 
   - id: 101
     title: Symmetric Tree
     acceptance: 34.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: symmetric-tree
 
   - id: 102
     title: Binary Tree Level Order Traversal
     acceptance: 33.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: binary-tree-level-order-traversal
 
   - id: 103
     title: Binary Tree Zigzag Level Order Traversal
     acceptance: 28.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: binary-tree-zigzag-level-order-traversal
 
   - id: 104
     title: Maximum Depth of Binary Tree
     acceptance: 48.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: maximum-depth-of-binary-tree
 
   - id: 105
     title: Construct Binary Tree from Preorder and Inorder Traversal
     acceptance: 28.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: construct-binary-tree-from-preorder-and-inorder-traversal
 
   - id: 106
     title: Construct Binary Tree from Inorder and Postorder Traversal
     acceptance: 29.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: construct-binary-tree-from-inorder-and-postorder-traversal
 
   - id: 107
     title: Binary Tree Level Order Traversal II
     acceptance: 34.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: binary-tree-level-order-traversal-ii
 
   - id: 108
     title: Convert Sorted Array to Binary Search Tree
     acceptance: 37.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: convert-sorted-array-to-binary-search-tree
 
   - id: 109
     title: Convert Sorted List to Binary Search Tree
     acceptance: 30.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: convert-sorted-list-to-binary-search-tree
 
   - id: 110
     title: Balanced Binary Tree
     acceptance: 34.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: balanced-binary-tree
 
   - id: 111
     title: Minimum Depth of Binary Tree
     acceptance: 30.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: minimum-depth-of-binary-tree
 
   - id: 112
     title: Path Sum
     acceptance: 31.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: path-sum
 
   - id: 113
     title: Path Sum II
     acceptance: 28.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: path-sum-ii
 
   - id: 114
     title: Flatten Binary Tree to Linked List
     acceptance: 31.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: flatten-binary-tree-to-linked-list
 
   - id: 115
     title: Distinct Subsequences
     acceptance: 29.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: distinct-subsequences
 
   - id: 116
     title: Populating Next Right Pointers in Each Node
     acceptance: 36.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: populating-next-right-pointers-in-each-node
 
   - id: 117
     title: Populating Next Right Pointers in Each Node II
     acceptance: 32.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: populating-next-right-pointers-in-each-node-ii
 
   - id: 118
     title: Pascal's Triangle
     acceptance: 33.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: pascals-triangle
 
   - id: 119
     title: Pascal's Triangle II
     acceptance: 32.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: pascals-triangle-ii
 
   - id: 120
     title: Triangle
     acceptance: 30.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: triangle
 
   - id: 121
