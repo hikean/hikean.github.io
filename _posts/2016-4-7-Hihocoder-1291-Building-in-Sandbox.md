@@ -97,17 +97,14 @@ No
 
 using std::max;
 using std::queue;
-const int MAXN = 128;
-const int OUTER = 0x3fffffff;
+const int MAXN = 105;
 int cube[MAXN][MAXN][MAXN];
-int cnt=0;
-int vis[MAXN][MAXN][MAXN]={0};
 int data[100000 + 5][3];
 
 const int dx[] = { 0, 0, 1,-1, 0, 0};
 const int dy[] = { 0, 0, 0, 0, 1,-1};
 const int dz[] = { 1,-1, 0, 0, 0, 0};
-bool bfs(int x,int y,int z,int lim);
+bool bfs(int x,int y,int z,int lim, int tag);
 
 struct State{
     int x,y,z;
@@ -118,8 +115,7 @@ struct State{
 bool adjacent(int x,int y,int z)
 {
     int a,b,c;
-    if(z == 1)
-        return true;
+    if(z == 1) return true;
     for(int i = 0; i < 6; i++)
     {
         a = x + dx[i];
@@ -133,36 +129,32 @@ bool adjacent(int x,int y,int z)
 
 int main()
 {
-    int t,x,y,z,flag,lim;
+    int t,x,y,z,lim,cnt;
+    bool flag;
     scanf("%d",&t);
     while(t--)
     {
         lim  = 0;
-        flag = 1;
+        flag = true;
         scanf("%d",&cnt);
         memset(cube,0,sizeof(cube));
-        memset(vis,0,sizeof(vis));
         for(int i = 0; i < cnt; i++)
         {
             scanf("%d%d%d",&x,&y,&z);
             if(!adjacent(x,y,z))
-            {
-                //printf("err: %d %d %d \n",x,y,z);
-                flag = 0;
-            }
+                flag = false;
             cube[x][y][z] = (i + 1);
             data[i][0] = x;
             data[i][1] = y;
             data[i][2] = z;
             lim = max(max(lim,x),max(y,z));
         }
-        lim += 2;
+        lim += 1;
         if(flag)
         {
-            cube[lim][lim][lim] = cnt + 1;
-            bfs(lim,lim,lim,lim);
+            bfs(lim,lim,lim,lim,cnt+5);
             while(cnt-- && flag)
-                flag = bfs(data[cnt][0],data[cnt][1],data[cnt][2],lim);
+                flag = bfs(data[cnt][0],data[cnt][1],data[cnt][2],lim,cnt + 5);
         }
         if(flag)
             puts("Yes");
@@ -172,46 +164,36 @@ int main()
     return 0;
 }
 
-bool bfs(int x,int y,int z,int lim)
+bool bfs(int x,int y,int z,int lim,int tag)
 {
-    queue<State> * que_ptr = new queue<State>();
-    queue<State>  & que = *que_ptr;
+    queue<State>  que;
     que.push(State(x,y,z));
-    const int value = cube[x][y][z];
-    cube[x][y][z] = OUTER;
-    vis[x][y][z] = value;
+    cube[x][y][z] = tag;
     bool ret = false;
     State now;
     int a,b,c;
     while(!que.empty())
     {
         now = que.front(); que.pop();
-        x = now.x;
-        y = now.y;
-        z = now.z;
         for(int i = 0; i < 6; i++)
         {
-            a = x + dx[i];
-            b = y + dy[i];
-            c = z + dz[i];
+            a = now.x + dx[i];
+            b = now.y + dy[i];
+            c = now.z + dz[i];
             if( a < 0 || b < 0 || c < 1 || a > lim || b > lim || c > lim)
                 continue;
-            if(vis[a][b][c] != value && cube[a][b][c] == OUTER)
+            if(cube[a][b][c] > tag)
                 ret = true;
-            if(vis[a][b][c] || cube[a][b][c])
+            if(cube[a][b][c])
                 continue;
-            vis[a][b][c] = value;
-            cube[a][b][c] = OUTER;
+            cube[a][b][c] = tag;
             que.push(State(a,b,c));
         }
     }
-    delete que_ptr;
     return ret;
 }
 
 /**
-
-5
 3
 1 1 1
 1 2 1
