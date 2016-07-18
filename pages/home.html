@@ -47,6 +47,23 @@ permalink: /
     <a href="/blog/" class="btn">ENTER</a>
   </div>
 </div>
+<article style="display:none;" hidden="true">
+<li><a href="/blog/"> Kean's Blog Home Page, 博客首页</a></li>
+<li><a href="/archives/"> Blog Archives Page, 博客归档页</a></li>
+<li><a href="/categories/"> Blog Categories Page, 博客分类页</a></li>
+<li><a href="/tags/"> Blog Tags Page, 博客标签分类页</a></li>
+<li><a href="/wiki/"> Kean's Blog WIKI Page, 博客维基页</a></li>
+<li><a href="/about/"> Kean's Blog About Page, 博客关于页</a></li>
+{% for post in site.posts %}
+<li><a herf="{{post.url}}">{{post.title}} | {{post.tags}}</a></li>
+{% endfor %}
+{% for post in site.leetcode %}
+{% assign post_id = post.url | split: '-' %}
+{% assign post_id = post_id.first | split: '/' %}
+{% assign post_id = post_id.last %}
+<li><a herf="{{post.url}}">LeetCode {{post_id}} {{post.title}}| 题解 | Solution | {{post.tags}}</a></li>
+{% endfor %}
+</article>
 
 <a href="https://github.com/{{site.footer-links.github}}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 {% include analytics.html %}
