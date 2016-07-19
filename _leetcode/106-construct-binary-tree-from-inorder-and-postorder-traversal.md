@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 date: 2016-07-11
-title: Title
+title: Construct Binary Tree from Inorder and Postorder traversal
 tags: [Tree, Array, Depth First Search]
 ---
 

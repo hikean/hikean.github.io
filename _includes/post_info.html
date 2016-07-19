@@ -4,7 +4,7 @@
 		{%if post.categories.size > 0%}
 		<span class="glyphicon glyphicon-th-list span-blank-before"></span>
 		{% for cate in post.categories %}
-			<a class="cate-label" href="{{site.baseurl}}/categories/#{{cate | slugify}}"
+			<a class="cate-label" href="{{site.baseurl}}/{{dir}}categories/#{{cate | slugify}}"
 			style="margin-right:5px;">{{cate}}</a>
 		{% endfor %}
 		{%endif%}
@@ -12,7 +12,7 @@
 		{%if post.tags.size > 0%}
 		<span class="glyphicon glyphicon-tags span-blank-before"></span>
 		{% for tag in post.tags %}
-		<a class="tags-label" href="{{site.baseurl}}/tags/#{{tag | slugify}}"
+		<a class="tags-label" href="{{site.baseurl}}/{{dir}}tags/#{{tag | slugify}}"
 		style="margin-right:5px;">{{tag}}</a>
 		{% endfor %}
 		{%endif%}

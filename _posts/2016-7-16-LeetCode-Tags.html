@@ -1,0 +1,45 @@
+---
+layout: page
+title: LeetCode Tags
+categories: [题解合集]
+tags: [Algorithm, LeetCode, OJ]
+excerpt: "LeetCode 题解标签分类页"
+permalink: /leetcode/tags
+---
+
+<div class="tags-expo">
+  <br/>
+
+  {% assign tags =  site.leetcode | map: 'tags' | join: ','  | split: ',' | uniq %}
+
+  <div class="tags-expo-list">
+    {% for tag in tags %}
+    <a href="#{{ tag | slugify }}" class="tags-label">
+      <span class="glyphicon glyphicon-tag" style=""></span>
+      {{ tag }}</a>
+    {% endfor %}
+  </div>
+  <hr/>
+  <div class="tags-section">
+    {% for tag in tags %}
+    <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
+    <ul class="cate-ul">
+      {% for post in site.leetcode %}
+      {% if post.tags contains tag %}
+      {% assign post_id = post.url | split: '-' %}
+      {% assign post_id = post_id.first | split: '/' %}
+      {% assign post_id = post_id.last %}
+
+      <li>
+        <a class="cate-title" href="{{ site.baseurl }}{{ post.url }}">
+          <span class="glyphicon glyphicon-record" style="font-size: 0.8em;margin-right: 4px;"></span>
+          {{post_id}}. {{ post.title }}
+        </a>
+      <span class="cate-post-date">{{ post.date | date_to_string}}</span>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

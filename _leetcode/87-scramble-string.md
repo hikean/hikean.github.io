@@ -55,15 +55,37 @@ tags: [String, Dynamic Programming]
 
 ## Solution
 
-**Result:** Accepted **Time:** x ms
+**Result:** Accepted **Time:** 24 ms
 
 Here should be some explanations.
 
 ```c
+#define MAXN 512
+bool equal[MAXN][MAXN][MAXN]={0};
+bool isScramble(char* a, char* b) {
+    int alen = strlen(a), blen = strlen(b);
+    if(alen != blen)
+        return false;
+    for(int i = 0; i <= alen; i++)
+        for(int j = 0; j <= alen; j++)
+            equal[i][j][0] = true,
+            equal[i][j][1] = (a[i] == b[j]);
+    for(int len = 2, limit = alen - 1; len <= alen; len++, limit-- )
+        for(int abgn = 0; abgn < limit; abgn++ )
+            for(int bbgn = 0; bbgn < limit; bbgn++ )
+            {
+                equal[abgn][bbgn][len] = false;
+                for(int k = 1; k < len && !equal[abgn][bbgn][len]; k++)
+                    equal[abgn][bbgn][len] = equal[abgn][bbgn][len]   ||
+                    (equal[abgn + k][bbgn + k][len - k] && equal[abgn][bbgn][k]) ||
+                    (equal[abgn][bbgn + k][len - k] && equal[abgn+len-k][bbgn][k]);
 
+            }
+    return equal[0][0][alen];
+}
 ```
 
 **Complexity Analytics**
 
-- Time Complexity: $$O(n)$$
-- Space Complexity: $$O(1)$$
+- Time Complexity: $$O(n^4)$$
+- Space Complexity: $$O(n^3)$$

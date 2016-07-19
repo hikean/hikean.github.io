@@ -2,7 +2,7 @@
 layout: leetcode
 date: 2016-05-27
 title: Two Sum
-tags: [leetcode, algorithm]
+tags: [Array, Hash Table]
 ---
 
 * Contents
