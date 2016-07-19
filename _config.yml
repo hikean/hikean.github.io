@@ -45,7 +45,7 @@ duoshuo: hikean # imkean #
 domain_name: www.hikean.com # imkean.com #
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-80944107-1
 baidu_analytics: 1070d0b62f1c18782df0d93224c4de10 # hikean
 # 1639850239d3ee39b2df592972254ebd  # imkean
 
