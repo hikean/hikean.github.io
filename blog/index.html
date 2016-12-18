@@ -51,6 +51,7 @@ html_tail_js: ["/js/search_blog.js","/js/bootstrap.typeahead.min.js"]
                   {{ category | first }}
                   <span class="badge" > {{ category | last | size }}</span>
                 </a>
+            </li>
               <ul class="dropdown-menu">
                 {% for post in category.last %}
                   <li style="overflow: hidden;text-overflow: ellipsis;display: inline;">
@@ -64,7 +65,6 @@ html_tail_js: ["/js/search_blog.js","/js/bootstrap.typeahead.min.js"]
                   </li>
                 {% endfor %}
               </ul>
-            </li>
           	{% endfor %}
           </div>
 

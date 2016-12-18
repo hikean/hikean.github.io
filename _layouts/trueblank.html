@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include meta.html %}
+  <link rel="icon" type="image/png" href="/images/kean-logo.png">
+  <link rel="Shortcut Icon" href="/images/favicon.ico">
+  <link rel="Bookmark" href="/images/favicon.ico">
+  <title>{{ title }}</title>
+  <!-- Bootstrap core CSS -->
+
+  {% for cs in page.html_head_css %}
+  <link href="{{cs}}" rel="stylesheet">
+  {% endfor %}
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.scroll-to-top.js"></script>
+  {% if page.MathJax or true %}
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async=true> </script>
+  {% endif %}
+
+  {% for js in page.html_head_js %}
+  <script  src="{{js}}"></script>
+  {% endfor %}
+  <!--script src="/js/scroll-up-bar.min.js"></script-->
+</head>
+<body id="imbody">
+  <div class="page-main">
+      <div class="container" id="blog-body" >
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+            <!--article class="page"-->
+
+              <div class="entry">
+                {{ content }}
+              </div>
+            <!--/article-->
+          </div>
+        </div>
+      </div>
+  </div>
+  <style type="text/css">
+body#imbody{
+    padding-top: 10px;
+    font-size:16px;
+}
+div.infos{
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+</style>
+<script>
+$("img").addClass("img-responsive");
+$("table").addClass("tablesorter table table-striped");
+</script>
+
+</body>
+</html>
