@@ -5,6 +5,7 @@ date: 2016-12-18
 permalink: /bignews/
 ---
 
+本文档可以通过 [http://bignews.hikean.com/doc/](http://www.hikean.com/bignews/) 在线阅读。
 
 ## 0 项目成员
 
@@ -22,7 +23,9 @@ permalink: /bignews/
 本项目是一个基于 ElasticSearch 和 Django 框架的新闻搜索引擎，能够通过搜索关键词检索相关新闻、提示相似关键词、进行相似新闻的聚类。
 
 可以通过 [bignews.hikean.com](http://bignews.hikean.com) 访问我们的新闻检索网站。
+
 ![网站首页](/images/bignews/index.png)
+![搜索结果页](/images/bignews/search.jpg)
 
 ### 1.1 需求描述
 
@@ -53,7 +56,8 @@ permalink: /bignews/
 
 ## 2 爬取新闻数据
 这里我们使用了 scrapy 框架来做爬取网页信息，并将爬取到的数据存储到本地 MySQL 数据库。
-在本项目中共爬取了来自虎扑、腾讯、网易新闻网站上的共 196030 条数据。
+
+在本项目中共爬取了来自虎扑的新闻数据 19 万余条、搜狐的新闻数据 8 万余条、新浪的新闻数据 13 万余条，共计 40 万余条新闻数据。
 
 ### 2.1 scrapy 简介
 Scrapy是一个为了爬取网站数据，提取结构性数据而编写的应用框架。 可以应用在包括数据挖掘，信息处理或存储历史数据等一系列的程序中。
@@ -153,14 +157,10 @@ Elasticsearch  ⇒ 索引   ⇒ 类型  ⇒ 文档  ⇒ 字段(Fields)
 curl -XPUT http://elastic:password@localhost:9200/news
 ```
 
-接下来，我们要建立一个类型名称为 hupu 的映射，_mapping详细的描述了hupu类型的文档各种属性
-//TODO fulltext应该是上面说的“类型” _mapping又是什么东西？？？_mapping为hupu的定义 就像sql创建table的create语句
-//TODO 下面代码 加上每行注释
-//下面的这段 和python代码里 我对不上 看不懂python里那个create_hupu_map()为什么没有定义这些 还有set_mapping是干嘛的
-//这里只用写什么是mapping  代码里怎么建mapping的 代码没有建mapping
+接下来，我们要建立一个类型名称为 hupu 的映射（_mapping），_mapping 详细的描述了 hupu 类型的文档各种属性：
 
 ```
-curl -XPOST http://elastic:changeme@localhost:9200/news/hupu/_mapping -d'
+curl -XPOST http://elastic:password@localhost:9200/news/hupu/_mapping -d'
 {
     "hupu": {
         "_all": { // 默认全文字段，使用ik_max_word进行分词
@@ -174,8 +174,8 @@ curl -XPOST http://elastic:changeme@localhost:9200/news/hupu/_mapping -d'
                "type": "text",
                "include_in_all": "true",
                "analyzer": "ik_max_word",
-                "search_analyzer": "ik_max_word",
-                "boost": 3
+               "search_analyzer": "ik_max_word",
+               "boost": 3
            },
            "url": {
                "type": "keyword"
@@ -217,7 +217,7 @@ curl -XPOST http://elastic:changeme@localhost:9200/news/hupu/_mapping -d'
 }'
 ```
 
-接下来，我们可以向索引中导入数据：
+接下来，我们可以向索引中导入数据，连接本地的 ElasticSearch 服务，向相应索引发送插入数据请求：
 
 ```
 def test_import_data():
@@ -301,20 +301,17 @@ body = {
 
 
 ### 3.3 聚类
-carrot2是聚类插件，可以自动地将相似的文档组织起来，并且给每个文档的群组分类贴上相应的较为用户可以理解的标签。这样的聚类也可以看做是一种动态的针对每个搜索和命中结果集合的动态 facet。可以在[Carrot2 demo page](http://search.carrot2.org/stable/search?query=elasticsearch&results=200&view=foamtree)体验一下这个工具。
+
+carrot2 是一个开源搜索结果聚类引擎。本项目中用到的是在 ElasticSearch 中的 carrot2 插件，可以自动地将相似的文档组织起来，并且给每个文档的群组分类贴上相应的较为用户可以理解的标签。这样的聚类也可以看做是一种动态的针对每个搜索和命中结果集合的动态 facet。可以在[Carrot2 demo page](http://search.carrot2.org/stable/search?query=elasticsearch&results=200&view=foamtree)体验一下这个工具。
 每个需要聚类的文档有若干逻辑单元：文档标识符，原始的 URL，标题，主要的内容和语言代码。只有标识符字段是强制的，其他部分都是可选得，但是至少一个其他字段是需要指定以保证操作的合理性的。
 在 Elasticsearch 中索引的文档不需要按照任何的预设 schema 所以一个 JSON 文档的实际字段需要被映射到聚类插件要求的逻辑单元上。下面图示了一个例子：
 
 ![](/images/bignews/carrot2.png)
+
 请注意文档的两个字段被映射到 TITLE 上。这不是一个错误，任意数目的字段都可以映射到 TITLE 或者 CONTENT 上——这些字段的内容可以被连接起来用作聚类。
-逻辑单元也可以用生成的内容进行填充，例如使用 高亮 在文档的字段上。这功能可以大大降低输入给聚类算法的文档数量（提高性能），同样会让聚类的内容更加与查询相关（聚类效果更佳）。下面的 REST API 会展示字段映射的细节。
+逻辑单元也可以用生成的内容进行填充，例如使用高亮在文档的字段上。这功能可以大大降低输入给聚类算法的文档数量（提高性能），同样会让聚类的内容更加与查询相关（聚类效果更佳）。
 
-
-//TODO 那个聚类插件是啥？跟elasticsearch什么关系？咋装的？怎么用？[carrot2 readme](https://github.com/carrot2/elasticsearch-carrot2)
-//代码里size=100，是取100条数据做聚类的意思吗？yes
-//看了代码觉得这里能不能稍微讲下聚类的原理啊  [README](http://www.jianshu.com/p/0c4e310f2df0)
-
-将搜索结果返回的前 100 条做聚类，根据建立的索引，使用 lingo 算法聚类。相关代码如下：
+在本项目中，将搜索结果返回的前 100 条做聚类，根据建立的索引，使用 lingo 算法聚类。相关代码如下：
 
 ```
 def _do_cluster(keywords, algorithm="lingo", size=100, topic_count=10):
@@ -423,6 +420,7 @@ test.py: 测试相关。
 
 
 ### 4.2 autocomplete
+
 autocomplete 功能指的是在搜索框输入需要查询的关键字时，在用户输入时弹出下拉框提示用户可能想输入的候选关键字。
 
 这里我们首先需要处理出候选关键字的集合，然后在用户输入时，前端监听 change 事件，当输入框有变化时，自动发送请求到后端，后端根据用户输入的关键字，在候选关键字中进行前缀匹配，找到相匹配的权重最高的 5 条记录，然后返回给前端显示给用户。
@@ -430,7 +428,6 @@ autocomplete 功能指的是在搜索框输入需要查询的关键字时，在�
 处理候选关键词集合时，我们先用 jieba 分词处理全部新闻数据，根据词性，留下每个文档中每个句子中的名词和动词，并限制长度，组成候选关键词。处理完全部文档之后，统计所有候选关键词出现的频率，并存储相应拼音以便索引。
 
 当后端收到用户请求时，根据全拼或汉字在候选词库中进行前缀匹配，前缀相同的候选词按照频率排序，并返回前 5 条数据。
-
 
 views.py 中实现该部分功能代码如下：
 
@@ -456,6 +453,7 @@ def auto_complete(req):
 autocomplete 部分效果图如下：
 
 ![](/images/bignews/ac_py.png)
+
 ![](/images/bignews/ac_cnpy.png)
 
 
@@ -464,6 +462,8 @@ autocomplete 部分效果图如下：
 word2vec 是谷歌开源了一款基于 Deep Learning 的学习工具，word2vec（word to vector）顾名思义，这是一个将单词转换成向量形式的工具。通过转换，可以把对文本内容的处理简化为向量空间中的向量运算，计算出向量空间上的相似度，来表示文本语义上的相似度。
 
 首先，我们对爬取的新闻数据做分词，再将分词后的语料用 word2vec 进行训练，word2vec 根据语料上下文关系用深度学习的方法训练，将 word 映射到空间向量。训练完毕后得到 divided_content.bin 文件，存储的是训练语料中词的信息，使用时调用该文件，根据用户输入的关键词，计算与之余弦相似度最高的词，返回前 10 条给前端推荐给用户。
+
+但直接用 word2vec 会存在一个问题，用 word2vec 求相似关键词不支持训练出的词库里没有的词，而用户可能输入短语也可能输入句子进行查询，当用户输入的词语用 word2vec 找不到结果时。为了解决这个问题，我们将 autocomplete 中处理出来的候选词集合用 ElasticSearch 建立一个新的索引，将用户输入的关键词在新的索引中进行搜索，也就是返回与之相似度匹配最高的结果，再返回给用户。
 
 求相似关键词的例子：
 
@@ -475,20 +475,29 @@ word2vec 是谷歌开源了一款基于 Deep Learning 的学习工具，word2vec
 
 -	主页、输入关键字
 	- 地址：[http://bignews.hikean.com](http://bignews.hikean.com)
-	- 主页 ![ss](/images/bignews/index.png)
-	- 拼音自动补全![ss](/images/bignews/auto_py.png)
-	- 汉字中文混合自动补全![ss](/images/bignews/auto_cnpy.png)
+	- 主页
+
+	![ss](/images/bignews/index.png)
+
+	- 拼音自动补全
+
+	![ss](/images/bignews/auto_py.png)
+
+	- 汉字中文混合自动补全
+
+	![ss](/images/bignews/auto_cnpy.png)
 
 
 - 搜索结果、相似关键词、相似结果聚类
 - 地址：[http://bignews.hikean.com/search/?keywords=%E5%A7%9A%E6%98%8E](http://bignews.hikean.com/search/?keywords=%E5%A7%9A%E6%98%8E)
-- 截图：![](/images/bignews/search.jpg)
+
+![](/images/bignews/search_relevancy.jpg)
 
 - 按热度、时间的搜索结果
-- 地址：
-- 截图：![](/images/bignews/search_hot.jpg)
 
-//多搜几个截图，正常简短的关键词，比如 人名、地名、关键词的组合，以保证比较好的搜索结果
+![](/images/bignews/search_hot.jpg)
+
+![](/images/bignews/search_time.jpg)
 
 ## 总结
 
@@ -499,9 +508,10 @@ word2vec 是谷歌开源了一款基于 Deep Learning 的学习工具，word2vec
 	现在的互联网上常用的搜索引擎大多是根据用户搜索关键词的频率来进行排序，并推荐给用户关键词。而且还会考虑到拼音、简拼，不仅仅是简单的前缀匹配。
 	而且该功能是基于预处理好的语料库，实际在服务器上比较占资源。
 
-- 用 word2vec 求相似关键词不支持词库里没有的词
 - 聚类中心不好控制
+
+- 按时间排序采取的模糊时间的方法，使得搜索结果的相关度大大降低了
 
 ### 总结
 
-在本项目中，我们使用了目前较为流行和创新的技术和框架，包括 ElasticSearch、Django、MySQL、Scrapy、word2vec、Carrot2、Bootstrap、jieba、ik分词等，避免重复造轮子的同时，结合课本知识学习了这些技术框架的工作原理，了解了前人是如何解决文本处理、信息检索方面的问题，也认识了许多在过程中优化的方法、可以改进的地方。
+在本项目中，我们使用了目前较为流行和创新的技术和框架，包括 ElasticSearch、Django、MySQL、Scrapy、word2vec、Carrot2、Bootstrap、jieba、ik 分词等，避免重复造轮子的同时，结合课本知识学习了这些技术框架的工作原理，了解了前人是如何解决文本处理、信息检索方面的问题，也认识了许多在过程中优化的方法、可以改进的地方。
