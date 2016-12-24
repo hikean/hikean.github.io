@@ -5,6 +5,8 @@ date: 2016-12-18
 permalink: /bignews/
 ---
 
+# Bignews 新闻检索系统文档
+
 本文档可以通过 [http://www.hikean.com/bignews/](http://www.hikean.com/bignews/) 在线阅读。
 
 ## 0 项目成员
