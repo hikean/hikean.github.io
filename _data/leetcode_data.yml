@@ -2340,6 +2340,13 @@ algorithm:
     url: android-unlock-patterns
 
 
+  - id: 754
+    title: Reach a Number
+    acceptance: 25.9%
+    difficulty: Medium
+    editorial: locked
+    url: reach-a-number
+
 shell:
   - id: 0
     title: 0
