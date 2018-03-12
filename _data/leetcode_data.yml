@@ -2344,7 +2344,7 @@ algorithm:
     title: Reach a Number
     acceptance: 25.9%
     difficulty: Medium
-    editorial: locked
+    editorial: true
     url: reach-a-number
 
 shell:

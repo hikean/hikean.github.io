@@ -2,7 +2,7 @@
 layout: leetcode
 date: 2018-03-12
 title: Reach a Number
-tags: [Mark, ]
+tags: [Mark, Math]
 ---
 
 * Contents
