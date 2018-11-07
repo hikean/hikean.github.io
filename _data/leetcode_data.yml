@@ -1,1050 +1,1050 @@
-algorithm:
+algorithms:
   - id: 1
     title: Two Sum
-    acceptance: 23.8%
+    acceptance: 39.1%
     difficulty: Easy
     editorial: true
     url: two-sum
 
   - id: 2
     title: Add Two Numbers
-    acceptance: 23.4%
+    acceptance: 29.4%
     difficulty: Medium
     editorial: true
     url: add-two-numbers
 
   - id: 3
     title: Longest Substring Without Repeating Characters
-    acceptance: 22.2%
+    acceptance: 25.2%
     difficulty: Medium
     editorial: true
-    url: longest-substring-without-repeating-characters #url: longest-substring-without-repeating-characters
+    url: longest-substring-without-repeating-characters
 
   - id: 4
     title: Median of Two Sorted Arrays
-    acceptance: 18.8%
+    acceptance: 24.3%
     difficulty: Hard
     editorial: true
     url: median-of-two-sorted-arrays
 
   - id: 5
     title: Longest Palindromic Substring
-    acceptance: 23.3%
+    acceptance: 25.7%
     difficulty: Medium
     editorial: true
     url: longest-palindromic-substring
 
   - id: 6
-    title: 	ZigZag Conversion
-    acceptance: 24.2%
-    difficulty: Easy
+    title: ZigZag Conversion
+    acceptance: 29.1%
+    difficulty: Medium
     editorial: true
     url: zigzag-conversion
 
   - id: 7
     title: Reverse Integer
-    acceptance: 23.7%
+    acceptance: 24.5%
     difficulty: Easy
     editorial: true
     url: reverse-integer
 
   - id: 8
     title: String to Integer (atoi)
-    acceptance: 13.5%
-    difficulty: Easy
+    acceptance: 14.2%
+    difficulty: Medium
     editorial: true
     url: string-to-integer-atoi
 
   - id: 9
     title: Palindrome Number
-    acceptance: 32.0%
+    acceptance: 39.3%
     difficulty: Easy
     editorial: true
     url: palindrome-number
 
   - id: 10
     title: Regular Expression Matching
-    acceptance: 22.2%
+    acceptance: 24.5%
     difficulty: Hard
     editorial: true
     url: regular-expression-matching
 
   - id: 11
     title: Container With Most Water
-    acceptance: 34.8%
+    acceptance: 39.8%
     difficulty: Medium
     editorial: true
     url: container-with-most-water
 
   - id: 12
     title: Integer to Roman
-    acceptance: 39.3%
+    acceptance: 48.2%
     difficulty: Medium
     editorial: true
     url: integer-to-roman
 
   - id: 13
     title: Roman to Integer
-    acceptance: 39.9%
+    acceptance: 50.0%
     difficulty: Easy
     editorial: true
     url: roman-to-integer
 
   - id: 14
     title: Longest Common Prefix
-    acceptance: 28.4%
+    acceptance: 32.1%
     difficulty: Easy
     editorial: true
     url: longest-common-prefix
 
   - id: 15
     title: 3Sum
-    acceptance: 19.0%
+    acceptance: 22.3%
     difficulty: Medium
     editorial: true
     url: 3sum
 
   - id: 16
     title: 3Sum Closest
-    acceptance: 29.3%
+    acceptance: 32.9%
     difficulty: Medium
     editorial: true
     url: 3sum-closest
 
   - id: 17
     title: Letter Combinations of a Phone Number
-    acceptance: 29.0%
+    acceptance: 38.7%
     difficulty: Medium
     editorial: true
     url: letter-combinations-of-a-phone-number
 
   - id: 18
     title: 4Sum
-    acceptance: 24.0%
+    acceptance: 28.6%
     difficulty: Medium
     editorial: true
     url: 4sum
 
   - id: 19
     title: Remove Nth Node From End of List
-    acceptance: 29.8%
-    difficulty: Easy
+    acceptance: 33.6%
+    difficulty: Medium
     editorial: true
     url: remove-nth-node-from-end-of-list
 
   - id: 20
     title: Valid Parentheses
-    acceptance: 29.7%
+    acceptance: 34.9%
     difficulty: Easy
     editorial: true
     url: valid-parentheses
 
   - id: 21
     title: Merge Two Sorted Lists
-    acceptance: 35.7%
+    acceptance: 43.8%
     difficulty: Easy
     editorial: true
     url: merge-two-sorted-lists
 
   - id: 22
     title: Generate Parentheses
-    acceptance: 37.4%
+    acceptance: 51.0%
     difficulty: Medium
     editorial: true
     url: generate-parentheses
 
   - id: 23
     title: Merge k Sorted Lists
-    acceptance: 23.6%
+    acceptance: 31.0%
     difficulty: Hard
     editorial: true
     url: merge-k-sorted-lists
 
   - id: 24
     title: Swap Nodes in Pairs
-    acceptance: 35.5%
-    difficulty: Easy
+    acceptance: 41.4%
+    difficulty: Medium
     editorial: true
     url: swap-nodes-in-pairs
 
   - id: 25
     title: Reverse Nodes in k-Group
-    acceptance: 27.8%
+    acceptance: 33.9%
     difficulty: Hard
     editorial: true
     url: reverse-nodes-in-k-group
 
   - id: 26
     title: Remove Duplicates from Sorted Array
-    acceptance: 33.7%
+    acceptance: 38.2%
     difficulty: Easy
     editorial: true
     url: remove-duplicates-from-sorted-array
 
   - id: 27
     title: Remove Element
-    acceptance: 34.2%
+    acceptance: 42.3%
     difficulty: Easy
     editorial: true
     url: remove-element
 
   - id: 28
     title: Implement strStr()
-    acceptance: 25.1%
+    acceptance: 30.3%
     difficulty: Easy
     editorial: true
     url: implement-strstr
 
   - id: 29
     title: Divide Two Integers
-    acceptance: 15.7%
+    acceptance: 15.8%
     difficulty: Medium
     editorial: true
     url: divide-two-integers
 
   - id: 30
-    title: 	Substring with Concatenation of All Words
-    acceptance: 20.9%
+    title: Substring with Concatenation of All Words
+    acceptance: 22.5%
     difficulty: Hard
     editorial: true
     url: substring-with-concatenation-of-all-words
 
   - id: 31
     title: Next Permutation
-    acceptance: 26.7%
+    acceptance: 29.4%
     difficulty: Medium
     editorial: true
     url: next-permutation
 
   - id: 32
-    title: 	Longest Valid Parentheses
-    acceptance: 22.5%
+    title: Longest Valid Parentheses
+    acceptance: 24.1%
     difficulty: Hard
     editorial: true
     url: longest-valid-parentheses
 
   - id: 33
     title: Search in Rotated Sorted Array
-    acceptance: 30.5%
-    difficulty: Hard
+    acceptance: 32.2%
+    difficulty: Medium
     editorial: true
     url: search-in-rotated-sorted-array
 
   - id: 34
-    title: Search for a Range
-    acceptance: 29.3%
+    title: Find First and Last Position of Element in Sorted Array
+    acceptance: 32.2%
     difficulty: Medium
     editorial: true
-    url: search-for-a-range
+    url: find-first-and-last-position-of-element-in-sorted-array
 
   - id: 35
     title: Search Insert Position
-    acceptance: 37.5%
-    difficulty: Medium
+    acceptance: 40.0%
+    difficulty: Easy
     editorial: true
     url: search-insert-position
 
   - id: 36
     title: Valid Sudoku
-    acceptance: 31.0%
-    difficulty: Easy
+    acceptance: 40.0%
+    difficulty: Medium
     editorial: true
     url: valid-sudoku
 
   - id: 37
     title: Sudoku Solver
-    acceptance: 25.2%
+    acceptance: 34.0%
     difficulty: Hard
     editorial: true
     url: sudoku-solver
 
   - id: 38
     title: Count and Say
-    acceptance: 29.4%
+    acceptance: 38.2%
     difficulty: Easy
     editorial: true
     url: count-and-say
 
   - id: 39
     title: Combination Sum
-    acceptance: 31.3%
+    acceptance: 44.4%
     difficulty: Medium
     editorial: true
     url: combination-sum
 
   - id: 40
     title: Combination Sum II
-    acceptance: 27.8%
+    acceptance: 38.4%
     difficulty: Medium
     editorial: true
     url: combination-sum-ii
 
   - id: 41
     title: First Missing Positive
-    acceptance: 24.0%
+    acceptance: 27.1%
     difficulty: Hard
     editorial: true
     url: first-missing-positive
 
   - id: 42
     title: Trapping Rain Water
-    acceptance: 32.5%
+    acceptance: 39.9%
     difficulty: Hard
     editorial: true
     url: trapping-rain-water
 
   - id: 43
     title: Multiply Strings
-    acceptance: 23.7%
+    acceptance: 29.0%
     difficulty: Medium
     editorial: true
     url: multiply-strings
 
   - id: 44
     title: Wildcard Matching
-    acceptance: 17.6%
+    acceptance: 21.8%
     difficulty: Hard
     editorial: true
     url: wildcard-matching
 
   - id: 45
     title: Jump Game II
-    acceptance: 25.4%
+    acceptance: 26.5%
     difficulty: Hard
     editorial: true
     url: jump-game-ii
 
   - id: 46
     title: Permutations
-    acceptance: 36.1%
+    acceptance: 51.0%
     difficulty: Medium
     editorial: true
     url: permutations
 
   - id: 47
     title: Permutations II
-    acceptance: 28.2%
+    acceptance: 37.5%
     difficulty: Medium
     editorial: true
     url: permutations-ii
 
   - id: 48
     title: Rotate Image
-    acceptance: 34.9%
+    acceptance: 44.8%
     difficulty: Medium
     editorial: true
     url: rotate-image
 
   - id: 49
     title: Group Anagrams
-    acceptance: 27.9%
+    acceptance: 42.2%
     difficulty: Medium
-    editorial: true
-    url: anagrams
+    editorial: false
+    url: group-anagrams
 
   - id: 50
     title: Pow(x, n)
-    acceptance: 27.9%
+    acceptance: 26.8%
     difficulty: Medium
     editorial: true
     url: powx-n
 
   - id: 51
     title: N-Queens
-    acceptance: 26.1%
+    acceptance: 35.9%
     difficulty: Hard
     editorial: true
     url: n-queens
 
   - id: 52
     title: N-Queens II
-    acceptance: 39.7%
+    acceptance: 49.2%
     difficulty: Hard
     editorial: true
     url: n-queens-ii
 
   - id: 53
     title: Maximum Subarray
-    acceptance: 36.8%
-    difficulty: Medium
+    acceptance: 41.6%
+    difficulty: Easy
     editorial: true
     url: maximum-subarray
 
   - id: 54
     title: Spiral Matrix
-    acceptance: 22.7%
+    acceptance: 28.6%
     difficulty: Medium
     editorial: true
     url: spiral-matrix
 
   - id: 55
     title: Jump Game
-    acceptance: 28.4%
+    acceptance: 30.4%
     difficulty: Medium
     editorial: true
     url: jump-game
 
   - id: 56
     title: Merge Intervals
-    acceptance: 25.6%
-    difficulty: Hard
+    acceptance: 33.5%
+    difficulty: Medium
     editorial: true
     url: merge-intervals
 
   - id: 57
     title: Insert Interval
-    acceptance: 24.0%
+    acceptance: 30.0%
     difficulty: Hard
     editorial: true
     url: insert-interval
 
   - id: 58
     title: Length of Last Word
-    acceptance: 29.5%
+    acceptance: 32.0%
     difficulty: Easy
     editorial: true
     url: length-of-last-word
 
   - id: 59
     title: Spiral Matrix II
-    acceptance: 35.3%
+    acceptance: 43.7%
     difficulty: Medium
     editorial: true
     url: spiral-matrix-ii
 
   - id: 60
     title: Permutation Sequence
-    acceptance: 25.4%
+    acceptance: 31.1%
     difficulty: Medium
     editorial: true
     url: permutation-sequence
 
   - id: 61
     title: Rotate List
-    acceptance: 23.0%
+    acceptance: 25.7%
     difficulty: Medium
     editorial: true
     url: rotate-list
 
   - id: 62
     title: Unique Paths
-    acceptance: 36.6%
+    acceptance: 44.9%
     difficulty: Medium
     editorial: true
     url: unique-paths
 
   - id: 63
-    title: 	Unique Paths II
-    acceptance: 29.5%
+    title: Unique Paths II
+    acceptance: 32.8%
     difficulty: Medium
     editorial: true
     url: unique-paths-ii
 
   - id: 64
     title: Minimum Path Sum
-    acceptance: 35.1%
+    acceptance: 43.6%
     difficulty: Medium
     editorial: true
     url: minimum-path-sum
 
   - id: 65
     title: Valid Number
-    acceptance: 12.2%
+    acceptance: 13.3%
     difficulty: Hard
     editorial: true
     url: valid-number
 
   - id: 66
     title: Plus One
-    acceptance: 34.0%
+    acceptance: 40.0%
     difficulty: Easy
     editorial: true
     url: plus-one
 
   - id: 67
     title: Add Binary
-    acceptance: 27.8%
+    acceptance: 36.3%
     difficulty: Easy
     editorial: true
     url: add-binary
 
   - id: 68
     title: Text Justification
-    acceptance: 16.3%
+    acceptance: 21.4%
     difficulty: Hard
     editorial: true
     url: text-justification
 
   - id: 69
     title: Sqrt(x)
-    acceptance: 25.5%
-    difficulty: Medium
+    acceptance: 29.7%
+    difficulty: Easy
     editorial: true
     url: sqrtx
 
   - id: 70
     title: Climbing Stairs
-    acceptance: 36.9%
+    acceptance: 42.3%
     difficulty: Easy
     editorial: true
     url: climbing-stairs
 
   - id: 71
     title: Simplify Path
-    acceptance: 22.1%
+    acceptance: 27.3%
     difficulty: Medium
     editorial: true
     url: simplify-path
 
   - id: 72
     title: Edit Distance
-    acceptance: 28.8%
+    acceptance: 34.8%
     difficulty: Hard
     editorial: true
     url: edit-distance
 
   - id: 73
     title: Set Matrix Zeroes
-    acceptance: 33.6%
+    acceptance: 37.9%
     difficulty: Medium
     editorial: true
     url: set-matrix-zeroes
 
   - id: 74
     title: Search a 2D Matrix
-    acceptance: 34.0%
+    acceptance: 34.4%
     difficulty: Medium
     editorial: true
     url: search-a-2d-matrix
 
   - id: 75
     title: Sort Colors
-    acceptance: 34.9%
+    acceptance: 40.3%
     difficulty: Medium
     editorial: true
     url: sort-colors
 
   - id: 76
     title: Minimum Window Substring
-    acceptance: 21.5%
+    acceptance: 28.7%
     difficulty: Hard
     editorial: true
     url: minimum-window-substring
 
   - id: 77
     title: Combinations
-    acceptance: 34.7%
+    acceptance: 44.1%
     difficulty: Medium
     editorial: true
     url: combinations
 
   - id: 78
     title: Subsets
-    acceptance: 31.7%
+    acceptance: 48.6%
     difficulty: Medium
     editorial: true
     url: subsets
 
   - id: 79
     title: Word Search
-    acceptance: 23.2%
+    acceptance: 29.3%
     difficulty: Medium
     editorial: true
     url: word-search
 
   - id: 80
     title: Remove Duplicates from Sorted Array II
-    acceptance: 32.9%
+    acceptance: 38.5%
     difficulty: Medium
     editorial: true
     url: remove-duplicates-from-sorted-array-ii
 
   - id: 81
     title: Search in Rotated Sorted Array II
-    acceptance: 32.0%
+    acceptance: 32.4%
     difficulty: Medium
     editorial: true
     url: search-in-rotated-sorted-array-ii
 
   - id: 82
     title: Remove Duplicates from Sorted List II
-    acceptance: 27.1%
+    acceptance: 31.3%
     difficulty: Medium
     editorial: true
     url: remove-duplicates-from-sorted-list-ii
 
   - id: 83
     title: Remove Duplicates from Sorted List
-    acceptance: 37.0%
+    acceptance: 41.1%
     difficulty: Easy
-    editorial: true
+    editorial: false
     url: remove-duplicates-from-sorted-list
 
   - id: 84
     title: Largest Rectangle in Histogram
-    acceptance: 24.3%
+    acceptance: 29.1%
     difficulty: Hard
     editorial: true
     url: largest-rectangle-in-histogram
 
   - id: 85
     title: Maximal Rectangle
-    acceptance: 23.7%
+    acceptance: 31.2%
     difficulty: Hard
     editorial: true
     url: maximal-rectangle
 
   - id: 86
     title: Partition List
-    acceptance: 29.7%
+    acceptance: 35.1%
     difficulty: Medium
     editorial: true
     url: partition-list
 
   - id: 87
     title: Scramble String
-    acceptance: 26.7%
+    acceptance: 30.5%
     difficulty: Hard
     editorial: true
     url: scramble-string
 
   - id: 88
     title: Merge Sorted Array
-    acceptance: 30.2%
+    acceptance: 33.7%
     difficulty: Easy
     editorial: true
     url: merge-sorted-array
 
   - id: 89
     title: Gray Code
-    acceptance: 36.7%
+    acceptance: 44.0%
     difficulty: Medium
     editorial: true
     url: gray-code
 
   - id: 90
     title: Subsets II
-    acceptance: 30.8%
+    acceptance: 40.2%
     difficulty: Medium
     editorial: true
     url: subsets-ii
 
   - id: 91
     title: Decode Ways
-    acceptance: 17.7%
+    acceptance: 21.2%
     difficulty: Medium
     editorial: true
     url: decode-ways
 
   - id: 92
     title: Reverse Linked List II
-    acceptance: 28.1%
+    acceptance: 32.9%
     difficulty: Medium
     editorial: true
     url: reverse-linked-list-ii
 
   - id: 93
     title: Restore IP Addresses
-    acceptance: 23.7%
+    acceptance: 29.7%
     difficulty: Medium
     editorial: true
     url: restore-ip-addresses
 
   - id: 94
     title: Binary Tree Inorder Traversal
-    acceptance: 40.0%
+    acceptance: 53.0%
     difficulty: Medium
     editorial: true
     url: binary-tree-inorder-traversal
 
   - id: 95
     title: Unique Binary Search Trees II
-    acceptance: 29.1%
+    acceptance: 33.6%
     difficulty: Medium
     editorial: true
     url: unique-binary-search-trees-ii
 
   - id: 96
     title: Unique Binary Search Trees
-    acceptance: 37.7%
+    acceptance: 43.7%
     difficulty: Medium
     editorial: true
     url: unique-binary-search-trees
 
   - id: 97
     title: Interleaving String
-    acceptance: 22.6%
+    acceptance: 26.3%
     difficulty: Hard
     editorial: true
     url: interleaving-string
 
   - id: 98
     title: Validate Binary Search Tree
-    acceptance: 21.1%
+    acceptance: 24.6%
     difficulty: Medium
     editorial: true
     url: validate-binary-search-tree
 
   - id: 99
     title: Recover Binary Search Tree
-    acceptance: 26.7%
+    acceptance: 32.8%
     difficulty: Hard
     editorial: true
     url: recover-binary-search-tree
 
   - id: 100
     title: Same Tree
-    acceptance: 43.5%
+    acceptance: 48.7%
     difficulty: Easy
     editorial: true
     url: same-tree
 
   - id: 101
     title: Symmetric Tree
-    acceptance: 34.1%
+    acceptance: 41.7%
     difficulty: Easy
     editorial: true
     url: symmetric-tree
 
   - id: 102
     title: Binary Tree Level Order Traversal
-    acceptance: 33.1%
-    difficulty: Easy
+    acceptance: 45.3%
+    difficulty: Medium
     editorial: true
     url: binary-tree-level-order-traversal
 
   - id: 103
     title: Binary Tree Zigzag Level Order Traversal
-    acceptance: 28.9%
+    acceptance: 38.9%
     difficulty: Medium
     editorial: true
     url: binary-tree-zigzag-level-order-traversal
 
   - id: 104
     title: Maximum Depth of Binary Tree
-    acceptance: 48.1%
+    acceptance: 57.5%
     difficulty: Easy
     editorial: true
     url: maximum-depth-of-binary-tree
 
   - id: 105
     title: Construct Binary Tree from Preorder and Inorder Traversal
-    acceptance: 28.9%
+    acceptance: 37.5%
     difficulty: Medium
     editorial: true
     url: construct-binary-tree-from-preorder-and-inorder-traversal
 
   - id: 106
     title: Construct Binary Tree from Inorder and Postorder Traversal
-    acceptance: 29.2%
+    acceptance: 36.4%
     difficulty: Medium
     editorial: true
     url: construct-binary-tree-from-inorder-and-postorder-traversal
 
   - id: 107
     title: Binary Tree Level Order Traversal II
-    acceptance: 34.2%
+    acceptance: 44.2%
     difficulty: Easy
     editorial: true
     url: binary-tree-level-order-traversal-ii
 
   - id: 108
     title: Convert Sorted Array to Binary Search Tree
-    acceptance: 37.4%
-    difficulty: Medium
+    acceptance: 47.3%
+    difficulty: Easy
     editorial: true
     url: convert-sorted-array-to-binary-search-tree
 
   - id: 109
     title: Convert Sorted List to Binary Search Tree
-    acceptance: 30.7%
+    acceptance: 38.0%
     difficulty: Medium
     editorial: true
     url: convert-sorted-list-to-binary-search-tree
 
   - id: 110
     title: Balanced Binary Tree
-    acceptance: 34.2%
+    acceptance: 39.5%
     difficulty: Easy
     editorial: true
     url: balanced-binary-tree
 
   - id: 111
     title: Minimum Depth of Binary Tree
-    acceptance: 30.8%
+    acceptance: 34.3%
     difficulty: Easy
     editorial: true
     url: minimum-depth-of-binary-tree
 
   - id: 112
     title: Path Sum
-    acceptance: 31.5%
+    acceptance: 36.1%
     difficulty: Easy
     editorial: true
     url: path-sum
 
   - id: 113
     title: Path Sum II
-    acceptance: 28.5%
+    acceptance: 38.0%
     difficulty: Medium
     editorial: true
     url: path-sum-ii
 
   - id: 114
     title: Flatten Binary Tree to Linked List
-    acceptance: 31.3%
+    acceptance: 39.3%
     difficulty: Medium
     editorial: true
     url: flatten-binary-tree-to-linked-list
 
   - id: 115
     title: Distinct Subsequences
-    acceptance: 29.0%
+    acceptance: 33.6%
     difficulty: Hard
     editorial: true
     url: distinct-subsequences
 
   - id: 116
     title: Populating Next Right Pointers in Each Node
-    acceptance: 36.6%
+    acceptance: 36.5%
     difficulty: Medium
     editorial: true
     url: populating-next-right-pointers-in-each-node
 
   - id: 117
     title: Populating Next Right Pointers in Each Node II
-    acceptance: 32.8%
-    difficulty: Hard
+    acceptance: 33.4%
+    difficulty: Medium
     editorial: true
     url: populating-next-right-pointers-in-each-node-ii
 
   - id: 118
     title: Pascal's Triangle
-    acceptance: 33.7%
+    acceptance: 42.7%
     difficulty: Easy
     editorial: true
     url: pascals-triangle
 
   - id: 119
     title: Pascal's Triangle II
-    acceptance: 32.6%
+    acceptance: 40.4%
     difficulty: Easy
     editorial: true
     url: pascals-triangle-ii
 
   - id: 120
     title: Triangle
-    acceptance: 30.4%
+    acceptance: 37.0%
     difficulty: Medium
     editorial: true
     url: triangle
 
   - id: 121
     title: Best Time to Buy and Sell Stock
-    acceptance: 36.3%
+    acceptance: 44.8%
     difficulty: Easy
     editorial: true
     url: best-time-to-buy-and-sell-stock
 
   - id: 122
     title: Best Time to Buy and Sell Stock II
-    acceptance: 42.7%
-    difficulty: Medium
+    acceptance: 49.6%
+    difficulty: Easy
     editorial: true
     url: best-time-to-buy-and-sell-stock-ii
 
   - id: 123
     title: Best Time to Buy and Sell Stock III
-    acceptance: 26.5%
+    acceptance: 31.9%
     difficulty: Hard
     editorial: true
     url: best-time-to-buy-and-sell-stock-iii
 
   - id: 124
     title: Binary Tree Maximum Path Sum
-    acceptance: 23.5%
+    acceptance: 28.3%
     difficulty: Hard
     editorial: true
     url: binary-tree-maximum-path-sum
 
   - id: 125
     title: Valid Palindrome
-    acceptance: 24.0%
+    acceptance: 29.0%
     difficulty: Easy
     editorial: true
     url: valid-palindrome
 
   - id: 126
     title: Word Ladder II
-    acceptance: 13.7%
+    acceptance: 16.0%
     difficulty: Hard
     editorial: true
     url: word-ladder-ii
 
   - id: 127
     title: Word Ladder
-    acceptance: 19.7%
+    acceptance: 21.6%
     difficulty: Medium
     editorial: true
     url: word-ladder
 
   - id: 128
     title: Longest Consecutive Sequence
-    acceptance: 32.5%
+    acceptance: 39.7%
     difficulty: Hard
     editorial: true
     url: longest-consecutive-sequence
 
   - id: 129
     title: Sum Root to Leaf Numbers
-    acceptance: 32.9%
+    acceptance: 39.9%
     difficulty: Medium
     editorial: true
     url: sum-root-to-leaf-numbers
 
   - id: 130
     title: Surrounded Regions
-    acceptance: 16.2%
+    acceptance: 21.1%
     difficulty: Medium
     editorial: true
     url: surrounded-regions
 
   - id: 131
     title: Palindrome Partitioning
-    acceptance: 27.7%
+    acceptance: 38.0%
     difficulty: Medium
     editorial: true
     url: palindrome-partitioning
 
   - id: 132
     title: Palindrome Partitioning II
-    acceptance: 21.9%
+    acceptance: 26.0%
     difficulty: Hard
     editorial: true
     url: palindrome-partitioning-ii
 
   - id: 133
     title: Clone Graph
-    acceptance: 24.9%
+    acceptance: 25.1%
     difficulty: Medium
     editorial: true
     url: clone-graph
 
   - id: 134
     title: Gas Station
-    acceptance: 27.5%
+    acceptance: 31.8%
     difficulty: Medium
     editorial: true
     url: gas-station
 
   - id: 135
     title: Candy
-    acceptance: 22.6%
+    acceptance: 26.6%
     difficulty: Hard
     editorial: true
     url: candy
 
   - id: 136
     title: Single Number
-    acceptance: 50.1%
-    difficulty: Medium
+    acceptance: 57.5%
+    difficulty: Easy
     editorial: true
     url: single-number
 
   - id: 137
     title: Single Number II
-    acceptance: 37.9%
+    acceptance: 44.1%
     difficulty: Medium
     editorial: true
     url: single-number-ii
 
   - id: 138
     title: Copy List with Random Pointer
-    acceptance: 26.1%
-    difficulty: Hard
+    acceptance: 25.6%
+    difficulty: Medium
     editorial: true
     url: copy-list-with-random-pointer
 
   - id: 139
     title: Word Break
-    acceptance: 25.6%
+    acceptance: 33.0%
     difficulty: Medium
     editorial: true
     url: word-break
 
   - id: 140
     title: Word Break II
-    acceptance: 20.0%
+    acceptance: 25.7%
     difficulty: Hard
     editorial: true
     url: word-break-ii
 
   - id: 141
     title: Linked List Cycle
-    acceptance: 36.7%
+    acceptance: 34.6%
     difficulty: Easy
     editorial: true
     url: linked-list-cycle
 
   - id: 142
     title: Linked List Cycle II
-    acceptance: 31.4%
+    acceptance: 29.9%
     difficulty: Medium
     editorial: true
     url: linked-list-cycle-ii
 
   - id: 143
     title: Reorder List
-    acceptance: 23.0%
+    acceptance: 28.6%
     difficulty: Medium
     editorial: true
     url: reorder-list
 
   - id: 144
     title: Binary Tree Preorder Traversal
-    acceptance: 40.2%
+    acceptance: 49.0%
     difficulty: Medium
     editorial: true
     url: binary-tree-preorder-traversal
 
   - id: 145
     title: Binary Tree Postorder Traversal
-    acceptance: 35.8%
+    acceptance: 45.1%
     difficulty: Hard
     editorial: true
     url: binary-tree-postorder-traversal
 
   - id: 146
     title: LRU Cache
-    acceptance: 15.8%
+    acceptance: 22.1%
     difficulty: Hard
     editorial: true
     url: lru-cache
 
   - id: 147
     title: Insertion Sort List
-    acceptance: 29.6%
+    acceptance: 35.4%
     difficulty: Medium
     editorial: true
     url: insertion-sort-list
 
   - id: 148
     title: Sort List
-    acceptance: 25.1%
+    acceptance: 32.3%
     difficulty: Medium
     editorial: true
     url: sort-list
 
   - id: 149
     title: Max Points on a Line
-    acceptance: 14.4%
+    acceptance: 15.3%
     difficulty: Hard
     editorial: true
     url: max-points-on-a-line
 
   - id: 150
     title: Evaluate Reverse Polish Notation
-    acceptance: 23.8%
+    acceptance: 30.2%
     difficulty: Medium
     editorial: true
     url: evaluate-reverse-polish-notation
@@ -1058,756 +1058,756 @@ algorithm:
 
   - id: 152
     title: Maximum Product Subarray
-    acceptance: 22.4%
+    acceptance: 27.8%
     difficulty: Medium
     editorial: true
     url: maximum-product-subarray
 
   - id: 153
     title: Find Minimum in Rotated Sorted Array
-    acceptance: 36.5%
+    acceptance: 41.8%
     difficulty: Medium
     editorial: true
     url: find-minimum-in-rotated-sorted-array
 
   - id: 154
     title: Find Minimum in Rotated Sorted Array II
-    acceptance: 34.5%
+    acceptance: 38.5%
     difficulty: Hard
     editorial: true
     url: find-minimum-in-rotated-sorted-array-ii
 
   - id: 155
     title: Min Stack
-    acceptance: 22.6%
+    acceptance: 33.8%
     difficulty: Easy
     editorial: true
     url: min-stack
 
   - id: 156
     title: Binary Tree Upside Down
-    acceptance: 38.6%
+    acceptance: 48.3%
     difficulty: Medium
     editorial: locked
     url: binary-tree-upside-down
 
   - id: 157
     title: Read N Characters Given Read4
-    acceptance: 29.4%
+    acceptance: 28.0%
     difficulty: Easy
     editorial: locked
     url: read-n-characters-given-read4
 
   - id: 158
     title: Read N Characters Given Read4 II - Call multiple times
-    acceptance: 23.5%
+    acceptance: 24.3%
     difficulty: Hard
     editorial: locked
     url: read-n-characters-given-read4-ii-call-multiple-times
 
   - id: 159
-    title: 	Longest Substring with At Most Two Distinct Characters
-    acceptance: 35.3%
+    title: Longest Substring with At Most Two Distinct Characters
+    acceptance: 44.3%
     difficulty: Hard
     editorial: locked
     url: longest-substring-with-at-most-two-distinct-characters
 
   - id: 160
     title: Intersection of Two Linked Lists
-    acceptance: 30.4%
+    acceptance: 30.8%
     difficulty: Easy
     editorial: true
     url: intersection-of-two-linked-lists
 
   - id: 161
     title: One Edit Distance
-    acceptance: 28.6%
+    acceptance: 31.3%
     difficulty: Medium
     editorial: locked
     url: one-edit-distance
 
   - id: 162
     title: Find Peak Element
-    acceptance: 33.0%
+    acceptance: 40.0%
     difficulty: Medium
     editorial: true
     url: find-peak-element
 
   - id: 163
     title: Missing Ranges
-    acceptance: 29.5%
+    acceptance: 22.8%
     difficulty: Medium
     editorial: locked
     url: missing-ranges
 
   - id: 164
     title: Maximum Gap
-    acceptance: 26.9%
+    acceptance: 31.1%
     difficulty: Hard
     editorial: true
     url: maximum-gap
 
   - id: 165
     title: Compare Version Numbers
-    acceptance: 17.7%
-    difficulty: Easy
+    acceptance: 21.8%
+    difficulty: Medium
     editorial: true
     url: compare-version-numbers
 
   - id: 166
     title: Fraction to Recurring Decimal
-    acceptance: 15.3%
+    acceptance: 18.7%
     difficulty: Medium
     editorial: true
     url: fraction-to-recurring-decimal
 
   - id: 167
     title: Two Sum II - Input array is sorted
-    acceptance: 48.2%
-    difficulty: Medium
-    editorial: locked
+    acceptance: 47.9%
+    difficulty: Easy
+    editorial: false
     url: two-sum-ii-input-array-is-sorted
 
   - id: 168
     title: Excel Sheet Column Title
-    acceptance: 22.0%
+    acceptance: 28.1%
     difficulty: Easy
     editorial: true
     url: excel-sheet-column-title
 
   - id: 169
     title: Majority Element
-    acceptance: 41.7%
+    acceptance: 50.0%
     difficulty: Easy
     editorial: true
     url: majority-element
 
   - id: 170
     title: Two Sum III - Data structure design
-    acceptance: 23.9%
+    acceptance: 28.3%
     difficulty: Easy
     editorial: locked
     url: two-sum-iii-data-structure-design
 
   - id: 171
     title: Excel Sheet Column Number
-    acceptance: 42.1%
+    acceptance: 50.0%
     difficulty: Easy
     editorial: true
     url: excel-sheet-column-number
 
   - id: 172
-    title: 	Factorial Trailing Zeroes
-    acceptance: 33.0%
+    title: Factorial Trailing Zeroes
+    acceptance: 36.9%
     difficulty: Easy
     editorial: true
     url: factorial-trailing-zeroes
 
   - id: 173
     title: Binary Search Tree Iterator
-    acceptance: 35.0%
+    acceptance: 45.0%
     difficulty: Medium
     editorial: true
     url: binary-search-tree-iterator
 
   - id: 174
     title: Dungeon Game
-    acceptance: 21.0%
+    acceptance: 25.5%
     difficulty: Hard
     editorial: false
     url: dungeon-game
 
   - id: 179
     title: Largest Number
-    acceptance: 19.3%
+    acceptance: 24.5%
     difficulty: Medium
     editorial: true
     url: largest-number
 
   - id: 186
     title: Reverse Words in a String II
-    acceptance: 29.0%
+    acceptance: 34.2%
     difficulty: Medium
     editorial: locked
     url: reverse-words-in-a-string-ii
 
   - id: 187
     title: Repeated DNA Sequences
-    acceptance: 25.8%
+    acceptance: 34.4%
     difficulty: Medium
     editorial: true
     url: repeated-dna-sequences
 
   - id: 188
     title: Best Time to Buy and Sell Stock IV
-    acceptance: 22.5%
+    acceptance: 25.4%
     difficulty: Hard
     editorial: true
     url: best-time-to-buy-and-sell-stock-iv
 
   - id: 189
     title: Rotate Array
-    acceptance: 21.5%
+    acceptance: 27.4%
     difficulty: Easy
     editorial: true
     url: rotate-array
 
   - id: 190
     title: Reverse Bits
-    acceptance: 29.3%
+    acceptance: 29.2%
     difficulty: Easy
     editorial: true
     url: reverse-bits
 
   - id: 191
     title: Number of 1 Bits
-    acceptance: 37.5%
+    acceptance: 40.9%
     difficulty: Easy
     editorial: true
     url: number-of-1-bits
 
   - id: 198
     title: House Robber
-    acceptance: 34.7%
+    acceptance: 40.4%
     difficulty: Easy
     editorial: true
     url: house-robber
 
   - id: 199
     title: Binary Tree Right Side View
-    acceptance: 35.0%
+    acceptance: 45.0%
     difficulty: Medium
     editorial: true
     url: binary-tree-right-side-view
 
   - id: 200
     title: Number of Islands
-    acceptance: 28.0%
+    acceptance: 38.5%
     difficulty: Medium
     editorial: true
     url: number-of-islands
 
   - id: 201
     title: Bitwise AND of Numbers Range
-    acceptance: 30.7%
+    acceptance: 35.0%
     difficulty: Medium
     editorial: true
     url: bitwise-and-of-numbers-range
 
   - id: 202
     title: Happy Number
-    acceptance: 36.9%
+    acceptance: 43.1%
     difficulty: Easy
     editorial: true
     url: happy-number
 
   - id: 203
     title: Remove Linked List Elements
-    acceptance: 29.0%
+    acceptance: 34.5%
     difficulty: Easy
     editorial: true
     url: remove-linked-list-elements
 
   - id: 204
     title: Count Primes
-    acceptance: 24.7%
+    acceptance: 27.3%
     difficulty: Easy
     editorial: true
     url: count-primes
 
   - id: 205
     title: Isomorphic Strings
-    acceptance: 30.0%
+    acceptance: 35.8%
     difficulty: Easy
     editorial: true
     url: isomorphic-strings
 
   - id: 206
     title: Reverse Linked List
-    acceptance: 40.0%
+    acceptance: 50.3%
     difficulty: Easy
     editorial: true
     url: reverse-linked-list
 
   - id: 207
     title: Course Schedule
-    acceptance: 27.3%
+    acceptance: 35.3%
     difficulty: Medium
     editorial: true
     url: course-schedule
 
   - id: 208
     title: Implement Trie (Prefix Tree)
-    acceptance: 25.3%
+    acceptance: 34.5%
     difficulty: Medium
     editorial: true
     url: implement-trie-prefix-tree
 
   - id: 209
     title: Minimum Size Subarray Sum
-    acceptance: 27.2%
+    acceptance: 33.4%
     difficulty: Medium
     editorial: true
     url: minimum-size-subarray-sum
 
   - id: 210
     title: Course Schedule II
-    acceptance: 21.0%
+    acceptance: 32.2%
     difficulty: Medium
     editorial: true
     url: course-schedule-ii
 
   - id: 211
     title: Add and Search Word - Data structure design
-    acceptance: 20.2%
+    acceptance: 27.6%
     difficulty: Medium
     editorial: true
     url: add-and-search-word-data-structure-design
 
   - id: 212
     title: Word Search II
-    acceptance: 19.8%
+    acceptance: 26.3%
     difficulty: Hard
     editorial: false
     url: word-search-ii
 
   - id: 213
     title: House Robber II
-    acceptance: 31.0%
+    acceptance: 34.7%
     difficulty: Medium
     editorial: true
     url: house-robber-ii
 
   - id: 214
     title: Shortest Palindrome
-    acceptance: 20.0%
+    acceptance: 26.2%
     difficulty: Hard
     editorial: true
     url: shortest-palindrome
 
   - id: 215
     title: Kth Largest Element in an Array
-    acceptance: 33.7%
+    acceptance: 43.7%
     difficulty: Medium
     editorial: true
     url: kth-largest-element-in-an-array
 
   - id: 216
     title: Combination Sum III
-    acceptance: 36.3%
+    acceptance: 49.1%
     difficulty: Medium
     editorial: true
     url: combination-sum-iii
 
   - id: 217
     title: Contains Duplicate
-    acceptance: 41.6%
+    acceptance: 49.3%
     difficulty: Easy
     editorial: true
     url: contains-duplicate
 
   - id: 218
     title: The Skyline Problem
-    acceptance: 22.7%
+    acceptance: 30.1%
     difficulty: Hard
     editorial: false
     url: the-skyline-problem
 
   - id: 219
     title: Contains Duplicate II
-    acceptance: 30.2%
+    acceptance: 33.9%
     difficulty: Easy
     editorial: true
     url: contains-duplicate-ii
 
   - id: 220
     title: Contains Duplicate III
-    acceptance: 18.7%
+    acceptance: 19.0%
     difficulty: Medium
     editorial: true
     url: contains-duplicate-iii
 
   - id: 221
     title: Maximal Square
-    acceptance: 23.8%
+    acceptance: 31.4%
     difficulty: Medium
     editorial: true
     url: maximal-square
 
   - id: 222
     title: Count Complete Tree Nodes
-    acceptance: 25.3%
+    acceptance: 29.1%
     difficulty: Medium
     editorial: true
     url: count-complete-tree-nodes
 
   - id: 223
     title: Rectangle Area
-    acceptance: 30.1%
-    difficulty: Easy
+    acceptance: 34.9%
+    difficulty: Medium
     editorial: true
     url: rectangle-area
 
   - id: 224
     title: Basic Calculator
-    acceptance: 22.6%
+    acceptance: 30.4%
     difficulty: Hard
     editorial: true
     url: basic-calculator
 
   - id: 225
     title: Implement Stack using Queues
-    acceptance: 30.6%
+    acceptance: 36.4%
     difficulty: Easy
     editorial: true
     url: implement-stack-using-queues
 
   - id: 226
     title: Invert Binary Tree
-    acceptance: 46.0%
+    acceptance: 55.6%
     difficulty: Easy
     editorial: true
     url: invert-binary-tree
 
   - id: 227
     title: Basic Calculator II
-    acceptance: 25.4%
+    acceptance: 31.6%
     difficulty: Medium
     editorial: true
     url: basic-calculator-ii
 
   - id: 228
     title: Summary Ranges
-    acceptance: 24.6%
+    acceptance: 34.0%
     difficulty: Medium
-    editorial: true
+    editorial: false
     url: summary-ranges
 
   - id: 229
     title: Majority Element II
-    acceptance: 25.8%
+    acceptance: 30.5%
     difficulty: Medium
-    editorial: true
+    editorial: false
     url: majority-element-ii
 
   - id: 230
     title: Kth Smallest Element in a BST
-    acceptance: 38.2%
+    acceptance: 48.1%
     difficulty: Medium
-    editorial: true
+    editorial: false
     url: kth-smallest-element-in-a-bst
 
   - id: 231
     title: Power of Two
-    acceptance: 37.1%
+    acceptance: 41.2%
     difficulty: Easy
     editorial: true
     url: power-of-two
 
   - id: 232
     title: Implement Queue using Stacks
-    acceptance: 34.1%
+    acceptance: 40.3%
     difficulty: Easy
     editorial: true
     url: implement-queue-using-stacks
 
   - id: 233
     title: Number of Digit One
-    acceptance: 24.9%
+    acceptance: 29.4%
     difficulty: Hard
     editorial: false
     url: number-of-digit-one
 
   - id: 234
     title: Palindrome Linked List
-    acceptance: 28.5%
+    acceptance: 34.4%
     difficulty: Easy
     editorial: true
     url: palindrome-linked-list
 
   - id: 235
     title: Lowest Common Ancestor of a Binary Search Tree
-    acceptance: 37.6%
+    acceptance: 41.9%
     difficulty: Easy
     editorial: true
     url: lowest-common-ancestor-of-a-binary-search-tree
 
   - id: 236
     title: Lowest Common Ancestor of a Binary Tree
-    acceptance: 28.7%
+    acceptance: 33.0%
     difficulty: Medium
     editorial: true
     url: lowest-common-ancestor-of-a-binary-tree
 
   - id: 237
     title: Delete Node in a Linked List
-    acceptance: 43.9%
+    acceptance: 50.0%
     difficulty: Easy
     editorial: true
     url: delete-node-in-a-linked-list
 
   - id: 238
     title: Product of Array Except Self
-    acceptance: 43.2%
-    difficulty: Hard
+    acceptance: 52.3%
+    difficulty: Medium
     editorial: true
     url: product-of-array-except-self
 
   - id: 239
     title: Sliding Window Maximum
-    acceptance: 27.8%
+    acceptance: 35.8%
     difficulty: Hard
     editorial: true
     url: sliding-window-maximum
 
   - id: 240
     title: Search a 2D Matrix II
-    acceptance: 34.7%
+    acceptance: 39.5%
     difficulty: Medium
     editorial: true
     url: search-a-2d-matrix-ii
 
   - id: 241
     title: Different Ways to Add Parentheses
-    acceptance: 35.6%
+    acceptance: 47.8%
     difficulty: Medium
     editorial: true
     url: different-ways-to-add-parentheses
 
   - id: 242
     title: Valid Anagram
-    acceptance: 42.2%
+    acceptance: 49.4%
     difficulty: Easy
     editorial: true
     url: valid-anagram
 
   - id: 243
     title: Shortest Word Distance
-    acceptance: 46.8%
+    acceptance: 55.1%
     difficulty: Easy
     editorial: locked
     url: shortest-word-distance
 
   - id: 244
     title: Shortest Word Distance II
-    acceptance: 35.4%
+    acceptance: 44.0%
     difficulty: Medium
     editorial: locked
     url: shortest-word-distance-ii
 
   - id: 245
     title: Shortest Word Distance III
-    acceptance: 46.4%
+    acceptance: 52.1%
     difficulty: Medium
     editorial: locked
     url: shortest-word-distance-iii
 
   - id: 246
     title: Strobogrammatic Number
-    acceptance: 36.7%
+    acceptance: 41.0%
     difficulty: Easy
     editorial: locked
     url: strobogrammatic-number
 
   - id: 247
     title: Strobogrammatic Number II
-    acceptance: 34.5%
+    acceptance: 42.4%
     difficulty: Medium
     editorial: locked
     url: strobogrammatic-number-ii
 
   - id: 248
     title: Strobogrammatic Number III
-    acceptance: 27.2%
+    acceptance: 34.0%
     difficulty: Hard
     editorial: locked
     url: strobogrammatic-number-iii
 
   - id: 249
     title: Group Shifted Strings
-    acceptance: 31.7%
-    difficulty: Easy
+    acceptance: 46.7%
+    difficulty: Medium
     editorial: locked
     url: group-shifted-strings
 
   - id: 250
-    title: 	Count Univalue Subtrees
-    acceptance: 36.8%
+    title: Count Univalue Subtrees
+    acceptance: 46.2%
     difficulty: Medium
     editorial: locked
     url: count-univalue-subtrees
 
   - id: 251
     title: Flatten 2D Vector
-    acceptance: 34.4%
+    acceptance: 42.5%
     difficulty: Medium
     editorial: locked
     url: flatten-2d-vector
 
   - id: 252
     title: Meeting Rooms
-    acceptance: 41.9%
+    acceptance: 50.2%
     difficulty: Easy
     editorial: locked
     url: meeting-rooms
 
   - id: 253
     title: Meeting Rooms II
-    acceptance: 34.9%
+    acceptance: 40.6%
     difficulty: Medium
     editorial: locked
     url: meeting-rooms-ii
 
   - id: 254
     title: Factor Combinations
-    acceptance: 35.1%
+    acceptance: 43.7%
     difficulty: Medium
     editorial: locked
     url: factor-combinations
 
   - id: 255
     title: Verify Preorder Sequence in Binary Search Tree
-    acceptance: 37.4%
+    acceptance: 42.0%
     difficulty: Medium
     editorial: locked
     url: verify-preorder-sequence-in-binary-search-tree
 
   - id: 256
     title: Paint House
-    acceptance: 43.0%
-    difficulty: Medium
+    acceptance: 47.3%
+    difficulty: Easy
     editorial: locked
     url: paint-house
 
   - id: 257
     title: Binary Tree Paths
-    acceptance: 29.0%
+    acceptance: 43.6%
     difficulty: Easy
     editorial: true
     url: binary-tree-paths
 
   - id: 258
     title: Add Digits
-    acceptance: 48.7%
+    acceptance: 52.9%
     difficulty: Easy
     editorial: true
     url: add-digits
 
   - id: 259
     title: 3Sum Smaller
-    acceptance: 38.4%
+    acceptance: 43.4%
     difficulty: Medium
     editorial: locked
     url: 3sum-smaller
 
   - id: 260
     title: Single Number III
-    acceptance: 44.3%
+    acceptance: 55.0%
     difficulty: Medium
     editorial: true
     url: single-number-iii
 
   - id: 261
     title: Graph Valid Tree
-    acceptance: 37.0%
+    acceptance: 39.0%
     difficulty: Medium
     editorial: locked
     url: graph-valid-tree
 
   - id: 263
     title: Ugly Number
-    acceptance: 37.0%
+    acceptance: 40.1%
     difficulty: Easy
     editorial: true
     url: ugly-number
 
   - id: 264
     title: Ugly Number II
-    acceptance: 28.6%
+    acceptance: 34.5%
     difficulty: Medium
     editorial: true
     url: ugly-number-ii
 
   - id: 265
-    title: 	Paint House II
-    acceptance: 35.7%
+    title: Paint House II
+    acceptance: 39.8%
     difficulty: Hard
     editorial: locked
     url: paint-house-ii
 
   - id: 266
     title: Palindrome Permutation
-    acceptance: 50.8%
+    acceptance: 58.9%
     difficulty: Easy
     editorial: locked
     url: palindrome-permutation
 
   - id: 267
     title: Palindrome Permutation II
-    acceptance: 28.0%
+    acceptance: 32.6%
     difficulty: Medium
     editorial: locked
     url: palindrome-permutation-ii
 
   - id: 268
     title: Missing Number
-    acceptance: 40.5%
-    difficulty: Medium
+    acceptance: 46.4%
+    difficulty: Easy
     editorial: true
     url: missing-number
 
   - id: 269
     title: Alien Dictionary
-    acceptance: 23.3%
+    acceptance: 28.4%
     difficulty: Hard
     editorial: locked
     url: alien-dictionary
 
   - id: 270
     title: Closest Binary Search Tree Value
-    acceptance: 34.6%
+    acceptance: 42.0%
     difficulty: Easy
     editorial: locked
     url: closest-binary-search-tree-value
 
   - id: 271
     title: Encode and Decode Strings
-    acceptance: 27.2%
+    acceptance: 25.8%
     difficulty: Medium
     editorial: locked
     url: encode-and-decode-strings
 
   - id: 272
     title: Closest Binary Search Tree Value II
-    acceptance: 33.8%
+    acceptance: 42.4%
     difficulty: Hard
     editorial: locked
     url: closest-binary-search-tree-value-ii
 
   - id: 273
     title: Integer to English Words
-    acceptance: 18.9%
+    acceptance: 23.3%
     difficulty: Hard
     editorial: true
     url: integer-to-english-words
 
   - id: 274
     title: H-Index
-    acceptance: 29.7%
+    acceptance: 34.2%
     difficulty: Medium
     editorial: true
     url: h-index
 
   - id: 275
     title: H-Index II
-    acceptance: 32.7%
+    acceptance: 35.0%
     difficulty: Medium
     editorial: true
     url: h-index-ii
 
   - id: 276
     title: Paint Fence
-    acceptance: 31.1%
+    acceptance: 35.6%
     difficulty: Easy
     editorial: locked
     url: paint-fence
@@ -1820,546 +1820,4362 @@ algorithm:
     url: find-the-celebrity
 
   - id: 278
-    title:  First Bad Version
-    acceptance: 22.6%
+    title: First Bad Version
+    acceptance: 27.6%
     difficulty: Easy
     editorial: true
     url: first-bad-version
 
   - id: 279
     title: Perfect Squares
-    acceptance: 33.0%
+    acceptance: 39.1%
     difficulty: Medium
     editorial: true
     url: perfect-squares
 
   - id: 280
     title: Wiggle Sort
-    acceptance: 49.8%
+    acceptance: 59.7%
     difficulty: Medium
     editorial: locked
     url: wiggle-sort
 
   - id: 281
     title: Zigzag Iterator
-    acceptance: 43.5%
+    acceptance: 54.4%
     difficulty: Medium
     editorial: locked
     url: zigzag-iterator
 
   - id: 282
     title: Expression Add Operators
-    acceptance: 25.3%
+    acceptance: 31.4%
     difficulty: Hard
     editorial: true
     url: expression-add-operators
 
   - id: 283
     title: Move Zeroes
-    acceptance: 44.6%
+    acceptance: 52.6%
     difficulty: Easy
     editorial: true
     url: move-zeroes
 
   - id: 284
     title: Peeking Iterator
-    acceptance: 33.7%
+    acceptance: 37.5%
     difficulty: Medium
     editorial: true
     url: peeking-iterator
 
   - id: 285
     title: Inorder Successor in BST
-    acceptance: 35.7%
+    acceptance: 33.3%
     difficulty: Medium
     editorial: locked
     url: inorder-successor-in-bst
 
   - id: 286
     title: Walls and Gates
-    acceptance: 37.8%
-    difficulty:  Medium
+    acceptance: 47.0%
+    difficulty: Medium
     editorial: locked
     url: walls-and-gates
 
   - id: 287
     title: Find the Duplicate Number
-    acceptance: 39.1%
-    difficulty: Hard
+    acceptance: 46.6%
+    difficulty: Medium
     editorial: true
     url: find-the-duplicate-number
 
   - id: 288
     title: Unique Word Abbreviation
-    acceptance: 15.7%
-    difficulty: Easy
+    acceptance: 19.0%
+    difficulty: Medium
     editorial: locked
     url: unique-word-abbreviation
 
   - id: 289
     title: Game of Life
-    acceptance: 34.7%
-    difficulty:  Medium
+    acceptance: 40.6%
+    difficulty: Medium
     editorial: true
     url: game-of-life
 
   - id: 290
     title: Word Pattern
-    acceptance: 29.6%
+    acceptance: 34.1%
     difficulty: Easy
     editorial: true
     url: word-pattern
 
   - id: 291
     title: Word Pattern II
-    acceptance: 35.1%
+    acceptance: 39.3%
     difficulty: Hard
     editorial: locked
     url: word-pattern-ii
 
   - id: 292
     title: Nim Game
-    acceptance: 53.2%
+    acceptance: 55.4%
     difficulty: Easy
     editorial: true
     url: nim-game
 
   - id: 293
     title: Flip Game
-    acceptance: 50.2%
+    acceptance: 57.9%
     difficulty: Easy
     editorial: locked
     url: flip-game
 
   - id: 294
     title: Flip Game II
-    acceptance: 41.6%
+    acceptance: 47.3%
     difficulty: Medium
     editorial: locked
     url: flip-game-ii
 
   - id: 295
     title: Find Median from Data Stream
-    acceptance: 22.2%
+    acceptance: 32.5%
     difficulty: Hard
     editorial: true
     url: find-median-from-data-stream
 
   - id: 296
     title: Best Meeting Point
-    acceptance: 47.3%
+    acceptance: 53.2%
     difficulty: Hard
     editorial: locked
     url: best-meeting-point
 
   - id: 297
     title: Serialize and Deserialize Binary Tree
-    acceptance: 28.1%
+    acceptance: 37.5%
     difficulty: Hard
     editorial: true
     url: serialize-and-deserialize-binary-tree
 
   - id: 298
     title: Binary Tree Longest Consecutive Sequence
-    acceptance: 37.3%
+    acceptance: 42.7%
     difficulty: Medium
     editorial: locked
     url: binary-tree-longest-consecutive-sequence
 
   - id: 299
     title: Bulls and Cows
-    acceptance: 30.0%
-    difficulty: Easy
+    acceptance: 37.4%
+    difficulty: Medium
     editorial: true
     url: bulls-and-cows
 
   - id: 300
     title: Longest Increasing Subsequence
-    acceptance: 34.5%
+    acceptance: 39.5%
     difficulty: Medium
     editorial: true
     url: longest-increasing-subsequence
 
-
   - id: 301
     title: Remove Invalid Parentheses
-    acceptance: 32.2%
+    acceptance: 37.0%
     difficulty: Hard
     editorial: false
     url: remove-invalid-parentheses
 
   - id: 302
     title: Smallest Rectangle Enclosing Black Pixels
-    acceptance: 39.6%
+    acceptance: 47.7%
     difficulty: Hard
     editorial: locked
     url: smallest-rectangle-enclosing-black-pixels
 
   - id: 303
     title: Range Sum Query - Immutable
-    acceptance: 24.7%
+    acceptance: 34.9%
     difficulty: Easy
     editorial: true
     url: range-sum-query-immutable
 
   - id: 304
     title: Range Sum Query 2D - Immutable
-    acceptance: 22.2%
+    acceptance: 29.6%
     difficulty: Medium
     editorial: true
     url: range-sum-query-2d-immutable
 
   - id: 305
     title: Number of Islands II
-    acceptance: 34.6%
+    acceptance: 40.6%
     difficulty: Hard
     editorial: locked
     url: number-of-islands-ii
 
   - id: 306
     title: Additive Number
-    acceptance: 25.7%
+    acceptance: 27.9%
     difficulty: Medium
     editorial: true
     url: additive-number
 
   - id: 307
     title: Range Sum Query - Mutable
-    acceptance: 17.6%
+    acceptance: 25.5%
     difficulty: Medium
     editorial: true
     url: range-sum-query-mutable
 
   - id: 308
     title: Range Sum Query 2D - Mutable
-    acceptance: 21.4%
+    acceptance: 29.1%
     difficulty: Hard
     editorial: locked
     url: range-sum-query-2d-mutable
 
   - id: 309
     title: Best Time to Buy and Sell Stock with Cooldown
-    acceptance: 36.9%
+    acceptance: 42.8%
     difficulty: Medium
     editorial: true
     url: best-time-to-buy-and-sell-stock-with-cooldown
 
   - id: 310
     title: Minimum Height Trees
-    acceptance: 26.9%
+    acceptance: 29.2%
     difficulty: Medium
     editorial: true
     url: minimum-height-trees
 
   - id: 311
     title: Sparse Matrix Multiplication
-    acceptance: 47.1%
+    acceptance: 54.2%
     difficulty: Medium
     editorial: locked
     url: sparse-matrix-multiplication
 
   - id: 312
     title: Burst Balloons
-    acceptance: 37.3%
+    acceptance: 44.9%
     difficulty: Hard
     editorial: true
     url: burst-balloons
 
   - id: 313
     title: Super Ugly Number
-    acceptance: 34.8%
+    acceptance: 39.7%
     difficulty: Medium
     editorial: true
     url: super-ugly-number
 
   - id: 314
     title: Binary Tree Vertical Order Traversal
-    acceptance: 30.9%
+    acceptance: 39.1%
     difficulty: Medium
     editorial: locked
     url: binary-tree-vertical-order-traversal
 
   - id: 315
     title: Count of Smaller Numbers After Self
-    acceptance: 31.1%
+    acceptance: 35.9%
     difficulty: Hard
     editorial: false
     url: count-of-smaller-numbers-after-self
 
   - id: 316
     title: Remove Duplicate Letters
-    acceptance: 25.3%
+    acceptance: 31.1%
     difficulty: Hard
     editorial: true
     url: remove-duplicate-letters
 
   - id: 317
     title: Shortest Distance from All Buildings
-    acceptance: 31.5%
+    acceptance: 35.7%
     difficulty: Hard
     editorial: locked
     url: shortest-distance-from-all-buildings
 
   - id: 318
     title: Maximum Product of Word Lengths
-    acceptance: 39.9%
+    acceptance: 46.9%
     difficulty: Medium
     editorial: true
     url: maximum-product-of-word-lengths
 
   - id: 319
     title: Bulb Switcher
-    acceptance: 40.9%
+    acceptance: 43.4%
     difficulty: Medium
     editorial: true
     url: bulb-switcher
 
   - id: 320
     title: Generalized Abbreviation
-    acceptance: 41.0%
+    acceptance: 47.3%
     difficulty: Medium
     editorial: locked
     url: generalized-abbreviation
 
   - id: 321
     title: Create Maximum Number
-    acceptance: 21.1%
+    acceptance: 24.9%
     difficulty: Hard
     editorial: false
     url: create-maximum-number
 
   - id: 322
     title: Coin Change
-    acceptance: 25.0%
+    acceptance: 27.6%
     difficulty: Medium
     editorial: true
     url: coin-change
 
   - id: 323
     title: Number of Connected Components in an Undirected Graph
-    acceptance: 43.0%
+    acceptance: 50.1%
     difficulty: Medium
     editorial: locked
     url: number-of-connected-components-in-an-undirected-graph
 
   - id: 324
     title: Wiggle Sort II
-    acceptance: 22.5%
+    acceptance: 26.8%
     difficulty: Medium
     editorial: true
     url: wiggle-sort-ii
 
   - id: 325
     title: Maximum Size Subarray Sum Equals k
-    acceptance: 39.8%
-    difficulty: Easy
+    acceptance: 43.7%
+    difficulty: Medium
     editorial: locked
     url: maximum-size-subarray-sum-equals-k
 
   - id: 326
     title: Power of Three
-    acceptance: 37.1%
+    acceptance: 41.0%
     difficulty: Easy
     editorial: true
     url: power-of-three
 
   - id: 327
-    title:  Count of Range Sum
-    acceptance: 26.9%
+    title: Count of Range Sum
+    acceptance: 31.3%
     difficulty: Hard
     editorial: false
     url: count-of-range-sum
 
   - id: 328
     title: Odd Even Linked List
-    acceptance: 38.5%
+    acceptance: 46.8%
     difficulty: Medium
     editorial: true
     url: odd-even-linked-list
 
   - id: 329
     title: Longest Increasing Path in a Matrix
-    acceptance: 32.0%
+    acceptance: 38.1%
     difficulty: Hard
     editorial: true
     url: longest-increasing-path-in-a-matrix
 
   - id: 330
     title: Patching Array
-    acceptance: 29.5%
-    difficulty: Medium
+    acceptance: 33.0%
+    difficulty: Hard
     editorial: true
     url: patching-array
 
   - id: 331
     title: Verify Preorder Serialization of a Binary Tree
-    acceptance: 31.9%
+    acceptance: 37.7%
     difficulty: Medium
     editorial: true
     url: verify-preorder-serialization-of-a-binary-tree
 
   - id: 332
     title: Reconstruct Itinerary
-    acceptance: 24.3%
+    acceptance: 30.0%
     difficulty: Medium
     editorial: true
     url: reconstruct-itinerary
 
   - id: 333
     title: Largest BST Subtree
-    acceptance: 26.5%
+    acceptance: 31.7%
     difficulty: Medium
     editorial: locked
     url: largest-bst-subtree
 
   - id: 334
     title: Increasing Triplet Subsequence
-    acceptance: 33.9%
+    acceptance: 39.3%
     difficulty: Medium
     editorial: true
     url: increasing-triplet-subsequence
 
   - id: 335
     title: Self Crossing
-    acceptance: 19.9%
+    acceptance: 26.6%
     difficulty: Hard
     editorial: false
     url: self-crossing
 
   - id: 336
     title: Palindrome Pairs
-    acceptance: 20.0%
+    acceptance: 28.4%
     difficulty: Hard
     editorial: false
     url: palindrome-pairs
 
   - id: 337
     title: House Robber III
-    acceptance: 37.4%
+    acceptance: 46.1%
     difficulty: Medium
     editorial: true
     url: house-robber-iii
 
   - id: 338
     title: Counting Bits
-    acceptance: 56.4%
+    acceptance: 63.1%
     difficulty: Medium
     editorial: true
     url: counting-bits
 
   - id: 339
-    title:  Nested List Weight Sum
-    acceptance: 55.0%
+    title: Nested List Weight Sum
+    acceptance: 65.7%
     difficulty: Easy
     editorial: locked
     url: nested-list-weight-sum
 
   - id: 340
     title: Longest Substring with At Most K Distinct Characters
-    acceptance: 37.5%
+    acceptance: 38.5%
     difficulty: Hard
     editorial: locked
     url: longest-substring-with-at-most-k-distinct-characters
 
-
   - id: 341
     title: Flatten Nested List Iterator
-    acceptance: 27.2%
+    acceptance: 45.1%
     difficulty: Medium
     editorial: true
     url: flatten-nested-list-iterator
 
   - id: 342
     title: Power of Four
-    acceptance: 33.8%
+    acceptance: 39.7%
     difficulty: Easy
     editorial: true
     url: power-of-four
 
   - id: 343
-    title:  Integer Break
-    acceptance: 40.6%
+    title: Integer Break
+    acceptance: 46.8%
     difficulty: Medium
     editorial: true
     url: integer-break
 
   - id: 344
     title: Reverse String
-    acceptance: 58.4%
+    acceptance: 61.7%
     difficulty: Easy
     editorial: true
     url: reverse-string
 
   - id: 345
     title: Reverse Vowels of a String
-    acceptance: 35.2%
+    acceptance: 40.1%
     difficulty: Easy
     editorial: true
     url: reverse-vowels-of-a-string
 
   - id: 346
     title: Moving Average from Data Stream
-    acceptance: 62.9%
+    acceptance: 63.0%
     difficulty: Easy
     editorial: locked
     url: moving-average-from-data-stream
 
   - id: 347
     title: Top K Frequent Elements
-    acceptance: 41.9%
+    acceptance: 51.5%
     difficulty: Medium
     editorial: true
     url: top-k-frequent-elements
 
   - id: 348
     title: Design Tic-Tac-Toe
-    acceptance: 42.5%
+    acceptance: 47.2%
     difficulty: Medium
     editorial: locked
     url: design-tic-tac-toe
 
   - id: 349
     title: Intersection of Two Arrays
-    acceptance: 45.0%
+    acceptance: 50.7%
     difficulty: Easy
     editorial: true
     url: intersection-of-two-arrays
 
   - id: 350
     title: Intersection of Two Arrays II
-    acceptance: 41.2%
+    acceptance: 45.4%
     difficulty: Easy
     editorial: true
     url: intersection-of-two-arrays-ii
 
   - id: 351
     title: Android Unlock Patterns
-    acceptance: 30.6%
+    acceptance: 44.9%
     difficulty: Medium
     editorial: locked
     url: android-unlock-patterns
 
+  - id: 352
+    title: Data Stream as Disjoint Intervals
+    acceptance: 42.0%
+    difficulty: Hard
+    editorial: false
+    url: data-stream-as-disjoint-intervals
+
+  - id: 353
+    title: Design Snake Game
+    acceptance: 28.4%
+    difficulty: Medium
+    editorial: locked
+    url: design-snake-game
+
+  - id: 354
+    title: Russian Doll Envelopes
+    acceptance: 32.9%
+    difficulty: Hard
+    editorial: false
+    url: russian-doll-envelopes
+
+  - id: 355
+    title: Design Twitter
+    acceptance: 26.3%
+    difficulty: Medium
+    editorial: false
+    url: design-twitter
+
+  - id: 356
+    title: Line Reflection
+    acceptance: 30.5%
+    difficulty: Medium
+    editorial: locked
+    url: line-reflection
+
+  - id: 357
+    title: Count Numbers with Unique Digits
+    acceptance: 46.2%
+    difficulty: Medium
+    editorial: false
+    url: count-numbers-with-unique-digits
+
+  - id: 358
+    title: Rearrange String k Distance Apart
+    acceptance: 32.0%
+    difficulty: Hard
+    editorial: locked
+    url: rearrange-string-k-distance-apart
+
+  - id: 359
+    title: Logger Rate Limiter
+    acceptance: 62.5%
+    difficulty: Easy
+    editorial: locked
+    url: logger-rate-limiter
+
+  - id: 360
+    title: Sort Transformed Array
+    acceptance: 45.8%
+    difficulty: Medium
+    editorial: locked
+    url: sort-transformed-array
+
+  - id: 361
+    title: Bomb Enemy
+    acceptance: 41.4%
+    difficulty: Medium
+    editorial: locked
+    url: bomb-enemy
+
+  - id: 362
+    title: Design Hit Counter
+    acceptance: 56.6%
+    difficulty: Medium
+    editorial: locked
+    url: design-hit-counter
+
+  - id: 363
+    title: Max Sum of Rectangle No Larger Than K
+    acceptance: 34.2%
+    difficulty: Hard
+    editorial: false
+    url: max-sum-of-rectangle-no-larger-than-k
+
+  - id: 364
+    title: Nested List Weight Sum II
+    acceptance: 55.3%
+    difficulty: Medium
+    editorial: locked
+    url: nested-list-weight-sum-ii
+
+  - id: 365
+    title: Water and Jug Problem
+    acceptance: 28.4%
+    difficulty: Medium
+    editorial: false
+    url: water-and-jug-problem
+
+  - id: 366
+    title: Find Leaves of Binary Tree
+    acceptance: 62.7%
+    difficulty: Medium
+    editorial: locked
+    url: find-leaves-of-binary-tree
+
+  - id: 367
+    title: Valid Perfect Square
+    acceptance: 38.9%
+    difficulty: Easy
+    editorial: false
+    url: valid-perfect-square
+
+  - id: 368
+    title: Largest Divisible Subset
+    acceptance: 34.1%
+    difficulty: Medium
+    editorial: false
+    url: largest-divisible-subset
+
+  - id: 369
+    title: Plus One Linked List
+    acceptance: 55.0%
+    difficulty: Medium
+    editorial: locked
+    url: plus-one-linked-list
+
+  - id: 370
+    title: Range Addition
+    acceptance: 58.8%
+    difficulty: Medium
+    editorial: locked
+    url: range-addition
+
+  - id: 371
+    title: Sum of Two Integers
+    acceptance: 51.0%
+    difficulty: Easy
+    editorial: false
+    url: sum-of-two-integers
+
+  - id: 372
+    title: Super Pow
+    acceptance: 35.0%
+    difficulty: Medium
+    editorial: false
+    url: super-pow
+
+  - id: 373
+    title: Find K Pairs with Smallest Sums
+    acceptance: 32.1%
+    difficulty: Medium
+    editorial: false
+    url: find-k-pairs-with-smallest-sums
+
+  - id: 374
+    title: Guess Number Higher or Lower
+    acceptance: 37.9%
+    difficulty: Easy
+    editorial: false
+    url: guess-number-higher-or-lower
+
+  - id: 375
+    title: Guess Number Higher or Lower II
+    acceptance: 36.5%
+    difficulty: Medium
+    editorial: false
+    url: guess-number-higher-or-lower-ii
+
+  - id: 376
+    title: Wiggle Subsequence
+    acceptance: 36.4%
+    difficulty: Medium
+    editorial: false
+    url: wiggle-subsequence
+
+  - id: 377
+    title: Combination Sum IV
+    acceptance: 43.4%
+    difficulty: Medium
+    editorial: false
+    url: combination-sum-iv
+
+  - id: 378
+    title: Kth Smallest Element in a Sorted Matrix
+    acceptance: 46.7%
+    difficulty: Medium
+    editorial: false
+    url: kth-smallest-element-in-a-sorted-matrix
+
+  - id: 379
+    title: Design Phone Directory
+    acceptance: 38.4%
+    difficulty: Medium
+    editorial: locked
+    url: design-phone-directory
+
+  - id: 380
+    title: Insert Delete GetRandom O(1)
+    acceptance: 40.9%
+    difficulty: Medium
+    editorial: false
+    url: insert-delete-getrandom-o1
+
+  - id: 381
+    title: Insert Delete GetRandom O(1) - Duplicates allowed
+    acceptance: 30.4%
+    difficulty: Hard
+    editorial: false
+    url: insert-delete-getrandom-o1-duplicates-allowed
+
+  - id: 382
+    title: Linked List Random Node
+    acceptance: 48.1%
+    difficulty: Medium
+    editorial: false
+    url: linked-list-random-node
+
+  - id: 383
+    title: Ransom Note
+    acceptance: 48.6%
+    difficulty: Easy
+    editorial: false
+    url: ransom-note
+
+  - id: 384
+    title: Shuffle an Array
+    acceptance: 48.4%
+    difficulty: Medium
+    editorial: false
+    url: shuffle-an-array
+
+  - id: 385
+    title: Mini Parser
+    acceptance: 31.1%
+    difficulty: Medium
+    editorial: false
+    url: mini-parser
+
+  - id: 386
+    title: Lexicographical Numbers
+    acceptance: 43.6%
+    difficulty: Medium
+    editorial: false
+    url: lexicographical-numbers
+
+  - id: 387
+    title: First Unique Character in a String
+    acceptance: 47.8%
+    difficulty: Easy
+    editorial: false
+    url: first-unique-character-in-a-string
+
+  - id: 388
+    title: Longest Absolute File Path
+    acceptance: 38.1%
+    difficulty: Medium
+    editorial: false
+    url: longest-absolute-file-path
+
+  - id: 389
+    title: Find the Difference
+    acceptance: 52.0%
+    difficulty: Easy
+    editorial: false
+    url: find-the-difference
+
+  - id: 390
+    title: Elimination Game
+    acceptance: 43.0%
+    difficulty: Medium
+    editorial: false
+    url: elimination-game
+
+  - id: 391
+    title: Perfect Rectangle
+    acceptance: 27.5%
+    difficulty: Hard
+    editorial: false
+    url: perfect-rectangle
+
+  - id: 392
+    title: Is Subsequence
+    acceptance: 45.3%
+    difficulty: Medium
+    editorial: false
+    url: is-subsequence
+
+  - id: 393
+    title: UTF-8 Validation
+    acceptance: 34.9%
+    difficulty: Medium
+    editorial: false
+    url: utf-8-validation
+
+  - id: 394
+    title: Decode String
+    acceptance: 42.6%
+    difficulty: Medium
+    editorial: false
+    url: decode-string
+
+  - id: 395
+    title: Longest Substring with At Least K Repeating Characters
+    acceptance: 36.8%
+    difficulty: Medium
+    editorial: false
+    url: longest-substring-with-at-least-k-repeating-characters
+
+  - id: 396
+    title: Rotate Function
+    acceptance: 34.4%
+    difficulty: Medium
+    editorial: false
+    url: rotate-function
+
+  - id: 397
+    title: Integer Replacement
+    acceptance: 30.7%
+    difficulty: Medium
+    editorial: false
+    url: integer-replacement
+
+  - id: 398
+    title: Random Pick Index
+    acceptance: 47.1%
+    difficulty: Medium
+    editorial: false
+    url: random-pick-index
+
+  - id: 399
+    title: Evaluate Division
+    acceptance: 44.3%
+    difficulty: Medium
+    editorial: false
+    url: evaluate-division
+
+  - id: 400
+    title: Nth Digit
+    acceptance: 29.9%
+    difficulty: Easy
+    editorial: false
+    url: nth-digit
+
+  - id: 401
+    title: Binary Watch
+    acceptance: 44.8%
+    difficulty: Easy
+    editorial: false
+    url: binary-watch
+
+  - id: 402
+    title: Remove K Digits
+    acceptance: 25.5%
+    difficulty: Medium
+    editorial: false
+    url: remove-k-digits
+
+  - id: 403
+    title: Frog Jump
+    acceptance: 34.0%
+    difficulty: Hard
+    editorial: false
+    url: frog-jump
+
+  - id: 404
+    title: Sum of Left Leaves
+    acceptance: 48.1%
+    difficulty: Easy
+    editorial: false
+    url: sum-of-left-leaves
+
+  - id: 405
+    title: Convert a Number to Hexadecimal
+    acceptance: 41.2%
+    difficulty: Easy
+    editorial: false
+    url: convert-a-number-to-hexadecimal
+
+  - id: 406
+    title: Queue Reconstruction by Height
+    acceptance: 57.4%
+    difficulty: Medium
+    editorial: false
+    url: queue-reconstruction-by-height
+
+  - id: 407
+    title: Trapping Rain Water II
+    acceptance: 38.1%
+    difficulty: Hard
+    editorial: false
+    url: trapping-rain-water-ii
+
+  - id: 408
+    title: Valid Word Abbreviation
+    acceptance: 28.6%
+    difficulty: Easy
+    editorial: locked
+    url: valid-word-abbreviation
+
+  - id: 409
+    title: Longest Palindrome
+    acceptance: 46.6%
+    difficulty: Easy
+    editorial: false
+    url: longest-palindrome
+
+  - id: 410
+    title: Split Array Largest Sum
+    acceptance: 40.4%
+    difficulty: Hard
+    editorial: false
+    url: split-array-largest-sum
+
+  - id: 411
+    title: Minimum Unique Word Abbreviation
+    acceptance: 34.0%
+    difficulty: Hard
+    editorial: locked
+    url: minimum-unique-word-abbreviation
+
+  - id: 412
+    title: Fizz Buzz
+    acceptance: 58.0%
+    difficulty: Easy
+    editorial: false
+    url: fizz-buzz
+
+  - id: 413
+    title: Arithmetic Slices
+    acceptance: 54.5%
+    difficulty: Medium
+    editorial: false
+    url: arithmetic-slices
+
+  - id: 414
+    title: Third Maximum Number
+    acceptance: 28.2%
+    difficulty: Easy
+    editorial: false
+    url: third-maximum-number
+
+  - id: 415
+    title: Add Strings
+    acceptance: 42.3%
+    difficulty: Easy
+    editorial: false
+    url: add-strings
+
+  - id: 416
+    title: Partition Equal Subset Sum
+    acceptance: 38.9%
+    difficulty: Medium
+    editorial: false
+    url: partition-equal-subset-sum
+
+  - id: 417
+    title: Pacific Atlantic Water Flow
+    acceptance: 35.6%
+    difficulty: Medium
+    editorial: false
+    url: pacific-atlantic-water-flow
+
+  - id: 418
+    title: Sentence Screen Fitting
+    acceptance: 29.2%
+    difficulty: Medium
+    editorial: locked
+    url: sentence-screen-fitting
+
+  - id: 419
+    title: Battleships in a Board
+    acceptance: 64.3%
+    difficulty: Medium
+    editorial: false
+    url: battleships-in-a-board
+
+  - id: 420
+    title: Strong Password Checker
+    acceptance: 18.5%
+    difficulty: Hard
+    editorial: false
+    url: strong-password-checker
+
+  - id: 421
+    title: Maximum XOR of Two Numbers in an Array
+    acceptance: 49.5%
+    difficulty: Medium
+    editorial: false
+    url: maximum-xor-of-two-numbers-in-an-array
+
+  - id: 422
+    title: Valid Word Square
+    acceptance: 36.3%
+    difficulty: Easy
+    editorial: locked
+    url: valid-word-square
+
+  - id: 423
+    title: Reconstruct Original Digits from English
+    acceptance: 44.9%
+    difficulty: Medium
+    editorial: false
+    url: reconstruct-original-digits-from-english
+
+  - id: 424
+    title: Longest Repeating Character Replacement
+    acceptance: 42.9%
+    difficulty: Medium
+    editorial: false
+    url: longest-repeating-character-replacement
+
+  - id: 425
+    title: Word Squares
+    acceptance: 43.1%
+    difficulty: Hard
+    editorial: locked
+    url: word-squares
+
+  - id: 432
+    title: All O`one Data Structure
+    acceptance: 28.4%
+    difficulty: Hard
+    editorial: false
+    url: all-oone-data-structure
+
+  - id: 433
+    title: Minimum Genetic Mutation
+    acceptance: 36.2%
+    difficulty: Medium
+    editorial: false
+    url: minimum-genetic-mutation
+
+  - id: 434
+    title: Number of Segments in a String
+    acceptance: 36.4%
+    difficulty: Easy
+    editorial: false
+    url: number-of-segments-in-a-string
+
+  - id: 435
+    title: Non-overlapping Intervals
+    acceptance: 41.0%
+    difficulty: Medium
+    editorial: false
+    url: non-overlapping-intervals
+
+  - id: 436
+    title: Find Right Interval
+    acceptance: 41.8%
+    difficulty: Medium
+    editorial: false
+    url: find-right-interval
+
+  - id: 437
+    title: Path Sum III
+    acceptance: 40.7%
+    difficulty: Easy
+    editorial: false
+    url: path-sum-iii
+
+  - id: 438
+    title: Find All Anagrams in a String
+    acceptance: 34.9%
+    difficulty: Easy
+    editorial: false
+    url: find-all-anagrams-in-a-string
+
+  - id: 439
+    title: Ternary Expression Parser
+    acceptance: 52.2%
+    difficulty: Medium
+    editorial: locked
+    url: ternary-expression-parser
+
+  - id: 440
+    title: K-th Smallest in Lexicographical Order
+    acceptance: 25.8%
+    difficulty: Hard
+    editorial: false
+    url: k-th-smallest-in-lexicographical-order
+
+  - id: 441
+    title: Arranging Coins
+    acceptance: 36.7%
+    difficulty: Easy
+    editorial: false
+    url: arranging-coins
+
+  - id: 442
+    title: Find All Duplicates in an Array
+    acceptance: 58.5%
+    difficulty: Medium
+    editorial: false
+    url: find-all-duplicates-in-an-array
+
+  - id: 443
+    title: String Compression
+    acceptance: 35.8%
+    difficulty: Easy
+    editorial: false
+    url: string-compression
+
+  - id: 444
+    title: Sequence Reconstruction
+    acceptance: 19.6%
+    difficulty: Medium
+    editorial: locked
+    url: sequence-reconstruction
+
+  - id: 445
+    title: Add Two Numbers II
+    acceptance: 47.8%
+    difficulty: Medium
+    editorial: false
+    url: add-two-numbers-ii
+
+  - id: 446
+    title: Arithmetic Slices II - Subsequence
+    acceptance: 28.6%
+    difficulty: Hard
+    editorial: false
+    url: arithmetic-slices-ii-subsequence
+
+  - id: 447
+    title: Number of Boomerangs
+    acceptance: 48.1%
+    difficulty: Easy
+    editorial: false
+    url: number-of-boomerangs
+
+  - id: 448
+    title: Find All Numbers Disappeared in an Array
+    acceptance: 51.6%
+    difficulty: Easy
+    editorial: false
+    url: find-all-numbers-disappeared-in-an-array
+
+  - id: 449
+    title: Serialize and Deserialize BST
+    acceptance: 44.1%
+    difficulty: Medium
+    editorial: false
+    url: serialize-and-deserialize-bst
+
+  - id: 450
+    title: Delete Node in a BST
+    acceptance: 38.1%
+    difficulty: Medium
+    editorial: false
+    url: delete-node-in-a-bst
+
+  - id: 451
+    title: Sort Characters By Frequency
+    acceptance: 53.4%
+    difficulty: Medium
+    editorial: false
+    url: sort-characters-by-frequency
+
+  - id: 452
+    title: Minimum Number of Arrows to Burst Balloons
+    acceptance: 44.9%
+    difficulty: Medium
+    editorial: false
+    url: minimum-number-of-arrows-to-burst-balloons
+
+  - id: 453
+    title: Minimum Moves to Equal Array Elements
+    acceptance: 48.5%
+    difficulty: Easy
+    editorial: false
+    url: minimum-moves-to-equal-array-elements
+
+  - id: 454
+    title: 4Sum II
+    acceptance: 48.6%
+    difficulty: Medium
+    editorial: false
+    url: 4sum-ii
+
+  - id: 455
+    title: Assign Cookies
+    acceptance: 47.5%
+    difficulty: Easy
+    editorial: false
+    url: assign-cookies
+
+  - id: 456
+    title: 132 Pattern
+    acceptance: 27.3%
+    difficulty: Medium
+    editorial: false
+    url: 132-pattern
+
+  - id: 457
+    title: Circular Array Loop
+    acceptance: 25.4%
+    difficulty: Medium
+    editorial: false
+    url: circular-array-loop
+
+  - id: 458
+    title: Poor Pigs
+    acceptance: 43.8%
+    difficulty: Easy
+    editorial: false
+    url: poor-pigs
+
+  - id: 459
+    title: Repeated Substring Pattern
+    acceptance: 38.8%
+    difficulty: Easy
+    editorial: false
+    url: repeated-substring-pattern
+
+  - id: 460
+    title: LFU Cache
+    acceptance: 26.7%
+    difficulty: Hard
+    editorial: false
+    url: lfu-cache
+
+  - id: 461
+    title: Hamming Distance
+    acceptance: 69.5%
+    difficulty: Easy
+    editorial: false
+    url: hamming-distance
+
+  - id: 462
+    title: Minimum Moves to Equal Array Elements II
+    acceptance: 52.0%
+    difficulty: Medium
+    editorial: false
+    url: minimum-moves-to-equal-array-elements-ii
+
+  - id: 463
+    title: Island Perimeter
+    acceptance: 59.0%
+    difficulty: Easy
+    editorial: false
+    url: island-perimeter
+
+  - id: 464
+    title: Can I Win
+    acceptance: 26.2%
+    difficulty: Medium
+    editorial: false
+    url: can-i-win
+
+  - id: 465
+    title: Optimal Account Balancing
+    acceptance: 40.7%
+    difficulty: Hard
+    editorial: locked
+    url: optimal-account-balancing
+
+  - id: 466
+    title: Count The Repetitions
+    acceptance: 27.1%
+    difficulty: Hard
+    editorial: false
+    url: count-the-repetitions
+
+  - id: 467
+    title: Unique Substrings in Wraparound String
+    acceptance: 33.2%
+    difficulty: Medium
+    editorial: false
+    url: unique-substrings-in-wraparound-string
+
+  - id: 468
+    title: Validate IP Address
+    acceptance: 20.5%
+    difficulty: Medium
+    editorial: false
+    url: validate-ip-address
+
+  - id: 469
+    title: Convex Polygon
+    acceptance: 34.9%
+    difficulty: Medium
+    editorial: locked
+    url: convex-polygon
+
+  - id: 471
+    title: Encode String with Shortest Length
+    acceptance: 43.8%
+    difficulty: Hard
+    editorial: locked
+    url: encode-string-with-shortest-length
+
+  - id: 472
+    title: Concatenated Words
+    acceptance: 32.2%
+    difficulty: Hard
+    editorial: false
+    url: concatenated-words
+
+  - id: 473
+    title: Matchsticks to Square
+    acceptance: 35.2%
+    difficulty: Medium
+    editorial: false
+    url: matchsticks-to-square
+
+  - id: 474
+    title: Ones and Zeroes
+    acceptance: 38.8%
+    difficulty: Medium
+    editorial: false
+    url: ones-and-zeroes
+
+  - id: 475
+    title: Heaters
+    acceptance: 30.1%
+    difficulty: Easy
+    editorial: false
+    url: heaters
+
+  - id: 476
+    title: Number Complement
+    acceptance: 61.5%
+    difficulty: Easy
+    editorial: false
+    url: number-complement
+
+  - id: 477
+    title: Total Hamming Distance
+    acceptance: 47.9%
+    difficulty: Medium
+    editorial: false
+    url: total-hamming-distance
+
+  - id: 479
+    title: Largest Palindrome Product
+    acceptance: 26.2%
+    difficulty: Easy
+    editorial: false
+    url: largest-palindrome-product
+
+  - id: 480
+    title: Sliding Window Median
+    acceptance: 30.7%
+    difficulty: Hard
+    editorial: false
+    url: sliding-window-median
+
+  - id: 481
+    title: Magical String
+    acceptance: 45.5%
+    difficulty: Medium
+    editorial: false
+    url: magical-string
+
+  - id: 482
+    title: License Key Formatting
+    acceptance: 39.1%
+    difficulty: Easy
+    editorial: false
+    url: license-key-formatting
+
+  - id: 483
+    title: Smallest Good Base
+    acceptance: 33.7%
+    difficulty: Hard
+    editorial: false
+    url: smallest-good-base
+
+  - id: 484
+    title: Find Permutation
+    acceptance: 56.2%
+    difficulty: Medium
+    editorial: locked
+    url: find-permutation
+
+  - id: 485
+    title: Max Consecutive Ones
+    acceptance: 53.8%
+    difficulty: Easy
+    editorial: false
+    url: max-consecutive-ones
+
+  - id: 486
+    title: Predict the Winner
+    acceptance: 46.0%
+    difficulty: Medium
+    editorial: false
+    url: predict-the-winner
+
+  - id: 487
+    title: Max Consecutive Ones II
+    acceptance: 45.7%
+    difficulty: Medium
+    editorial: locked
+    url: max-consecutive-ones-ii
+
+  - id: 488
+    title: Zuma Game
+    acceptance: 36.5%
+    difficulty: Hard
+    editorial: false
+    url: zuma-game
+
+  - id: 490
+    title: The Maze
+    acceptance: 44.9%
+    difficulty: Medium
+    editorial: locked
+    url: the-maze
+
+  - id: 491
+    title: Increasing Subsequences
+    acceptance: 40.3%
+    difficulty: Medium
+    editorial: false
+    url: increasing-subsequences
+
+  - id: 492
+    title: Construct the Rectangle
+    acceptance: 48.0%
+    difficulty: Easy
+    editorial: false
+    url: construct-the-rectangle
+
+  - id: 493
+    title: Reverse Pairs
+    acceptance: 21.4%
+    difficulty: Hard
+    editorial: false
+    url: reverse-pairs
+
+  - id: 494
+    title: Target Sum
+    acceptance: 44.2%
+    difficulty: Medium
+    editorial: false
+    url: target-sum
+
+  - id: 495
+    title: Teemo Attacking
+    acceptance: 51.4%
+    difficulty: Medium
+    editorial: false
+    url: teemo-attacking
+
+  - id: 496
+    title: Next Greater Element I
+    acceptance: 57.4%
+    difficulty: Easy
+    editorial: false
+    url: next-greater-element-i
+
+  - id: 498
+    title: Diagonal Traverse
+    acceptance: 44.1%
+    difficulty: Medium
+    editorial: false
+    url: diagonal-traverse
+
+  - id: 499
+    title: The Maze III
+    acceptance: 35.3%
+    difficulty: Hard
+    editorial: locked
+    url: the-maze-iii
+
+  - id: 500
+    title: Keyboard Row
+    acceptance: 60.8%
+    difficulty: Easy
+    editorial: false
+    url: keyboard-row
+
+  - id: 501
+    title: Find Mode in Binary Search Tree
+    acceptance: 38.1%
+    difficulty: Easy
+    editorial: false
+    url: find-mode-in-binary-search-tree
+
+  - id: 502
+    title: IPO
+    acceptance: 36.6%
+    difficulty: Hard
+    editorial: false
+    url: ipo
+
+  - id: 503
+    title: Next Greater Element II
+    acceptance: 48.7%
+    difficulty: Medium
+    editorial: false
+    url: next-greater-element-ii
+
+  - id: 504
+    title: Base 7
+    acceptance: 44.0%
+    difficulty: Easy
+    editorial: false
+    url: base-7
+
+  - id: 505
+    title: The Maze II
+    acceptance: 40.6%
+    difficulty: Medium
+    editorial: locked
+    url: the-maze-ii
+
+  - id: 506
+    title: Relative Ranks
+    acceptance: 47.3%
+    difficulty: Easy
+    editorial: false
+    url: relative-ranks
+
+  - id: 507
+    title: Perfect Number
+    acceptance: 32.6%
+    difficulty: Easy
+    editorial: false
+    url: perfect-number
+
+  - id: 508
+    title: Most Frequent Subtree Sum
+    acceptance: 52.9%
+    difficulty: Medium
+    editorial: false
+    url: most-frequent-subtree-sum
+
+  - id: 513
+    title: Find Bottom Left Tree Value
+    acceptance: 57.1%
+    difficulty: Medium
+    editorial: false
+    url: find-bottom-left-tree-value
+
+  - id: 514
+    title: Freedom Trail
+    acceptance: 39.7%
+    difficulty: Hard
+    editorial: false
+    url: freedom-trail
+
+  - id: 515
+    title: Find Largest Value in Each Tree Row
+    acceptance: 56.4%
+    difficulty: Medium
+    editorial: false
+    url: find-largest-value-in-each-tree-row
+
+  - id: 516
+    title: Longest Palindromic Subsequence
+    acceptance: 44.0%
+    difficulty: Medium
+    editorial: false
+    url: longest-palindromic-subsequence
+
+  - id: 517
+    title: Super Washing Machines
+    acceptance: 36.4%
+    difficulty: Hard
+    editorial: false
+    url: super-washing-machines
+
+  - id: 518
+    title: Coin Change 2
+    acceptance: 39.0%
+    difficulty: Medium
+    editorial: false
+    url: coin-change-2
+
+  - id: 520
+    title: Detect Capital
+    acceptance: 51.9%
+    difficulty: Easy
+    editorial: false
+    url: detect-capital
+
+  - id: 521
+    title: Longest Uncommon Subsequence I 
+    acceptance: 55.8%
+    difficulty: Easy
+    editorial: false
+    url: longest-uncommon-subsequence-i
+
+  - id: 522
+    title: Longest Uncommon Subsequence II
+    acceptance: 32.4%
+    difficulty: Medium
+    editorial: false
+    url: longest-uncommon-subsequence-ii
+
+  - id: 523
+    title: Continuous Subarray Sum
+    acceptance: 23.7%
+    difficulty: Medium
+    editorial: false
+    url: continuous-subarray-sum
+
+  - id: 524
+    title: Longest Word in Dictionary through Deleting
+    acceptance: 43.9%
+    difficulty: Medium
+    editorial: false
+    url: longest-word-in-dictionary-through-deleting
+
+  - id: 525
+    title: Contiguous Array
+    acceptance: 42.1%
+    difficulty: Medium
+    editorial: false
+    url: contiguous-array
+
+  - id: 526
+    title: Beautiful Arrangement
+    acceptance: 52.9%
+    difficulty: Medium
+    editorial: false
+    url: beautiful-arrangement
+
+  - id: 527
+    title: Word Abbreviation
+    acceptance: 45.5%
+    difficulty: Hard
+    editorial: locked
+    url: word-abbreviation
+
+  - id: 529
+    title: Minesweeper
+    acceptance: 50.4%
+    difficulty: Medium
+    editorial: false
+    url: minesweeper
+
+  - id: 530
+    title: Minimum Absolute Difference in BST
+    acceptance: 48.7%
+    difficulty: Easy
+    editorial: false
+    url: minimum-absolute-difference-in-bst
+
+  - id: 531
+    title: Lonely Pixel I
+    acceptance: 56.6%
+    difficulty: Medium
+    editorial: locked
+    url: lonely-pixel-i
+
+  - id: 532
+    title: K-diff Pairs in an Array
+    acceptance: 28.6%
+    difficulty: Easy
+    editorial: false
+    url: k-diff-pairs-in-an-array
+
+  - id: 533
+    title: Lonely Pixel II
+    acceptance: 45.6%
+    difficulty: Medium
+    editorial: locked
+    url: lonely-pixel-ii
+
+  - id: 535
+    title: Encode and Decode TinyURL
+    acceptance: 74.6%
+    difficulty: Medium
+    editorial: false
+    url: encode-and-decode-tinyurl
+
+  - id: 536
+    title: Construct Binary Tree from String
+    acceptance: 43.1%
+    difficulty: Medium
+    editorial: locked
+    url: construct-binary-tree-from-string
+
+  - id: 537
+    title: Complex Number Multiplication
+    acceptance: 64.3%
+    difficulty: Medium
+    editorial: false
+    url: complex-number-multiplication
+
+  - id: 538
+    title: Convert BST to Greater Tree
+    acceptance: 48.9%
+    difficulty: Easy
+    editorial: false
+    url: convert-bst-to-greater-tree
+
+  - id: 539
+    title: Minimum Time Difference
+    acceptance: 46.6%
+    difficulty: Medium
+    editorial: false
+    url: minimum-time-difference
+
+  - id: 540
+    title: Single Element in a Sorted Array
+    acceptance: 56.2%
+    difficulty: Medium
+    editorial: false
+    url: single-element-in-a-sorted-array
+
+  - id: 541
+    title: Reverse String II
+    acceptance: 44.4%
+    difficulty: Easy
+    editorial: false
+    url: reverse-string-ii
+
+  - id: 542
+    title: 01 Matrix
+    acceptance: 33.7%
+    difficulty: Medium
+    editorial: false
+    url: 01-matrix
+
+  - id: 543
+    title: Diameter of Binary Tree
+    acceptance: 45.3%
+    difficulty: Easy
+    editorial: false
+    url: diameter-of-binary-tree
+
+  - id: 544
+    title: Output Contest Matches
+    acceptance: 71.6%
+    difficulty: Medium
+    editorial: locked
+    url: output-contest-matches
+
+  - id: 545
+    title: Boundary of Binary Tree
+    acceptance: 33.2%
+    difficulty: Medium
+    editorial: locked
+    url: boundary-of-binary-tree
+
+  - id: 546
+    title: Remove Boxes
+    acceptance: 36.7%
+    difficulty: Hard
+    editorial: false
+    url: remove-boxes
+
+  - id: 547
+    title: Friend Circles
+    acceptance: 50.8%
+    difficulty: Medium
+    editorial: false
+    url: friend-circles
+
+  - id: 548
+    title: Split Array with Equal Sum
+    acceptance: 39.5%
+    difficulty: Medium
+    editorial: locked
+    url: split-array-with-equal-sum
+
+  - id: 549
+    title: Binary Tree Longest Consecutive Sequence II
+    acceptance: 43.1%
+    difficulty: Medium
+    editorial: locked
+    url: binary-tree-longest-consecutive-sequence-ii
+
+  - id: 551
+    title: Student Attendance Record I
+    acceptance: 45.0%
+    difficulty: Easy
+    editorial: false
+    url: student-attendance-record-i
+
+  - id: 552
+    title: Student Attendance Record II
+    acceptance: 31.6%
+    difficulty: Hard
+    editorial: false
+    url: student-attendance-record-ii
+
+  - id: 553
+    title: Optimal Division
+    acceptance: 55.0%
+    difficulty: Medium
+    editorial: false
+    url: optimal-division
+
+  - id: 554
+    title: Brick Wall
+    acceptance: 46.9%
+    difficulty: Medium
+    editorial: false
+    url: brick-wall
+
+  - id: 555
+    title: Split Concatenated Strings
+    acceptance: 38.6%
+    difficulty: Medium
+    editorial: locked
+    url: split-concatenated-strings
+
+  - id: 556
+    title: Next Greater Element III
+    acceptance: 29.1%
+    difficulty: Medium
+    editorial: false
+    url: next-greater-element-iii
+
+  - id: 557
+    title: Reverse Words in a String III
+    acceptance: 61.9%
+    difficulty: Easy
+    editorial: false
+    url: reverse-words-in-a-string-iii
+
+  - id: 560
+    title: Subarray Sum Equals K
+    acceptance: 40.4%
+    difficulty: Medium
+    editorial: false
+    url: subarray-sum-equals-k
+
+  - id: 561
+    title: Array Partition I
+    acceptance: 67.3%
+    difficulty: Easy
+    editorial: false
+    url: array-partition-i
+
+  - id: 562
+    title: Longest Line of Consecutive One in Matrix
+    acceptance: 41.7%
+    difficulty: Medium
+    editorial: locked
+    url: longest-line-of-consecutive-one-in-matrix
+
+  - id: 563
+    title: Binary Tree Tilt
+    acceptance: 46.4%
+    difficulty: Easy
+    editorial: false
+    url: binary-tree-tilt
+
+  - id: 564
+    title: Find the Closest Palindrome
+    acceptance: 17.3%
+    difficulty: Hard
+    editorial: false
+    url: find-the-closest-palindrome
+
+  - id: 565
+    title: Array Nesting
+    acceptance: 50.3%
+    difficulty: Medium
+    editorial: false
+    url: array-nesting
+
+  - id: 566
+    title: Reshape the Matrix
+    acceptance: 57.9%
+    difficulty: Easy
+    editorial: false
+    url: reshape-the-matrix
+
+  - id: 567
+    title: Permutation in String
+    acceptance: 36.7%
+    difficulty: Medium
+    editorial: false
+    url: permutation-in-string
+
+  - id: 568
+    title: Maximum Vacation Days
+    acceptance: 36.4%
+    difficulty: Hard
+    editorial: locked
+    url: maximum-vacation-days
+
+  - id: 572
+    title: Subtree of Another Tree
+    acceptance: 40.5%
+    difficulty: Easy
+    editorial: false
+    url: subtree-of-another-tree
+
+  - id: 573
+    title: Squirrel Simulation
+    acceptance: 52.3%
+    difficulty: Medium
+    editorial: locked
+    url: squirrel-simulation
+
+  - id: 575
+    title: Distribute Candies
+    acceptance: 58.5%
+    difficulty: Easy
+    editorial: false
+    url: distribute-candies
+
+  - id: 576
+    title: Out of Boundary Paths
+    acceptance: 30.8%
+    difficulty: Medium
+    editorial: false
+    url: out-of-boundary-paths
+
+  - id: 581
+    title: Shortest Unsorted Continuous Subarray
+    acceptance: 29.3%
+    difficulty: Easy
+    editorial: false
+    url: shortest-unsorted-continuous-subarray
+
+  - id: 582
+    title: Kill Process
+    acceptance: 53.4%
+    difficulty: Medium
+    editorial: locked
+    url: kill-process
+
+  - id: 583
+    title: Delete Operation for Two Strings
+    acceptance: 44.8%
+    difficulty: Medium
+    editorial: false
+    url: delete-operation-for-two-strings
+
+  - id: 587
+    title: Erect the Fence
+    acceptance: 33.6%
+    difficulty: Hard
+    editorial: false
+    url: erect-the-fence
+
+  - id: 588
+    title: Design In-Memory File System
+    acceptance: 36.7%
+    difficulty: Hard
+    editorial: locked
+    url: design-in-memory-file-system
+
+  - id: 591
+    title: Tag Validator
+    acceptance: 31.4%
+    difficulty: Hard
+    editorial: false
+    url: tag-validator
+
+  - id: 592
+    title: Fraction Addition and Subtraction
+    acceptance: 46.1%
+    difficulty: Medium
+    editorial: false
+    url: fraction-addition-and-subtraction
+
+  - id: 593
+    title: Valid Square
+    acceptance: 39.9%
+    difficulty: Medium
+    editorial: false
+    url: valid-square
+
+  - id: 594
+    title: Longest Harmonious Subsequence
+    acceptance: 41.9%
+    difficulty: Easy
+    editorial: false
+    url: longest-harmonious-subsequence
+
+  - id: 598
+    title: Range Addition II
+    acceptance: 48.0%
+    difficulty: Easy
+    editorial: false
+    url: range-addition-ii
+
+  - id: 599
+    title: Minimum Index Sum of Two Lists
+    acceptance: 46.6%
+    difficulty: Easy
+    editorial: false
+    url: minimum-index-sum-of-two-lists
+
+  - id: 600
+    title: Non-negative Integers without Consecutive Ones
+    acceptance: 31.9%
+    difficulty: Hard
+    editorial: false
+    url: non-negative-integers-without-consecutive-ones
+
+  - id: 604
+    title: Design Compressed String Iterator
+    acceptance: 33.8%
+    difficulty: Easy
+    editorial: locked
+    url: design-compressed-string-iterator
+
+  - id: 605
+    title: Can Place Flowers
+    acceptance: 30.2%
+    difficulty: Easy
+    editorial: false
+    url: can-place-flowers
+
+  - id: 606
+    title: Construct String from Binary Tree
+    acceptance: 50.5%
+    difficulty: Easy
+    editorial: false
+    url: construct-string-from-binary-tree
+
+  - id: 609
+    title: Find Duplicate File in System
+    acceptance: 53.2%
+    difficulty: Medium
+    editorial: false
+    url: find-duplicate-file-in-system
+
+  - id: 611
+    title: Valid Triangle Number
+    acceptance: 43.2%
+    difficulty: Medium
+    editorial: false
+    url: valid-triangle-number
+
+  - id: 616
+    title: Add Bold Tag in String
+    acceptance: 38.1%
+    difficulty: Medium
+    editorial: locked
+    url: add-bold-tag-in-string
+
+  - id: 617
+    title: Merge Two Binary Trees
+    acceptance: 67.8%
+    difficulty: Easy
+    editorial: false
+    url: merge-two-binary-trees
+
+  - id: 621
+    title: Task Scheduler
+    acceptance: 42.9%
+    difficulty: Medium
+    editorial: false
+    url: task-scheduler
+
+  - id: 623
+    title: Add One Row to Tree
+    acceptance: 46.6%
+    difficulty: Medium
+    editorial: false
+    url: add-one-row-to-tree
+
+  - id: 624
+    title: Maximum Distance in Arrays
+    acceptance: 36.2%
+    difficulty: Easy
+    editorial: locked
+    url: maximum-distance-in-arrays
+
+  - id: 625
+    title: Minimum Factorization
+    acceptance: 31.5%
+    difficulty: Medium
+    editorial: locked
+    url: minimum-factorization
+
+  - id: 628
+    title: Maximum Product of Three Numbers
+    acceptance: 44.9%
+    difficulty: Easy
+    editorial: false
+    url: maximum-product-of-three-numbers
+
+  - id: 629
+    title: K Inverse Pairs Array
+    acceptance: 28.0%
+    difficulty: Hard
+    editorial: false
+    url: k-inverse-pairs-array
+
+  - id: 630
+    title: Course Schedule III
+    acceptance: 30.0%
+    difficulty: Hard
+    editorial: false
+    url: course-schedule-iii
+
+  - id: 631
+    title: Design Excel Sum Formula
+    acceptance: 28.2%
+    difficulty: Hard
+    editorial: locked
+    url: design-excel-sum-formula
+
+  - id: 632
+    title: Smallest Range
+    acceptance: 44.2%
+    difficulty: Hard
+    editorial: false
+    url: smallest-range
+
+  - id: 633
+    title: Sum of Square Numbers
+    acceptance: 32.4%
+    difficulty: Easy
+    editorial: false
+    url: sum-of-square-numbers
+
+  - id: 634
+    title: Find the Derangement of An Array
+    acceptance: 36.8%
+    difficulty: Medium
+    editorial: locked
+    url: find-the-derangement-of-an-array
+
+  - id: 635
+    title: Design Log Storage System
+    acceptance: 50.6%
+    difficulty: Medium
+    editorial: locked
+    url: design-log-storage-system
+
+  - id: 636
+    title: Exclusive Time of Functions
+    acceptance: 46.3%
+    difficulty: Medium
+    editorial: false
+    url: exclusive-time-of-functions
+
+  - id: 637
+    title: Average of Levels in Binary Tree
+    acceptance: 56.9%
+    difficulty: Easy
+    editorial: false
+    url: average-of-levels-in-binary-tree
+
+  - id: 638
+    title: Shopping Offers
+    acceptance: 46.5%
+    difficulty: Medium
+    editorial: false
+    url: shopping-offers
+
+  - id: 639
+    title: Decode Ways II
+    acceptance: 24.1%
+    difficulty: Hard
+    editorial: false
+    url: decode-ways-ii
+
+  - id: 640
+    title: Solve the Equation
+    acceptance: 38.9%
+    difficulty: Medium
+    editorial: false
+    url: solve-the-equation
+
+  - id: 642
+    title: Design Search Autocomplete System
+    acceptance: 33.0%
+    difficulty: Hard
+    editorial: locked
+    url: design-search-autocomplete-system
+
+  - id: 643
+    title: Maximum Average Subarray I
+    acceptance: 38.1%
+    difficulty: Easy
+    editorial: false
+    url: maximum-average-subarray-i
+
+  - id: 644
+    title: Maximum Average Subarray II
+    acceptance: 26.8%
+    difficulty: Hard
+    editorial: locked
+    url: maximum-average-subarray-ii
+
+  - id: 645
+    title: Set Mismatch
+    acceptance: 40.0%
+    difficulty: Easy
+    editorial: false
+    url: set-mismatch
+
+  - id: 646
+    title: Maximum Length of Pair Chain
+    acceptance: 47.3%
+    difficulty: Medium
+    editorial: false
+    url: maximum-length-of-pair-chain
+
+  - id: 647
+    title: Palindromic Substrings
+    acceptance: 54.6%
+    difficulty: Medium
+    editorial: false
+    url: palindromic-substrings
+
+  - id: 648
+    title: Replace Words
+    acceptance: 49.5%
+    difficulty: Medium
+    editorial: false
+    url: replace-words
+
+  - id: 649
+    title: Dota2 Senate
+    acceptance: 36.7%
+    difficulty: Medium
+    editorial: false
+    url: dota2-senate
+
+  - id: 650
+    title: 2 Keys Keyboard
+    acceptance: 45.9%
+    difficulty: Medium
+    editorial: false
+    url: 2-keys-keyboard
+
+  - id: 651
+    title: 4 Keys Keyboard
+    acceptance: 49.7%
+    difficulty: Medium
+    editorial: locked
+    url: 4-keys-keyboard
+
+  - id: 652
+    title: Find Duplicate Subtrees
+    acceptance: 41.2%
+    difficulty: Medium
+    editorial: false
+    url: find-duplicate-subtrees
+
+  - id: 653
+    title: Two Sum IV - Input is a BST
+    acceptance: 51.0%
+    difficulty: Easy
+    editorial: false
+    url: two-sum-iv-input-is-a-bst
+
+  - id: 654
+    title: Maximum Binary Tree
+    acceptance: 71.4%
+    difficulty: Medium
+    editorial: false
+    url: maximum-binary-tree
+
+  - id: 655
+    title: Print Binary Tree
+    acceptance: 49.3%
+    difficulty: Medium
+    editorial: false
+    url: print-binary-tree
+
+  - id: 656
+    title: Coin Path
+    acceptance: 26.0%
+    difficulty: Hard
+    editorial: locked
+    url: coin-path
+
+  - id: 657
+    title: Robot Return to Origin
+    acceptance: 69.4%
+    difficulty: Easy
+    editorial: false
+    url: robot-return-to-origin
+
+  - id: 658
+    title: Find K Closest Elements
+    acceptance: 35.4%
+    difficulty: Medium
+    editorial: false
+    url: find-k-closest-elements
+
+  - id: 659
+    title: Split Array into Consecutive Subsequences
+    acceptance: 37.9%
+    difficulty: Medium
+    editorial: false
+    url: split-array-into-consecutive-subsequences
+
+  - id: 660
+    title: Remove 9
+    acceptance: 50.4%
+    difficulty: Hard
+    editorial: locked
+    url: remove-9
+
+  - id: 661
+    title: Image Smoother
+    acceptance: 47.1%
+    difficulty: Easy
+    editorial: false
+    url: image-smoother
+
+  - id: 662
+    title: Maximum Width of Binary Tree
+    acceptance: 39.0%
+    difficulty: Medium
+    editorial: false
+    url: maximum-width-of-binary-tree
+
+  - id: 663
+    title: Equal Tree Partition
+    acceptance: 36.5%
+    difficulty: Medium
+    editorial: locked
+    url: equal-tree-partition
+
+  - id: 664
+    title: Strange Printer
+    acceptance: 35.3%
+    difficulty: Hard
+    editorial: false
+    url: strange-printer
+
+  - id: 665
+    title: Non-decreasing Array
+    acceptance: 19.7%
+    difficulty: Easy
+    editorial: false
+    url: non-decreasing-array
+
+  - id: 666
+    title: Path Sum IV
+    acceptance: 50.9%
+    difficulty: Medium
+    editorial: locked
+    url: path-sum-iv
+
+  - id: 667
+    title: Beautiful Arrangement II
+    acceptance: 50.9%
+    difficulty: Medium
+    editorial: false
+    url: beautiful-arrangement-ii
+
+  - id: 668
+    title: Kth Smallest Number in Multiplication Table
+    acceptance: 39.6%
+    difficulty: Hard
+    editorial: false
+    url: kth-smallest-number-in-multiplication-table
+
+  - id: 669
+    title: Trim a Binary Search Tree
+    acceptance: 58.8%
+    difficulty: Easy
+    editorial: false
+    url: trim-a-binary-search-tree
+
+  - id: 670
+    title: Maximum Swap
+    acceptance: 38.9%
+    difficulty: Medium
+    editorial: false
+    url: maximum-swap
+
+  - id: 671
+    title: Second Minimum Node In a Binary Tree
+    acceptance: 42.6%
+    difficulty: Easy
+    editorial: false
+    url: second-minimum-node-in-a-binary-tree
+
+  - id: 672
+    title: Bulb Switcher II
+    acceptance: 49.3%
+    difficulty: Medium
+    editorial: false
+    url: bulb-switcher-ii
+
+  - id: 673
+    title: Number of Longest Increasing Subsequence
+    acceptance: 32.3%
+    difficulty: Medium
+    editorial: false
+    url: number-of-longest-increasing-subsequence
+
+  - id: 674
+    title: Longest Continuous Increasing Subsequence
+    acceptance: 43.1%
+    difficulty: Easy
+    editorial: false
+    url: longest-continuous-increasing-subsequence
+
+  - id: 675
+    title: Cut Off Trees for Golf Event
+    acceptance: 27.7%
+    difficulty: Hard
+    editorial: false
+    url: cut-off-trees-for-golf-event
+
+  - id: 676
+    title: Implement Magic Dictionary
+    acceptance: 49.7%
+    difficulty: Medium
+    editorial: false
+    url: implement-magic-dictionary
+
+  - id: 677
+    title: Map Sum Pairs
+    acceptance: 50.6%
+    difficulty: Medium
+    editorial: false
+    url: map-sum-pairs
+
+  - id: 678
+    title: Valid Parenthesis String
+    acceptance: 30.5%
+    difficulty: Medium
+    editorial: false
+    url: valid-parenthesis-string
+
+  - id: 679
+    title: 24 Game
+    acceptance: 39.9%
+    difficulty: Hard
+    editorial: false
+    url: 24-game
+
+  - id: 680
+    title: Valid Palindrome II
+    acceptance: 32.9%
+    difficulty: Easy
+    editorial: false
+    url: valid-palindrome-ii
+
+  - id: 681
+    title: Next Closest Time
+    acceptance: 41.0%
+    difficulty: Medium
+    editorial: locked
+    url: next-closest-time
+
+  - id: 682
+    title: Baseball Game
+    acceptance: 59.0%
+    difficulty: Easy
+    editorial: false
+    url: baseball-game
+
+  - id: 683
+    title: K Empty Slots
+    acceptance: 33.3%
+    difficulty: Hard
+    editorial: locked
+    url: k-empty-slots
+
+  - id: 684
+    title: Redundant Connection
+    acceptance: 47.6%
+    difficulty: Medium
+    editorial: false
+    url: redundant-connection
+
+  - id: 685
+    title: Redundant Connection II
+    acceptance: 28.8%
+    difficulty: Hard
+    editorial: false
+    url: redundant-connection-ii
+
+  - id: 686
+    title: Repeated String Match
+    acceptance: 31.3%
+    difficulty: Easy
+    editorial: false
+    url: repeated-string-match
+
+  - id: 687
+    title: Longest Univalue Path
+    acceptance: 32.7%
+    difficulty: Easy
+    editorial: false
+    url: longest-univalue-path
+
+  - id: 688
+    title: Knight Probability in Chessboard
+    acceptance: 41.1%
+    difficulty: Medium
+    editorial: false
+    url: knight-probability-in-chessboard
+
+  - id: 689
+    title: Maximum Sum of 3 Non-Overlapping Subarrays
+    acceptance: 42.5%
+    difficulty: Hard
+    editorial: false
+    url: maximum-sum-of-3-non-overlapping-subarrays
+
+  - id: 690
+    title: Employee Importance
+    acceptance: 52.0%
+    difficulty: Easy
+    editorial: false
+    url: employee-importance
+
+  - id: 691
+    title: Stickers to Spell Word
+    acceptance: 36.6%
+    difficulty: Hard
+    editorial: false
+    url: stickers-to-spell-word
+
+  - id: 692
+    title: Top K Frequent Words
+    acceptance: 43.1%
+    difficulty: Medium
+    editorial: false
+    url: top-k-frequent-words
+
+  - id: 693
+    title: Binary Number with Alternating Bits
+    acceptance: 56.7%
+    difficulty: Easy
+    editorial: false
+    url: binary-number-with-alternating-bits
+
+  - id: 694
+    title: Number of Distinct Islands
+    acceptance: 47.5%
+    difficulty: Medium
+    editorial: locked
+    url: number-of-distinct-islands
+
+  - id: 695
+    title: Max Area of Island
+    acceptance: 53.8%
+    difficulty: Medium
+    editorial: false
+    url: max-area-of-island
+
+  - id: 696
+    title: Count Binary Substrings
+    acceptance: 51.5%
+    difficulty: Easy
+    editorial: false
+    url: count-binary-substrings
+
+  - id: 697
+    title: Degree of an Array
+    acceptance: 47.7%
+    difficulty: Easy
+    editorial: false
+    url: degree-of-an-array
+
+  - id: 698
+    title: Partition to K Equal Sum Subsets
+    acceptance: 39.4%
+    difficulty: Medium
+    editorial: false
+    url: partition-to-k-equal-sum-subsets
+
+  - id: 699
+    title: Falling Squares
+    acceptance: 38.4%
+    difficulty: Hard
+    editorial: false
+    url: falling-squares
+
+  - id: 711
+    title: Number of Distinct Islands II
+    acceptance: 43.8%
+    difficulty: Hard
+    editorial: locked
+    url: number-of-distinct-islands-ii
+
+  - id: 712
+    title: Minimum ASCII Delete Sum for Two Strings
+    acceptance: 52.3%
+    difficulty: Medium
+    editorial: false
+    url: minimum-ascii-delete-sum-for-two-strings
+
+  - id: 713
+    title: Subarray Product Less Than K
+    acceptance: 34.4%
+    difficulty: Medium
+    editorial: false
+    url: subarray-product-less-than-k
+
+  - id: 714
+    title: Best Time to Buy and Sell Stock with Transaction Fee
+    acceptance: 48.1%
+    difficulty: Medium
+    editorial: false
+    url: best-time-to-buy-and-sell-stock-with-transaction-fee
+
+  - id: 715
+    title: Range Module
+    acceptance: 32.1%
+    difficulty: Hard
+    editorial: false
+    url: range-module
+
+  - id: 716
+    title: Max Stack
+    acceptance: 38.1%
+    difficulty: Easy
+    editorial: locked
+    url: max-stack
+
+  - id: 717
+    title: 1-bit and 2-bit Characters
+    acceptance: 48.5%
+    difficulty: Easy
+    editorial: false
+    url: 1-bit-and-2-bit-characters
+
+  - id: 718
+    title: Maximum Length of Repeated Subarray
+    acceptance: 43.0%
+    difficulty: Medium
+    editorial: false
+    url: maximum-length-of-repeated-subarray
+
+  - id: 719
+    title: Find K-th Smallest Pair Distance
+    acceptance: 28.1%
+    difficulty: Hard
+    editorial: false
+    url: find-k-th-smallest-pair-distance
+
+  - id: 720
+    title: Longest Word in Dictionary
+    acceptance: 42.3%
+    difficulty: Easy
+    editorial: false
+    url: longest-word-in-dictionary
+
+  - id: 721
+    title: Accounts Merge
+    acceptance: 36.6%
+    difficulty: Medium
+    editorial: false
+    url: accounts-merge
+
+  - id: 722
+    title: Remove Comments
+    acceptance: 29.2%
+    difficulty: Medium
+    editorial: false
+    url: remove-comments
+
+  - id: 723
+    title: Candy Crush
+    acceptance: 57.9%
+    difficulty: Medium
+    editorial: locked
+    url: candy-crush
+
+  - id: 724
+    title: Find Pivot Index
+    acceptance: 39.5%
+    difficulty: Easy
+    editorial: false
+    url: find-pivot-index
+
+  - id: 725
+    title: Split Linked List in Parts
+    acceptance: 47.6%
+    difficulty: Medium
+    editorial: false
+    url: split-linked-list-in-parts
+
+  - id: 726
+    title: Number of Atoms
+    acceptance: 43.6%
+    difficulty: Hard
+    editorial: false
+    url: number-of-atoms
+
+  - id: 727
+    title: Minimum Window Subsequence
+    acceptance: 33.6%
+    difficulty: Hard
+    editorial: locked
+    url: minimum-window-subsequence
+
+  - id: 728
+    title: Self Dividing Numbers
+    acceptance: 67.3%
+    difficulty: Easy
+    editorial: false
+    url: self-dividing-numbers
+
+  - id: 729
+    title: My Calendar I
+    acceptance: 44.7%
+    difficulty: Medium
+    editorial: false
+    url: my-calendar-i
+
+  - id: 730
+    title: Count Different Palindromic Subsequences
+    acceptance: 37.2%
+    difficulty: Hard
+    editorial: false
+    url: count-different-palindromic-subsequences
+
+  - id: 731
+    title: My Calendar II
+    acceptance: 40.4%
+    difficulty: Medium
+    editorial: false
+    url: my-calendar-ii
+
+  - id: 732
+    title: My Calendar III
+    acceptance: 51.0%
+    difficulty: Hard
+    editorial: false
+    url: my-calendar-iii
+
+  - id: 733
+    title: Flood Fill
+    acceptance: 48.3%
+    difficulty: Easy
+    editorial: false
+    url: flood-fill
+
+  - id: 734
+    title: Sentence Similarity
+    acceptance: 38.9%
+    difficulty: Easy
+    editorial: locked
+    url: sentence-similarity
+
+  - id: 735
+    title: Asteroid Collision
+    acceptance: 37.1%
+    difficulty: Medium
+    editorial: false
+    url: asteroid-collision
+
+  - id: 736
+    title: Parse Lisp Expression
+    acceptance: 41.1%
+    difficulty: Hard
+    editorial: false
+    url: parse-lisp-expression
+
+  - id: 737
+    title: Sentence Similarity II
+    acceptance: 40.9%
+    difficulty: Medium
+    editorial: locked
+    url: sentence-similarity-ii
+
+  - id: 738
+    title: Monotone Increasing Digits
+    acceptance: 41.1%
+    difficulty: Medium
+    editorial: false
+    url: monotone-increasing-digits
+
+  - id: 739
+    title: Daily Temperatures
+    acceptance: 56.4%
+    difficulty: Medium
+    editorial: false
+    url: daily-temperatures
+
+  - id: 740
+    title: Delete and Earn
+    acceptance: 44.3%
+    difficulty: Medium
+    editorial: false
+    url: delete-and-earn
+
+  - id: 741
+    title: Cherry Pickup
+    acceptance: 25.6%
+    difficulty: Hard
+    editorial: false
+    url: cherry-pickup
+
+  - id: 709
+    title: To Lower Case
+    acceptance: 74.5%
+    difficulty: Easy
+    editorial: false
+    url: to-lower-case
+
+  - id: 742
+    title: Closest Leaf in a Binary Tree
+    acceptance: 36.3%
+    difficulty: Medium
+    editorial: locked
+    url: closest-leaf-in-a-binary-tree
+
+  - id: 743
+    title: Network Delay Time
+    acceptance: 37.7%
+    difficulty: Easy
+    editorial: false
+    url: network-delay-time
+
+  - id: 744
+    title: Find Smallest Letter Greater Than Target
+    acceptance: 42.9%
+    difficulty: Easy
+    editorial: false
+    url: find-smallest-letter-greater-than-target
+
+  - id: 745
+    title: Prefix and Suffix Search
+    acceptance: 27.9%
+    difficulty: Hard
+    editorial: false
+    url: prefix-and-suffix-search
+
+  - id: 746
+    title: Min Cost Climbing Stairs
+    acceptance: 44.4%
+    difficulty: Easy
+    editorial: false
+    url: min-cost-climbing-stairs
+
+  - id: 747
+    title: Largest Number At Least Twice of Others
+    acceptance: 39.9%
+    difficulty: Easy
+    editorial: false
+    url: largest-number-at-least-twice-of-others
+
+  - id: 748
+    title: Shortest Completing Word
+    acceptance: 52.6%
+    difficulty: Easy
+    editorial: false
+    url: shortest-completing-word
+
+  - id: 749
+    title: Contain Virus
+    acceptance: 40.7%
+    difficulty: Hard
+    editorial: false
+    url: contain-virus
+
+  - id: 750
+    title: Number Of Corner Rectangles
+    acceptance: 61.0%
+    difficulty: Medium
+    editorial: locked
+    url: number-of-corner-rectangles
+
+  - id: 751
+    title: IP to CIDR
+    acceptance: 54.1%
+    difficulty: Easy
+    editorial: locked
+    url: ip-to-cidr
+
+  - id: 752
+    title: Open the Lock
+    acceptance: 42.3%
+    difficulty: Medium
+    editorial: false
+    url: open-the-lock
+
+  - id: 753
+    title: Cracking the Safe
+    acceptance: 42.9%
+    difficulty: Hard
+    editorial: false
+    url: cracking-the-safe
 
   - id: 754
     title: Reach a Number
-    acceptance: 25.9%
-    difficulty: Medium
-    editorial: true
+    acceptance: 29.6%
+    difficulty: Easy
+    editorial: false
     url: reach-a-number
 
-shell:
-  - id: 0
-    title: 0
-    acceptance: 0
-    difficulty: 0
-    editorial: 0
-    url: 0
+  - id: 755
+    title: Pour Water
+    acceptance: 36.1%
+    difficulty: Medium
+    editorial: locked
+    url: pour-water
 
+  - id: 756
+    title: Pyramid Transition Matrix
+    acceptance: 48.1%
+    difficulty: Medium
+    editorial: false
+    url: pyramid-transition-matrix
 
-database:
-  - id:
-    title:
-    acceptance:
-    difficulty:
-    editorial:
-    url:
+  - id: 426
+    title: Convert Binary Search Tree to Sorted Doubly Linked List
+    acceptance: 43.0%
+    difficulty: Medium
+    editorial: locked
+    url: convert-binary-search-tree-to-sorted-doubly-linked-list
+
+  - id: 757
+    title: Set Intersection Size At Least Two
+    acceptance: 35.0%
+    difficulty: Hard
+    editorial: false
+    url: set-intersection-size-at-least-two
+
+  - id: 758
+    title: Bold Words in String
+    acceptance: 40.3%
+    difficulty: Easy
+    editorial: locked
+    url: bold-words-in-string
+
+  - id: 759
+    title: Employee Free Time
+    acceptance: 55.5%
+    difficulty: Hard
+    editorial: locked
+    url: employee-free-time
+
+  - id: 760
+    title: Find Anagram Mappings
+    acceptance: 77.4%
+    difficulty: Easy
+    editorial: locked
+    url: find-anagram-mappings
+
+  - id: 761
+    title: Special Binary String
+    acceptance: 46.5%
+    difficulty: Hard
+    editorial: false
+    url: special-binary-string
+
+  - id: 429
+    title: N-ary Tree Level Order Traversal
+    acceptance: 55.7%
+    difficulty: Easy
+    editorial: false
+    url: n-ary-tree-level-order-traversal
+
+  - id: 428
+    title: Serialize and Deserialize N-ary Tree
+    acceptance: 47.8%
+    difficulty: Hard
+    editorial: locked
+    url: serialize-and-deserialize-n-ary-tree
+
+  - id: 430
+    title: Flatten a Multilevel Doubly Linked List
+    acceptance: 36.1%
+    difficulty: Medium
+    editorial: false
+    url: flatten-a-multilevel-doubly-linked-list
+
+  - id: 762
+    title: Prime Number of Set Bits in Binary Representation
+    acceptance: 56.3%
+    difficulty: Easy
+    editorial: false
+    url: prime-number-of-set-bits-in-binary-representation
+
+  - id: 763
+    title: Partition Labels
+    acceptance: 66.0%
+    difficulty: Medium
+    editorial: false
+    url: partition-labels
+
+  - id: 764
+    title: Largest Plus Sign
+    acceptance: 41.5%
+    difficulty: Medium
+    editorial: false
+    url: largest-plus-sign
+
+  - id: 765
+    title: Couples Holding Hands
+    acceptance: 49.0%
+    difficulty: Hard
+    editorial: false
+    url: couples-holding-hands
+
+  - id: 431
+    title: Encode N-ary Tree to Binary Tree
+    acceptance: 54.1%
+    difficulty: Hard
+    editorial: locked
+    url: encode-n-ary-tree-to-binary-tree
+
+  - id: 427
+    title: Construct Quad Tree
+    acceptance: 48.9%
+    difficulty: Easy
+    editorial: false
+    url: construct-quad-tree
+
+  - id: 558
+    title: Quad Tree Intersection
+    acceptance: 36.2%
+    difficulty: Easy
+    editorial: false
+    url: quad-tree-intersection
+
+  - id: 559
+    title: Maximum Depth of N-ary Tree
+    acceptance: 62.2%
+    difficulty: Easy
+    editorial: false
+    url: maximum-depth-of-n-ary-tree
+
+  - id: 589
+    title: N-ary Tree Preorder Traversal
+    acceptance: 63.0%
+    difficulty: Easy
+    editorial: false
+    url: n-ary-tree-preorder-traversal
+
+  - id: 590
+    title: N-ary Tree Postorder Traversal
+    acceptance: 62.9%
+    difficulty: Easy
+    editorial: false
+    url: n-ary-tree-postorder-traversal
+
+  - id: 766
+    title: Toeplitz Matrix
+    acceptance: 59.7%
+    difficulty: Easy
+    editorial: false
+    url: toeplitz-matrix
+
+  - id: 767
+    title: Reorganize String
+    acceptance: 39.5%
+    difficulty: Medium
+    editorial: false
+    url: reorganize-string
+
+  - id: 768
+    title: Max Chunks To Make Sorted II
+    acceptance: 44.0%
+    difficulty: Hard
+    editorial: false
+    url: max-chunks-to-make-sorted-ii
+
+  - id: 769
+    title: Max Chunks To Make Sorted
+    acceptance: 49.4%
+    difficulty: Medium
+    editorial: false
+    url: max-chunks-to-make-sorted
+
+  - id: 770
+    title: Basic Calculator IV
+    acceptance: 41.7%
+    difficulty: Hard
+    editorial: false
+    url: basic-calculator-iv
+
+  - id: 771
+    title: Jewels and Stones
+    acceptance: 81.7%
+    difficulty: Easy
+    editorial: false
+    url: jewels-and-stones
+
+  - id: 700
+    title: Search in a Binary Search Tree
+    acceptance: 62.6%
+    difficulty: Easy
+    editorial: false
+    url: search-in-a-binary-search-tree
+
+  - id: 701
+    title: Insert into a Binary Search Tree
+    acceptance: 67.8%
+    difficulty: Medium
+    editorial: false
+    url: insert-into-a-binary-search-tree
+
+  - id: 772
+    title: Basic Calculator III
+    acceptance: 42.1%
+    difficulty: Hard
+    editorial: locked
+    url: basic-calculator-iii
+
+  - id: 702
+    title: Search in a Sorted Array of Unknown Size
+    acceptance: 42.8%
+    difficulty: Medium
+    editorial: locked
+    url: search-in-a-sorted-array-of-unknown-size
+
+  - id: 773
+    title: Sliding Puzzle
+    acceptance: 47.8%
+    difficulty: Hard
+    editorial: false
+    url: sliding-puzzle
+
+  - id: 774
+    title: Minimize Max Distance to Gas Station
+    acceptance: 36.9%
+    difficulty: Hard
+    editorial: locked
+    url: minimize-max-distance-to-gas-station
+
+  - id: 703
+    title: Kth Largest Element in a Stream
+    acceptance: 39.4%
+    difficulty: Easy
+    editorial: false
+    url: kth-largest-element-in-a-stream
+
+  - id: 775
+    title: Global and Local Inversions
+    acceptance: 36.1%
+    difficulty: Medium
+    editorial: false
+    url: global-and-local-inversions
+
+  - id: 776
+    title: Split BST
+    acceptance: 50.6%
+    difficulty: Medium
+    editorial: locked
+    url: split-bst
+
+  - id: 704
+    title: Binary Search
+    acceptance: 39.9%
+    difficulty: Easy
+    editorial: false
+    url: binary-search
+
+  - id: 777
+    title: Swap Adjacent in LR String
+    acceptance: 30.1%
+    difficulty: Medium
+    editorial: false
+    url: swap-adjacent-in-lr-string
+
+  - id: 778
+    title: Swim in Rising Water
+    acceptance: 45.0%
+    difficulty: Hard
+    editorial: false
+    url: swim-in-rising-water
+
+  - id: 779
+    title: K-th Symbol in Grammar
+    acceptance: 37.4%
+    difficulty: Medium
+    editorial: false
+    url: k-th-symbol-in-grammar
+
+  - id: 780
+    title: Reaching Points
+    acceptance: 25.4%
+    difficulty: Hard
+    editorial: false
+    url: reaching-points
+
+  - id: 781
+    title: Rabbits in Forest
+    acceptance: 49.7%
+    difficulty: Medium
+    editorial: false
+    url: rabbits-in-forest
+
+  - id: 782
+    title: Transform to Chessboard
+    acceptance: 38.0%
+    difficulty: Hard
+    editorial: false
+    url: transform-to-chessboard
+
+  - id: 783
+    title: Minimum Distance Between BST Nodes
+    acceptance: 48.6%
+    difficulty: Easy
+    editorial: false
+    url: minimum-distance-between-bst-nodes
+
+  - id: 784
+    title: Letter Case Permutation
+    acceptance: 53.6%
+    difficulty: Easy
+    editorial: false
+    url: letter-case-permutation
+
+  - id: 785
+    title: Is Graph Bipartite?
+    acceptance: 40.3%
+    difficulty: Medium
+    editorial: false
+    url: is-graph-bipartite
+
+  - id: 786
+    title: K-th Smallest Prime Fraction
+    acceptance: 35.7%
+    difficulty: Hard
+    editorial: false
+    url: k-th-smallest-prime-fraction
+
+  - id: 787
+    title: Cheapest Flights Within K Stops
+    acceptance: 31.4%
+    difficulty: Medium
+    editorial: false
+    url: cheapest-flights-within-k-stops
+
+  - id: 788
+    title: Rotated Digits
+    acceptance: 51.2%
+    difficulty: Easy
+    editorial: false
+    url: rotated-digits
+
+  - id: 789
+    title: Escape The Ghosts
+    acceptance: 53.4%
+    difficulty: Medium
+    editorial: false
+    url: escape-the-ghosts
+
+  - id: 790
+    title: Domino and Tromino Tiling
+    acceptance: 34.0%
+    difficulty: Medium
+    editorial: false
+    url: domino-and-tromino-tiling
+
+  - id: 791
+    title: Custom Sort String
+    acceptance: 59.6%
+    difficulty: Medium
+    editorial: false
+    url: custom-sort-string
+
+  - id: 792
+    title: Number of Matching Subsequences
+    acceptance: 39.1%
+    difficulty: Medium
+    editorial: false
+    url: number-of-matching-subsequences
+
+  - id: 793
+    title: Preimage Size of Factorial Zeroes Function
+    acceptance: 39.5%
+    difficulty: Hard
+    editorial: false
+    url: preimage-size-of-factorial-zeroes-function
+
+  - id: 794
+    title: Valid Tic-Tac-Toe State
+    acceptance: 28.0%
+    difficulty: Medium
+    editorial: false
+    url: valid-tic-tac-toe-state
+
+  - id: 795
+    title: Number of Subarrays with Bounded Maximum
+    acceptance: 41.4%
+    difficulty: Medium
+    editorial: false
+    url: number-of-subarrays-with-bounded-maximum
+
+  - id: 796
+    title: Rotate String
+    acceptance: 48.7%
+    difficulty: Easy
+    editorial: false
+    url: rotate-string
+
+  - id: 797
+    title: All Paths From Source to Target
+    acceptance: 67.6%
+    difficulty: Medium
+    editorial: false
+    url: all-paths-from-source-to-target
+
+  - id: 798
+    title: Smallest Rotation with Highest Score
+    acceptance: 36.7%
+    difficulty: Hard
+    editorial: false
+    url: smallest-rotation-with-highest-score
+
+  - id: 799
+    title: Champagne Tower
+    acceptance: 30.8%
+    difficulty: Medium
+    editorial: false
+    url: champagne-tower
+
+  - id: 705
+    title: Design HashSet
+    acceptance: 43.4%
+    difficulty: Easy
+    editorial: false
+    url: design-hashset
+
+  - id: 706
+    title: Design HashMap
+    acceptance: 48.9%
+    difficulty: Easy
+    editorial: false
+    url: design-hashmap
+
+  - id: 800
+    title: Similar RGB Color
+    acceptance: 56.0%
+    difficulty: Easy
+    editorial: locked
+    url: similar-rgb-color
+
+  - id: 801
+    title: Minimum Swaps To Make Sequences Increasing
+    acceptance: 32.7%
+    difficulty: Medium
+    editorial: false
+    url: minimum-swaps-to-make-sequences-increasing
+
+  - id: 802
+    title: Find Eventual Safe States
+    acceptance: 41.3%
+    difficulty: Medium
+    editorial: false
+    url: find-eventual-safe-states
+
+  - id: 803
+    title: Bricks Falling When Hit
+    acceptance: 24.8%
+    difficulty: Hard
+    editorial: false
+    url: bricks-falling-when-hit
+
+  - id: 804
+    title: Unique Morse Code Words
+    acceptance: 71.7%
+    difficulty: Easy
+    editorial: false
+    url: unique-morse-code-words
+
+  - id: 805
+    title: Split Array With Same Average
+    acceptance: 22.4%
+    difficulty: Hard
+    editorial: false
+    url: split-array-with-same-average
+
+  - id: 806
+    title: Number of Lines To Write String
+    acceptance: 61.8%
+    difficulty: Easy
+    editorial: false
+    url: number-of-lines-to-write-string
+
+  - id: 807
+    title: Max Increase to Keep City Skyline
+    acceptance: 80.1%
+    difficulty: Medium
+    editorial: false
+    url: max-increase-to-keep-city-skyline
+
+  - id: 808
+    title: Soup Servings
+    acceptance: 34.5%
+    difficulty: Medium
+    editorial: false
+    url: soup-servings
+
+  - id: 809
+    title: Expressive Words
+    acceptance: 39.4%
+    difficulty: Medium
+    editorial: false
+    url: expressive-words
+
+  - id: 810
+    title: Chalkboard XOR Game
+    acceptance: 42.1%
+    difficulty: Hard
+    editorial: false
+    url: chalkboard-xor-game
+
+  - id: 811
+    title: Subdomain Visit Count
+    acceptance: 61.6%
+    difficulty: Easy
+    editorial: false
+    url: subdomain-visit-count
+
+  - id: 812
+    title: Largest Triangle Area
+    acceptance: 53.8%
+    difficulty: Easy
+    editorial: false
+    url: largest-triangle-area
+
+  - id: 813
+    title: Largest Sum of Averages
+    acceptance: 42.4%
+    difficulty: Medium
+    editorial: false
+    url: largest-sum-of-averages
+
+  - id: 814
+    title: Binary Tree Pruning
+    acceptance: 68.4%
+    difficulty: Medium
+    editorial: false
+    url: binary-tree-pruning
+
+  - id: 815
+    title: Bus Routes
+    acceptance: 36.1%
+    difficulty: Hard
+    editorial: false
+    url: bus-routes
+
+  - id: 816
+    title: Ambiguous Coordinates
+    acceptance: 42.4%
+    difficulty: Medium
+    editorial: false
+    url: ambiguous-coordinates
+
+  - id: 817
+    title: Linked List Components
+    acceptance: 51.9%
+    difficulty: Medium
+    editorial: false
+    url: linked-list-components
+
+  - id: 818
+    title: Race Car
+    acceptance: 31.2%
+    difficulty: Hard
+    editorial: false
+    url: race-car
+
+  - id: 819
+    title: Most Common Word
+    acceptance: 41.6%
+    difficulty: Easy
+    editorial: false
+    url: most-common-word
+
+  - id: 707
+    title: Design Linked List
+    acceptance: 19.1%
+    difficulty: Easy
+    editorial: false
+    url: design-linked-list
+
+  - id: 820
+    title: Short Encoding of Words
+    acceptance: 44.5%
+    difficulty: Medium
+    editorial: false
+    url: short-encoding-of-words
+
+  - id: 821
+    title: Shortest Distance to a Character
+    acceptance: 61.1%
+    difficulty: Easy
+    editorial: false
+    url: shortest-distance-to-a-character
+
+  - id: 822
+    title: Card Flipping Game
+    acceptance: 38.6%
+    difficulty: Medium
+    editorial: false
+    url: card-flipping-game
+
+  - id: 823
+    title: Binary Trees With Factors
+    acceptance: 30.5%
+    difficulty: Medium
+    editorial: false
+    url: binary-trees-with-factors
+
+  - id: 708
+    title: Insert into a Cyclic Sorted List
+    acceptance: 25.4%
+    difficulty: Medium
+    editorial: locked
+    url: insert-into-a-cyclic-sorted-list
+
+  - id: 824
+    title: Goat Latin
+    acceptance: 55.2%
+    difficulty: Easy
+    editorial: false
+    url: goat-latin
+
+  - id: 825
+    title: Friends Of Appropriate Ages
+    acceptance: 33.1%
+    difficulty: Medium
+    editorial: false
+    url: friends-of-appropriate-ages
+
+  - id: 826
+    title: Most Profit Assigning Work
+    acceptance: 33.2%
+    difficulty: Medium
+    editorial: false
+    url: most-profit-assigning-work
+
+  - id: 827
+    title: Making A Large Island
+    acceptance: 40.5%
+    difficulty: Hard
+    editorial: false
+    url: making-a-large-island
+
+  - id: 828
+    title: Unique Letter String
+    acceptance: 36.7%
+    difficulty: Hard
+    editorial: false
+    url: unique-letter-string
+
+  - id: 829
+    title: Consecutive Numbers Sum
+    acceptance: 29.5%
+    difficulty: Hard
+    editorial: false
+    url: consecutive-numbers-sum
+
+  - id: 830
+    title: Positions of Large Groups
+    acceptance: 46.2%
+    difficulty: Easy
+    editorial: false
+    url: positions-of-large-groups
+
+  - id: 831
+    title: Masking Personal Information
+    acceptance: 41.6%
+    difficulty: Medium
+    editorial: false
+    url: masking-personal-information
+
+  - id: 641
+    title: Design Circular Deque
+    acceptance: 47.9%
+    difficulty: Medium
+    editorial: false
+    url: design-circular-deque
+
+  - id: 622
+    title: Design Circular Queue
+    acceptance: 36.7%
+    difficulty: Medium
+    editorial: false
+    url: design-circular-queue
+
+  - id: 832
+    title: Flipping an Image
+    acceptance: 69.1%
+    difficulty: Easy
+    editorial: false
+    url: flipping-an-image
+
+  - id: 833
+    title: Find And Replace in String
+    acceptance: 41.8%
+    difficulty: Medium
+    editorial: false
+    url: find-and-replace-in-string
+
+  - id: 834
+    title: Sum of Distances in Tree
+    acceptance: 35.1%
+    difficulty: Hard
+    editorial: false
+    url: sum-of-distances-in-tree
+
+  - id: 835
+    title: Image Overlap
+    acceptance: 47.4%
+    difficulty: Medium
+    editorial: false
+    url: image-overlap
+
+  - id: 489
+    title: Robot Room Cleaner
+    acceptance: 56.8%
+    difficulty: Hard
+    editorial: locked
+    url: robot-room-cleaner
+
+  - id: 836
+    title: Rectangle Overlap
+    acceptance: 44.4%
+    difficulty: Easy
+    editorial: false
+    url: rectangle-overlap
+
+  - id: 837
+    title: New 21 Game
+    acceptance: 26.9%
+    difficulty: Medium
+    editorial: false
+    url: new-21-game
+
+  - id: 838
+    title: Push Dominoes
+    acceptance: 41.6%
+    difficulty: Medium
+    editorial: false
+    url: push-dominoes
+
+  - id: 839
+    title: Similar String Groups
+    acceptance: 32.9%
+    difficulty: Hard
+    editorial: false
+    url: similar-string-groups
+
+  - id: 840
+    title: Magic Squares In Grid
+    acceptance: 34.7%
+    difficulty: Easy
+    editorial: false
+    url: magic-squares-in-grid
+
+  - id: 841
+    title: Keys and Rooms
+    acceptance: 57.4%
+    difficulty: Medium
+    editorial: false
+    url: keys-and-rooms
+
+  - id: 842
+    title: Split Array into Fibonacci Sequence
+    acceptance: 33.8%
+    difficulty: Medium
+    editorial: false
+    url: split-array-into-fibonacci-sequence
+
+  - id: 843
+    title: Guess the Word
+    acceptance: 39.2%
+    difficulty: Hard
+    editorial: false
+    url: guess-the-word
+
+  - id: 844
+    title: Backspace String Compare
+    acceptance: 43.4%
+    difficulty: Easy
+    editorial: false
+    url: backspace-string-compare
+
+  - id: 845
+    title: Longest Mountain in Array
+    acceptance: 32.2%
+    difficulty: Medium
+    editorial: false
+    url: longest-mountain-in-array
+
+  - id: 846
+    title: Hand of Straights
+    acceptance: 46.0%
+    difficulty: Medium
+    editorial: false
+    url: hand-of-straights
+
+  - id: 847
+    title: Shortest Path Visiting All Nodes
+    acceptance: 43.7%
+    difficulty: Hard
+    editorial: false
+    url: shortest-path-visiting-all-nodes
+
+  - id: 848
+    title: Shifting Letters
+    acceptance: 37.0%
+    difficulty: Medium
+    editorial: false
+    url: shifting-letters
+
+  - id: 849
+    title: Maximize Distance to Closest Person
+    acceptance: 38.5%
+    difficulty: Easy
+    editorial: false
+    url: maximize-distance-to-closest-person
+
+  - id: 850
+    title: Rectangle Area II
+    acceptance: 41.7%
+    difficulty: Hard
+    editorial: false
+    url: rectangle-area-ii
+
+  - id: 851
+    title: Loud and Rich
+    acceptance: 45.0%
+    difficulty: Medium
+    editorial: false
+    url: loud-and-rich
+
+  - id: 852
+    title: Peak Index in a Mountain Array
+    acceptance: 67.1%
+    difficulty: Easy
+    editorial: false
+    url: peak-index-in-a-mountain-array
+
+  - id: 853
+    title: Car Fleet
+    acceptance: 35.2%
+    difficulty: Medium
+    editorial: false
+    url: car-fleet
+
+  - id: 854
+    title: K-Similar Strings
+    acceptance: 31.3%
+    difficulty: Hard
+    editorial: false
+    url: k-similar-strings
+
+  - id: 855
+    title: Exam Room
+    acceptance: 33.6%
+    difficulty: Medium
+    editorial: false
+    url: exam-room
+
+  - id: 856
+    title: Score of Parentheses
+    acceptance: 53.5%
+    difficulty: Medium
+    editorial: false
+    url: score-of-parentheses
+
+  - id: 857
+    title: Minimum Cost to Hire K Workers
+    acceptance: 44.6%
+    difficulty: Hard
+    editorial: false
+    url: minimum-cost-to-hire-k-workers
+
+  - id: 858
+    title: Mirror Reflection
+    acceptance: 50.0%
+    difficulty: Medium
+    editorial: false
+    url: mirror-reflection
+
+  - id: 859
+    title: Buddy Strings
+    acceptance: 26.6%
+    difficulty: Easy
+    editorial: false
+    url: buddy-strings
+
+  - id: 860
+    title: Lemonade Change
+    acceptance: 49.3%
+    difficulty: Easy
+    editorial: false
+    url: lemonade-change
+
+  - id: 861
+    title: Score After Flipping Matrix
+    acceptance: 67.1%
+    difficulty: Medium
+    editorial: false
+    url: score-after-flipping-matrix
+
+  - id: 862
+    title: Shortest Subarray with Sum at Least K
+    acceptance: 19.7%
+    difficulty: Hard
+    editorial: false
+    url: shortest-subarray-with-sum-at-least-k
+
+  - id: 863
+    title: All Nodes Distance K in Binary Tree
+    acceptance: 43.1%
+    difficulty: Medium
+    editorial: false
+    url: all-nodes-distance-k-in-binary-tree
+
+  - id: 710
+    title: Random Pick with Blacklist
+    acceptance: 29.8%
+    difficulty: Hard
+    editorial: false
+    url: random-pick-with-blacklist
+
+  - id: 864
+    title: Shortest Path to Get All Keys
+    acceptance: 33.3%
+    difficulty: Hard
+    editorial: false
+    url: shortest-path-to-get-all-keys
+
+  - id: 865
+    title: Smallest Subtree with all the Deepest Nodes
+    acceptance: 52.8%
+    difficulty: Medium
+    editorial: false
+    url: smallest-subtree-with-all-the-deepest-nodes
+
+  - id: 866
+    title: Prime Palindrome
+    acceptance: 18.3%
+    difficulty: Medium
+    editorial: false
+    url: prime-palindrome
+
+  - id: 867
+    title: Transpose Matrix
+    acceptance: 63.3%
+    difficulty: Easy
+    editorial: false
+    url: transpose-matrix
+
+  - id: 868
+    title: Binary Gap
+    acceptance: 58.8%
+    difficulty: Easy
+    editorial: false
+    url: binary-gap
+
+  - id: 869
+    title: Reordered Power of 2
+    acceptance: 48.0%
+    difficulty: Medium
+    editorial: false
+    url: reordered-power-of-2
+
+  - id: 870
+    title: Advantage Shuffle
+    acceptance: 40.0%
+    difficulty: Medium
+    editorial: false
+    url: advantage-shuffle
+
+  - id: 871
+    title: Minimum Number of Refueling Stops
+    acceptance: 26.6%
+    difficulty: Hard
+    editorial: false
+    url: minimum-number-of-refueling-stops
+
+  - id: 470
+    title: Implement Rand10() Using Rand7()
+    acceptance: 42.9%
+    difficulty: Medium
+    editorial: false
+    url: implement-rand10-using-rand7
+
+  - id: 872
+    title: Leaf-Similar Trees
+    acceptance: 60.5%
+    difficulty: Easy
+    editorial: false
+    url: leaf-similar-trees
+
+  - id: 873
+    title: Length of Longest Fibonacci Subsequence
+    acceptance: 42.4%
+    difficulty: Medium
+    editorial: false
+    url: length-of-longest-fibonacci-subsequence
+
+  - id: 874
+    title: Walking Robot Simulation
+    acceptance: 28.4%
+    difficulty: Easy
+    editorial: false
+    url: walking-robot-simulation
+
+  - id: 875
+    title: Koko Eating Bananas
+    acceptance: 42.6%
+    difficulty: Medium
+    editorial: false
+    url: koko-eating-bananas
+
+  - id: 876
+    title: Middle of the Linked List
+    acceptance: 62.7%
+    difficulty: Easy
+    editorial: false
+    url: middle-of-the-linked-list
+
+  - id: 877
+    title: Stone Game
+    acceptance: 58.1%
+    difficulty: Medium
+    editorial: false
+    url: stone-game
+
+  - id: 878
+    title: Nth Magical Number
+    acceptance: 23.5%
+    difficulty: Hard
+    editorial: false
+    url: nth-magical-number
+
+  - id: 879
+    title: Profitable Schemes
+    acceptance: 33.8%
+    difficulty: Hard
+    editorial: false
+    url: profitable-schemes
+
+  - id: 528
+    title: Random Pick with Weight
+    acceptance: 41.7%
+    difficulty: Medium
+    editorial: false
+    url: random-pick-with-weight
+
+  - id: 519
+    title: Random Flip Matrix
+    acceptance: 32.3%
+    difficulty: Medium
+    editorial: false
+    url: random-flip-matrix
+
+  - id: 497
+    title: Random Point in Non-overlapping Rectangles
+    acceptance: 33.2%
+    difficulty: Medium
+    editorial: false
+    url: random-point-in-non-overlapping-rectangles
+
+  - id: 478
+    title: Generate Random Point in a Circle
+    acceptance: 33.8%
+    difficulty: Medium
+    editorial: false
+    url: generate-random-point-in-a-circle
+
+  - id: 880
+    title: Decoded String at Index
+    acceptance: 22.4%
+    difficulty: Medium
+    editorial: false
+    url: decoded-string-at-index
+
+  - id: 881
+    title: Boats to Save People
+    acceptance: 39.8%
+    difficulty: Medium
+    editorial: false
+    url: boats-to-save-people
+
+  - id: 882
+    title: Reachable Nodes In Subdivided Graph
+    acceptance: 34.5%
+    difficulty: Hard
+    editorial: false
+    url: reachable-nodes-in-subdivided-graph
+
+  - id: 883
+    title: Projection Area of 3D Shapes
+    acceptance: 64.6%
+    difficulty: Easy
+    editorial: false
+    url: projection-area-of-3d-shapes
+
+  - id: 884
+    title: Uncommon Words from Two Sentences
+    acceptance: 59.8%
+    difficulty: Easy
+    editorial: false
+    url: uncommon-words-from-two-sentences
+
+  - id: 885
+    title: Spiral Matrix III
+    acceptance: 62.8%
+    difficulty: Medium
+    editorial: false
+    url: spiral-matrix-iii
+
+  - id: 886
+    title: Possible Bipartition
+    acceptance: 38.7%
+    difficulty: Medium
+    editorial: false
+    url: possible-bipartition
+
+  - id: 887
+    title: Super Egg Drop
+    acceptance: 23.2%
+    difficulty: Hard
+    editorial: false
+    url: super-egg-drop
+
+  - id: 888
+    title: Fair Candy Swap
+    acceptance: 53.6%
+    difficulty: Easy
+    editorial: false
+    url: fair-candy-swap
+
+  - id: 889
+    title: Construct Binary Tree from Preorder and Postorder Traversal
+    acceptance: 55.4%
+    difficulty: Medium
+    editorial: false
+    url: construct-binary-tree-from-preorder-and-postorder-traversal
+
+  - id: 890
+    title: Find and Replace Pattern
+    acceptance: 68.9%
+    difficulty: Medium
+    editorial: false
+    url: find-and-replace-pattern
+
+  - id: 891
+    title: Sum of Subsequence Widths
+    acceptance: 25.6%
+    difficulty: Hard
+    editorial: false
+    url: sum-of-subsequence-widths
+
+  - id: 892
+    title: Surface Area of 3D Shapes
+    acceptance: 54.7%
+    difficulty: Easy
+    editorial: false
+    url: surface-area-of-3d-shapes
+
+  - id: 893
+    title: Groups of Special-Equivalent Strings
+    acceptance: 60.5%
+    difficulty: Easy
+    editorial: false
+    url: groups-of-special-equivalent-strings
+
+  - id: 894
+    title: All Possible Full Binary Trees
+    acceptance: 65.9%
+    difficulty: Medium
+    editorial: false
+    url: all-possible-full-binary-trees
+
+  - id: 895
+    title: Maximum Frequency Stack
+    acceptance: 48.2%
+    difficulty: Hard
+    editorial: false
+    url: maximum-frequency-stack
+
+  - id: 896
+    title: Monotonic Array
+    acceptance: 54.6%
+    difficulty: Easy
+    editorial: false
+    url: monotonic-array
+
+  - id: 897
+    title: Increasing Order Search Tree
+    acceptance: 57.8%
+    difficulty: Easy
+    editorial: false
+    url: increasing-order-search-tree
+
+  - id: 898
+    title: Bitwise ORs of Subarrays
+    acceptance: 31.5%
+    difficulty: Medium
+    editorial: false
+    url: bitwise-ors-of-subarrays
+
+  - id: 899
+    title: Orderly Queue
+    acceptance: 43.0%
+    difficulty: Hard
+    editorial: false
+    url: orderly-queue
+
+  - id: 900
+    title: RLE Iterator
+    acceptance: 43.8%
+    difficulty: Medium
+    editorial: false
+    url: rle-iterator
+
+  - id: 901
+    title: Online Stock Span
+    acceptance: 43.7%
+    difficulty: Medium
+    editorial: false
+    url: online-stock-span
+
+  - id: 902
+    title: Numbers At Most N Given Digit Set
+    acceptance: 26.1%
+    difficulty: Hard
+    editorial: false
+    url: numbers-at-most-n-given-digit-set
+
+  - id: 903
+    title: Valid Permutations for DI Sequence
+    acceptance: 39.6%
+    difficulty: Hard
+    editorial: false
+    url: valid-permutations-for-di-sequence
+
+  - id: 904
+    title: Fruit Into Baskets
+    acceptance: 39.1%
+    difficulty: Medium
+    editorial: false
+    url: fruit-into-baskets
+
+  - id: 905
+    title: Sort Array By Parity
+    acceptance: 70.8%
+    difficulty: Easy
+    editorial: false
+    url: sort-array-by-parity
+
+  - id: 906
+    title: Super Palindromes
+    acceptance: 29.1%
+    difficulty: Hard
+    editorial: false
+    url: super-palindromes
+
+  - id: 907
+    title: Sum of Subarray Minimums
+    acceptance: 21.6%
+    difficulty: Medium
+    editorial: false
+    url: sum-of-subarray-minimums
+
+  - id: 908
+    title: Smallest Range I
+    acceptance: 63.3%
+    difficulty: Easy
+    editorial: false
+    url: smallest-range-i
+
+  - id: 909
+    title: Snakes and Ladders
+    acceptance: 26.1%
+    difficulty: Medium
+    editorial: false
+    url: snakes-and-ladders
+
+  - id: 910
+    title: Smallest Range II
+    acceptance: 19.6%
+    difficulty: Medium
+    editorial: false
+    url: smallest-range-ii
+
+  - id: 911
+    title: Online Election
+    acceptance: 43.0%
+    difficulty: Medium
+    editorial: false
+    url: online-election
+
+  - id: 913
+    title: Cat and Mouse
+    acceptance: 23.1%
+    difficulty: Hard
+    editorial: false
+    url: cat-and-mouse
+
+  - id: 914
+    title: X of a Kind in a Deck of Cards
+    acceptance: 33.1%
+    difficulty: Easy
+    editorial: false
+    url: x-of-a-kind-in-a-deck-of-cards
+
+  - id: 915
+    title: Partition Array into Disjoint Intervals
+    acceptance: 40.0%
+    difficulty: Medium
+    editorial: false
+    url: partition-array-into-disjoint-intervals
+
+  - id: 916
+    title: Word Subsets
+    acceptance: 43.1%
+    difficulty: Medium
+    editorial: false
+    url: word-subsets
+
+  - id: 917
+    title: Reverse Only Letters
+    acceptance: 56.2%
+    difficulty: Easy
+    editorial: false
+    url: reverse-only-letters
+
+  - id: 918
+    title: Maximum Sum Circular Subarray
+    acceptance: 26.2%
+    difficulty: Medium
+    editorial: false
+    url: maximum-sum-circular-subarray
+
+  - id: 919
+    title: Complete Binary Tree Inserter
+    acceptance: 53.5%
+    difficulty: Medium
+    editorial: false
+    url: complete-binary-tree-inserter
+
+  - id: 920
+    title: Number of Music Playlists
+    acceptance: 40.4%
+    difficulty: Hard
+    editorial: false
+    url: number-of-music-playlists
+
+  - id: 921
+    title: Minimum Add to Make Parentheses Valid
+    acceptance: 69.8%
+    difficulty: Medium
+    editorial: false
+    url: minimum-add-to-make-parentheses-valid
+
+  - id: 922
+    title: Sort Array By Parity II
+    acceptance: 66.6%
+    difficulty: Easy
+    editorial: false
+    url: sort-array-by-parity-ii
+
+  - id: 923
+    title: 3Sum With Multiplicity
+    acceptance: 28.3%
+    difficulty: Medium
+    editorial: false
+    url: 3sum-with-multiplicity
+
+  - id: 924
+    title: Minimize Malware Spread
+    acceptance: 35.5%
+    difficulty: Hard
+    editorial: false
+    url: minimize-malware-spread
+
+  - id: 925
+    title: Long Pressed Name
+    acceptance: 44.4%
+    difficulty: Easy
+    editorial: false
+    url: long-pressed-name
+
+  - id: 926
+    title: Flip String to Monotone Increasing
+    acceptance: 43.3%
+    difficulty: Medium
+    editorial: false
+    url: flip-string-to-monotone-increasing
+
+  - id: 927
+    title: Three Equal Parts
+    acceptance: 26.8%
+    difficulty: Hard
+    editorial: false
+    url: three-equal-parts
+
+  - id: 928
+    title: Minimize Malware Spread II
+    acceptance: 36.9%
+    difficulty: Hard
+    editorial: false
+    url: minimize-malware-spread-ii
+
+  - id: 929
+    title: Unique Email Addresses
+    acceptance: 79.7%
+    difficulty: Easy
+    editorial: false
+    url: unique-email-addresses
+
+  - id: 930
+    title: Binary Subarrays With Sum
+    acceptance: 33.5%
+    difficulty: Medium
+    editorial: false
+    url: binary-subarrays-with-sum
+
+  - id: 931
+    title: Minimum Falling Path Sum
+    acceptance: 55.4%
+    difficulty: Medium
+    editorial: false
+    url: minimum-falling-path-sum
+
+  - id: 932
+    title: Beautiful Array
+    acceptance: 45.1%
+    difficulty: Medium
+    editorial: false
+    url: beautiful-array
+
+  - id: 933
+    title: Number of Recent Calls
+    acceptance: 62.9%
+    difficulty: Easy
+    editorial: false
+    url: number-of-recent-calls
+
+  - id: 934
+    title: Shortest Bridge
+    acceptance: 42.1%
+    difficulty: Medium
+    editorial: false
+    url: shortest-bridge
+
+  - id: 935
+    title: Knight Dialer
+    acceptance: 33.6%
+    difficulty: Medium
+    editorial: false
+    url: knight-dialer
+
+  - id: 936
+    title: Stamping The Sequence
+    acceptance: 26.7%
+    difficulty: Hard
+    editorial: false
+    url: stamping-the-sequence

@@ -85,7 +85,7 @@ html_tail_js: ["/js/search_blog.js","/js/bootstrap.typeahead.min.js"]
             {% endif %}
               <a class="list-group-item" href="{{post.url}}"><small>{{post.title}}</small></a>
 
-            {% assign post_counter = {{post_counter} | plus: 1 }}%}
+              {% increment post_counter %}
             {% endfor %}
           <!-- 多说热评文章 start -->
           <!-- 评论太少了，换个方法吧-->
