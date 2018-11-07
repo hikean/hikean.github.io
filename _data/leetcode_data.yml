@@ -505,7 +505,7 @@ algorithms:
 
   - id: 73
     title: Set Matrix Zeroes
-    acceptance: 37.9%
+    acceptance: 38.0%
     difficulty: Medium
     editorial: true
     url: set-matrix-zeroes
@@ -577,7 +577,7 @@ algorithms:
     title: Remove Duplicates from Sorted List
     acceptance: 41.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-duplicates-from-sorted-list
 
   - id: 84
@@ -596,7 +596,7 @@ algorithms:
 
   - id: 86
     title: Partition List
-    acceptance: 35.1%
+    acceptance: 35.2%
     difficulty: Medium
     editorial: true
     url: partition-list
@@ -1716,7 +1716,7 @@ algorithms:
 
   - id: 263
     title: Ugly Number
-    acceptance: 40.1%
+    acceptance: 40.0%
     difficulty: Easy
     editorial: true
     url: ugly-number
@@ -1884,7 +1884,7 @@ algorithms:
 
   - id: 287
     title: Find the Duplicate Number
-    acceptance: 46.6%
+    acceptance: 46.5%
     difficulty: Medium
     editorial: true
     url: find-the-duplicate-number
@@ -3802,7 +3802,7 @@ algorithms:
 
   - id: 594
     title: Longest Harmonious Subsequence
-    acceptance: 41.9%
+    acceptance: 41.8%
     difficulty: Easy
     editorial: false
     url: longest-harmonious-subsequence
@@ -4670,7 +4670,7 @@ algorithms:
 
   - id: 748
     title: Shortest Completing Word
-    acceptance: 52.6%
+    acceptance: 52.7%
     difficulty: Easy
     editorial: false
     url: shortest-completing-word
@@ -4838,7 +4838,7 @@ algorithms:
 
   - id: 558
     title: Quad Tree Intersection
-    acceptance: 36.2%
+    acceptance: 36.3%
     difficulty: Easy
     editorial: false
     url: quad-tree-intersection
@@ -4999,7 +4999,7 @@ algorithms:
 
   - id: 780
     title: Reaching Points
-    acceptance: 25.4%
+    acceptance: 25.3%
     difficulty: Hard
     editorial: false
     url: reaching-points
@@ -5223,7 +5223,7 @@ algorithms:
 
   - id: 810
     title: Chalkboard XOR Game
-    acceptance: 42.1%
+    acceptance: 42.0%
     difficulty: Hard
     editorial: false
     url: chalkboard-xor-game
@@ -5251,7 +5251,7 @@ algorithms:
 
   - id: 814
     title: Binary Tree Pruning
-    acceptance: 68.4%
+    acceptance: 68.3%
     difficulty: Medium
     editorial: false
     url: binary-tree-pruning
@@ -5496,7 +5496,7 @@ algorithms:
 
   - id: 844
     title: Backspace String Compare
-    acceptance: 43.4%
+    acceptance: 43.3%
     difficulty: Easy
     editorial: false
     url: backspace-string-compare
@@ -5839,7 +5839,7 @@ algorithms:
 
   - id: 887
     title: Super Egg Drop
-    acceptance: 23.2%
+    acceptance: 23.3%
     difficulty: Hard
     editorial: false
     url: super-egg-drop
@@ -5860,7 +5860,7 @@ algorithms:
 
   - id: 890
     title: Find and Replace Pattern
-    acceptance: 68.9%
+    acceptance: 68.8%
     difficulty: Medium
     editorial: false
     url: find-and-replace-pattern
@@ -5986,7 +5986,7 @@ algorithms:
 
   - id: 908
     title: Smallest Range I
-    acceptance: 63.3%
+    acceptance: 63.4%
     difficulty: Easy
     editorial: false
     url: smallest-range-i
@@ -6014,14 +6014,14 @@ algorithms:
 
   - id: 913
     title: Cat and Mouse
-    acceptance: 23.1%
+    acceptance: 23.0%
     difficulty: Hard
     editorial: false
     url: cat-and-mouse
 
   - id: 914
     title: X of a Kind in a Deck of Cards
-    acceptance: 33.1%
+    acceptance: 33.0%
     difficulty: Easy
     editorial: false
     url: x-of-a-kind-in-a-deck-of-cards
@@ -6154,7 +6154,7 @@ algorithms:
 
   - id: 933
     title: Number of Recent Calls
-    acceptance: 62.9%
+    acceptance: 63.0%
     difficulty: Easy
     editorial: false
     url: number-of-recent-calls
@@ -6179,3 +6179,331 @@ algorithms:
     difficulty: Hard
     editorial: false
     url: stamping-the-sequence
+
+
+shell:
+  - id: 192
+    title: Word Frequency
+    acceptance: 26.4%
+    difficulty: Medium
+    editorial: false
+    url: word-frequency
+
+  - id: 193
+    title: Valid Phone Numbers
+    acceptance: 25.0%
+    difficulty: Easy
+    editorial: false
+    url: valid-phone-numbers
+
+  - id: 194
+    title: Transpose File
+    acceptance: 22.0%
+    difficulty: Medium
+    editorial: false
+    url: transpose-file
+
+  - id: 195
+    title: Tenth Line
+    acceptance: 34.0%
+    difficulty: Easy
+    editorial: false
+    url: tenth-line
+
+
+database:
+  - id: 175
+    title: Combine Two Tables
+    acceptance: 46.2%
+    difficulty: Easy
+    editorial: false
+    url: combine-two-tables
+
+  - id: 176
+    title: Second Highest Salary
+    acceptance: 24.8%
+    difficulty: Easy
+    editorial: false
+    url: second-highest-salary
+
+  - id: 177
+    title: Nth Highest Salary
+    acceptance: 23.1%
+    difficulty: Medium
+    editorial: false
+    url: nth-highest-salary
+
+  - id: 178
+    title: Rank Scores
+    acceptance: 32.4%
+    difficulty: Medium
+    editorial: false
+    url: rank-scores
+
+  - id: 180
+    title: Consecutive Numbers
+    acceptance: 30.2%
+    difficulty: Medium
+    editorial: false
+    url: consecutive-numbers
+
+  - id: 181
+    title: Employees Earning More Than Their Managers
+    acceptance: 42.5%
+    difficulty: Easy
+    editorial: false
+    url: employees-earning-more-than-their-managers
+
+  - id: 182
+    title: Duplicate Emails
+    acceptance: 49.8%
+    difficulty: Easy
+    editorial: false
+    url: duplicate-emails
+
+  - id: 183
+    title: Customers Who Never Order
+    acceptance: 40.3%
+    difficulty: Easy
+    editorial: false
+    url: customers-who-never-order
+
+  - id: 184
+    title: Department Highest Salary
+    acceptance: 25.0%
+    difficulty: Medium
+    editorial: false
+    url: department-highest-salary
+
+  - id: 185
+    title: Department Top Three Salaries
+    acceptance: 21.8%
+    difficulty: Hard
+    editorial: false
+    url: department-top-three-salaries
+
+  - id: 196
+    title: Delete Duplicate Emails
+    acceptance: 28.4%
+    difficulty: Easy
+    editorial: false
+    url: delete-duplicate-emails
+
+  - id: 197
+    title: Rising Temperature
+    acceptance: 32.4%
+    difficulty: Easy
+    editorial: false
+    url: rising-temperature
+
+  - id: 262
+    title: Trips and Users
+    acceptance: 21.6%
+    difficulty: Hard
+    editorial: false
+    url: trips-and-users
+
+  - id: 569
+    title: Median Employee Salary
+    acceptance: 41.5%
+    difficulty: Hard
+    editorial: locked
+    url: median-employee-salary
+
+  - id: 570
+    title: Managers with at Least 5 Direct Reports
+    acceptance: 59.0%
+    difficulty: Medium
+    editorial: locked
+    url: managers-with-at-least-5-direct-reports
+
+  - id: 571
+    title: Find Median Given Frequency of Numbers
+    acceptance: 45.0%
+    difficulty: Hard
+    editorial: locked
+    url: find-median-given-frequency-of-numbers
+
+  - id: 574
+    title: Winning Candidate
+    acceptance: 34.4%
+    difficulty: Medium
+    editorial: locked
+    url: winning-candidate
+
+  - id: 577
+    title: Employee Bonus
+    acceptance: 53.7%
+    difficulty: Easy
+    editorial: locked
+    url: employee-bonus
+
+  - id: 578
+    title: Get Highest Answer Rate Question
+    acceptance: 33.0%
+    difficulty: Medium
+    editorial: locked
+    url: get-highest-answer-rate-question
+
+  - id: 579
+    title: Find Cumulative Salary of an Employee
+    acceptance: 30.9%
+    difficulty: Hard
+    editorial: locked
+    url: find-cumulative-salary-of-an-employee
+
+  - id: 580
+    title: Count Student Number in Departments
+    acceptance: 40.0%
+    difficulty: Medium
+    editorial: locked
+    url: count-student-number-in-departments
+
+  - id: 584
+    title: Find Customer Referee
+    acceptance: 63.7%
+    difficulty: Easy
+    editorial: locked
+    url: find-customer-referee
+
+  - id: 585
+    title: Investments in 2016
+    acceptance: 44.6%
+    difficulty: Medium
+    editorial: locked
+    url: investments-in-2016
+
+  - id: 586
+    title: Customer Placing the Largest Number of Orders
+    acceptance: 62.5%
+    difficulty: Easy
+    editorial: locked
+    url: customer-placing-the-largest-number-of-orders
+
+  - id: 595
+    title: Big Countries
+    acceptance: 71.9%
+    difficulty: Easy
+    editorial: false
+    url: big-countries
+
+  - id: 596
+    title: Classes More Than 5 Students
+    acceptance: 33.3%
+    difficulty: Easy
+    editorial: false
+    url: classes-more-than-5-students
+
+  - id: 597
+    title: "Friend Requests I: Overall Acceptance Rate"
+    acceptance: 38.4%
+    difficulty: Easy
+    editorial: locked
+    url: friend-requests-i-overall-acceptance-rate
+
+  - id: 601
+    title: Human Traffic of Stadium
+    acceptance: 33.8%
+    difficulty: Hard
+    editorial: false
+    url: human-traffic-of-stadium
+
+  - id: 602
+    title: "Friend Requests II: Who Has the Most Friends"
+    acceptance: 42.4%
+    difficulty: Medium
+    editorial: locked
+    url: friend-requests-ii-who-has-the-most-friends
+
+  - id: 603
+    title: Consecutive Available Seats
+    acceptance: 54.5%
+    difficulty: Easy
+    editorial: locked
+    url: consecutive-available-seats
+
+  - id: 607
+    title: Sales Person
+    acceptance: 51.0%
+    difficulty: Easy
+    editorial: locked
+    url: sales-person
+
+  - id: 608
+    title: Tree Node
+    acceptance: 54.6%
+    difficulty: Medium
+    editorial: locked
+    url: tree-node
+
+  - id: 610
+    title: Triangle Judgement
+    acceptance: 59.1%
+    difficulty: Easy
+    editorial: locked
+    url: triangle-judgement
+
+  - id: 612
+    title: Shortest Distance in a Plane
+    acceptance: 51.0%
+    difficulty: Medium
+    editorial: locked
+    url: shortest-distance-in-a-plane
+
+  - id: 613
+    title: Shortest Distance in a Line
+    acceptance: 70.6%
+    difficulty: Easy
+    editorial: locked
+    url: shortest-distance-in-a-line
+
+  - id: 614
+    title: Second Degree Follower
+    acceptance: 22.7%
+    difficulty: Medium
+    editorial: locked
+    url: second-degree-follower
+
+  - id: 615
+    title: "Average Salary: Departments VS Company"
+    acceptance: 32.9%
+    difficulty: Hard
+    editorial: locked
+    url: average-salary-departments-vs-company
+
+  - id: 618
+    title: Students Report By Geography
+    acceptance: 40.4%
+    difficulty: Hard
+    editorial: locked
+    url: students-report-by-geography
+
+  - id: 619
+    title: Biggest Single Number
+    acceptance: 36.6%
+    difficulty: Easy
+    editorial: locked
+    url: biggest-single-number
+
+  - id: 620
+    title: Not Boring Movies
+    acceptance: 59.8%
+    difficulty: Easy
+    editorial: false
+    url: not-boring-movies
+
+  - id: 626
+    title: Exchange Seats
+    acceptance: 49.5%
+    difficulty: Medium
+    editorial: false
+    url: exchange-seats
+
+  - id: 627
+    title: Swap Salary
+    acceptance: 67.4%
+    difficulty: Easy
+    editorial: false
+    url: swap-salary
+
+

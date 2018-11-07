@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
 
 
 import requests as req
@@ -46,4 +48,7 @@ def get_string(category="algorithms"):
     out_string = "{}:\n".format(category) + "\n\n".join([output_item(item) for item in out_data][::-1])
     return out_string
 
-print(get_string())
+if __name__ == "__main__":
+    categories = ["algorithms", "shell", "database"]
+    for cate in categories:
+        print(get_string(cate) + "\n\n")
