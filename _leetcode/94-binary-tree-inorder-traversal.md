@@ -36,33 +36,30 @@ tags: [Tree, Hash Table, Stack]
 
 Here should be some explanations.
 
-```c
-/**
-Just a recursive way -_-||.
-**/
-int *ptr;
-int cnt;
-void inorder_travel(struct TreeNode *root)
-{
-    if(root == NULL) return;
-    inorder_travel(root->left);
-    ptr[cnt++] = root->val;
-    inorder_travel(root->right);
-}
-int node_count(struct TreeNode * root)
-{   
-    if(root == NULL) return 0;
-    return node_count(root->left) + node_count(root->right) + 1;
-}
 
-int* inorderTraversal(struct TreeNode* root, int* returnSize) {
-    *returnSize = node_count(root);
-    ptr = malloc(sizeof(int) * (*returnSize)  + 2);
-    cnt = 0;
-    inorder_travel(root);
-    return ptr;
-}
-
+```cpp
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        stack<TreeNode *> sta;
+        vector<int> result;
+        while(!sta.empty() || root){
+            if(root == NULL)
+            {
+                root = sta.top();sta.pop();
+                result.push_back(root->val);
+                root = root->right;
+            }
+            else{
+                while(root != NULL){
+                    sta.push(root);
+                    root = root->left;
+                }
+            }
+        }
+        return result;
+    }
+};
 ```
 
 **Complexity Analytics**
